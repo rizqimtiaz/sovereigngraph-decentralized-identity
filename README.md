@@ -59,6 +59,8 @@ A decentralized identity & social data layer powered by **Zero-Knowledge Proofs*
 ## 🚀 Getting Started
 
 ### 1. Install dependencies
+
+```bash
 pnpm install
 ```
 
@@ -156,16 +158,6 @@ Defined in [`app/globals.css`](./app/globals.css) — the *Deep Sea* palette:
 
 ---
 
-<!-- metadata: 1y89moh5vb -->
-<!-- metadata: ojfhtg8icv -->
-<!-- metadata: a82qpu8f8s -->
-<!-- metadata: 5qwkwyl6dx -->
-<!-- metadata: sfych5oxbp -->
-<!-- metadata: ymx2d97j5e -->
-<!-- metadata: 6jp93ajcse -->
-<!-- metadata: ubdq5nuu79 -->
-<!-- metadata: a2msz4qvnx -->
-<!-- metadata: 4ge2bhwk5w -->
 ## 📦 Deploy
 
 This is a standard Next.js 16 App Router project. Deploy to [Vercel](https://vercel.com/new) with zero configuration:
