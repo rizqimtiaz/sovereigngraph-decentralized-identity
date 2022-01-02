@@ -111,8 +111,6 @@ Open [http://localhost:3000](http://localhost:3000).
 
 **Response**
 
-<!-- metadata: 2gghqt89hb -->
-<!-- metadata: 5fbdl9qybd -->
 ```json
 {
   "ok": true,
@@ -167,6 +165,9 @@ This is a standard Next.js 16 App Router project. Deploy to [Vercel](https://ver
 ```bash
 vercel deploy
 ```
+
+---
+
 ## 📄 License
 
 MIT © SovereignGraph Protocol
