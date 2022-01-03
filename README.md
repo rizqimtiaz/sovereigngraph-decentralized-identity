@@ -1,6 +1,4 @@
 # SovereignGraph — Privacy-First Social Data Layer
-<!-- metadata: xq0ex5y1bn -->
-<!-- metadata: h48hj062s0 -->
 
 A decentralized identity & social data layer powered by **Zero-Knowledge Proofs**. Users own their credentials in a private vault, anchor immutable commitments on-chain, and disclose only verifiable answers — never the underlying data.
 
@@ -62,6 +60,8 @@ A decentralized identity & social data layer powered by **Zero-Knowledge Proofs*
 
 ### 1. Install dependencies
 
+```bash
+pnpm install
 ```
 
 ### 2. Run the dev server
