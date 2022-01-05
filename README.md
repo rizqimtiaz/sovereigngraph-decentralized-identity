@@ -72,6 +72,8 @@ pnpm dev
 
 Open [http://localhost:3000](http://localhost:3000).
 
+### 3. Demo the flow
+
 1. Click **Connect Identity** in the header.
 2. From the Vault, **Anchor a Credential** (e.g. an Age Verification with your DOB).
 3. Click **Simulate Verifier Request** and pick a scenario.
@@ -140,15 +142,6 @@ The endpoint is **stateless**: it never persists any private input.
 
 Every state-changing function emits an event so the social/identity graph can be reconstructed off-chain by indexers.
 
-<!-- metadata: i2yw6e951a -->
-<!-- metadata: 1qx4efi8fk -->
-<!-- metadata: 1bfgvuoy21 -->
-<!-- metadata: jm3hecgbr1 -->
-<!-- metadata: hyckh4unwo -->
-<!-- metadata: ekzrtlp2j6 -->
-<!-- metadata: kcrml5c0on -->
-<!-- metadata: oscbp7oolp -->
-<!-- metadata: t984xe42r8 -->
 ---
 
 ## 🎨 Design Tokens
