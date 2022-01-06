@@ -31,6 +31,7 @@ A decentralized identity & social data layer powered by **Zero-Knowledge Proofs*
 ---
 
 ## 📁 Project Structure
+<!-- metadata: g042u0i2bf -->
 
 ```
 .
@@ -155,8 +156,6 @@ Defined in [`app/globals.css`](./app/globals.css) — the *Deep Sea* palette:
 | Foreground    | `#e2e8f0`  |
 | Muted         | `#94a3b8`  |
 | **Accent**    | `#10b981`  |
-
----
 
 ## 📦 Deploy
 
