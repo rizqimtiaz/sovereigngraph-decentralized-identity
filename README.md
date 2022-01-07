@@ -3,6 +3,9 @@
 A decentralized identity & social data layer powered by **Zero-Knowledge Proofs**. Users own their credentials in a private vault, anchor immutable commitments on-chain, and disclose only verifiable answers — never the underlying data.
 
 > **Anchor once. Prove anywhere. Disclose nothing.**
+
+---
+
 ## ✨ Features
 
 - **Self-Sovereign Identity** — credentials live in a local, persisted vault you fully control.
@@ -146,14 +149,6 @@ Every state-changing function emits an event so the social/identity graph can be
 Defined in [`app/globals.css`](./app/globals.css) — the *Deep Sea* palette:
 
 | Token         | Value      |
-<!-- metadata: yku1olrc4f -->
-<!-- metadata: np1r3z4var -->
-<!-- metadata: 39uncc5mch -->
-<!-- metadata: rn3i1rw9h2 -->
-<!-- metadata: pzi34s933r -->
-<!-- metadata: p9io7sg2gs -->
-<!-- metadata: cryilrvsek -->
-<!-- metadata: 9ox6unx6rd -->
 | ------------- | ---------- |
 | Background    | `#020617`  |
 | Surface       | `#0b1424`  |
