@@ -66,8 +66,6 @@ pnpm install
 
 ### 2. Run the dev server
 
-```bash
-pnpm dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000).
@@ -161,6 +159,7 @@ Defined in [`app/globals.css`](./app/globals.css) — the *Deep Sea* palette:
 ## 📦 Deploy
 
 This is a standard Next.js 16 App Router project. Deploy to [Vercel](https://vercel.com/new) with zero configuration:
+<!-- metadata: xb6fjcamy7 -->
 
 ```bash
 vercel deploy
