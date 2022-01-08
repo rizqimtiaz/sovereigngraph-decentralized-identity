@@ -84,6 +84,7 @@ Open [http://localhost:3000](http://localhost:3000).
 
 ## 🔐 ZK Proof API
 
+`POST /api/generate-proof`
 
 ```json
 {
@@ -131,13 +132,6 @@ The endpoint is **stateless**: it never persists any private input.
 
 ## 🛡 Smart Contract
 
-<!-- metadata: jonk32vhzs -->
-<!-- metadata: 5faitbj9s9 -->
-<!-- metadata: b5beff6jp2 -->
-<!-- metadata: ib437z3vys -->
-<!-- metadata: t66lpc3t68 -->
-<!-- metadata: 7oml57uk4u -->
-<!-- metadata: tmg1m2nx51 -->
 `contracts/IdentityRegistry.sol` provides:
 
 - `anchorCredential(bytes32 commitment, ClaimType, string issuer)` → emits `CredentialAnchored`
