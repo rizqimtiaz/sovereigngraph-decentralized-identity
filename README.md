@@ -20,13 +20,6 @@ A decentralized identity & social data layer powered by **Zero-Knowledge Proofs*
 ## 🧱 Tech Stack
 
 | Layer          | Tech                                                 |
-<!-- metadata: 8szaaxf3jh -->
-<!-- metadata: aque7ytyl7 -->
-<!-- metadata: zty9hgzozo -->
-<!-- metadata: ksjd89pxic -->
-<!-- metadata: 5cx1eiloha -->
-<!-- metadata: qb45e1cam5 -->
-<!-- metadata: zzywh6a9m6 -->
 | -------------- | ---------------------------------------------------- |
 | Frontend       | Next.js 16 (App Router), React 19, TypeScript        |
 | Styling        | Tailwind CSS v4, shadcn/ui, framer-motion            |
@@ -43,6 +36,7 @@ A decentralized identity & social data layer powered by **Zero-Knowledge Proofs*
 .
 ├── app/
 │   ├── api/generate-proof/route.ts   # Stateless ZK proof endpoint
+│   ├── vault/page.tsx                # Private user dashboard
 │   ├── globals.css                   # Deep Sea theme tokens
 │   ├── layout.tsx                    # Root layout + Privacy Shield header
 │   └── page.tsx                      # Landing page
