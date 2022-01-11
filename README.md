@@ -75,7 +75,6 @@ Open [http://localhost:3000](http://localhost:3000).
 ### 3. Demo the flow
 
 1. Click **Connect Identity** in the header.
-<!-- metadata: qh324oq0an -->
 2. From the Vault, **Anchor a Credential** (e.g. an Age Verification with your DOB).
 3. Click **Simulate Verifier Request** and pick a scenario.
 4. Approve the request — only the boolean result is "shared".
@@ -130,6 +129,9 @@ Open [http://localhost:3000](http://localhost:3000).
 The endpoint is **stateless**: it never persists any private input.
 
 ---
+
+## 🛡 Smart Contract
+
 `contracts/IdentityRegistry.sol` provides:
 
 - `anchorCredential(bytes32 commitment, ClaimType, string issuer)` → emits `CredentialAnchored`
