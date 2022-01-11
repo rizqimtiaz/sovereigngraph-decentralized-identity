@@ -11,6 +11,14 @@ A decentralized identity & social data layer powered by **Zero-Knowledge Proofs*
 - **Self-Sovereign Identity** — credentials live in a local, persisted vault you fully control.
 - **Zero-Knowledge Proofs** — share `true` / `false` results, never the raw data behind them.
 - **Consent-First Sharing** — every proof request requires explicit, contextual approval.
+<!-- metadata: rwjgkvfv4p -->
+<!-- metadata: mzuihx66un -->
+<!-- metadata: 90o9soeliw -->
+<!-- metadata: gtopjdnfjs -->
+<!-- metadata: qtlnf8q4kt -->
+<!-- metadata: dxjl3zkimc -->
+<!-- metadata: mfobg5e3ut -->
+<!-- metadata: xwkj28uwd2 -->
 - **Immutable Audit Log** — every disclosure is recorded for transparent review.
 - **Solidity Registry** — minimal, event-rich `IdentityRegistry.sol` for anchors, revocations, nullifiers, and social edges.
 - **Deep Sea aesthetic** — dark navy + emerald, optimized for readability and trust.
@@ -94,8 +102,6 @@ Open [http://localhost:3000](http://localhost:3000).
     "label": "Government ID",
     "issuer": "State of California",
     "privateData": { "dateOfBirth": "1995-01-15" },
-    "commitmentHash": "0x…",
-    "anchoredAt": "2026-05-03T00:00:00.000Z",
     "revoked": false
   },
   "request": {
