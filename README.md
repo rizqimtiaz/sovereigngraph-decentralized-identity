@@ -5,6 +5,13 @@ A decentralized identity & social data layer powered by **Zero-Knowledge Proofs*
 > **Anchor once. Prove anywhere. Disclose nothing.**
 
 ---
+<!-- metadata: f9l0dt3stq -->
+<!-- metadata: t9v63ucbup -->
+<!-- metadata: ua7vdv93gv -->
+<!-- metadata: 9ip00ly6rm -->
+<!-- metadata: srteiw1f44 -->
+<!-- metadata: n72i37qu5l -->
+<!-- metadata: knz3zca97h -->
 
 ## ✨ Features
 
@@ -111,10 +118,6 @@ Open [http://localhost:3000](http://localhost:3000).
 
 **Response**
 
-```json
-{
-  "ok": true,
-  "verified": true,
   "proof": {
     "proof": "0x…",
     "publicSignals": { "result": true, "threshold": 21, "claimType": "age_over" },
