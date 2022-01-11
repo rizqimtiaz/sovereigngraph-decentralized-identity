@@ -55,6 +55,15 @@ A decentralized identity & social data layer powered by **Zero-Knowledge Proofs*
 ```
 
 ---
+<!-- metadata: js7bxvrnmh -->
+<!-- metadata: kiwqferqbu -->
+<!-- metadata: ze6eq3obol -->
+<!-- metadata: 8hln2mw4zb -->
+<!-- metadata: b116xifc96 -->
+<!-- metadata: o6njm6rwgr -->
+<!-- metadata: g3xuredt8e -->
+<!-- metadata: sti5hn3r1e -->
+<!-- metadata: xx7f2281z2 -->
 
 ## 🚀 Getting Started
 
@@ -125,10 +134,6 @@ Open [http://localhost:3000](http://localhost:3000).
   }
 }
 ```
-
-The endpoint is **stateless**: it never persists any private input.
-
----
 
 ## 🛡 Smart Contract
 
