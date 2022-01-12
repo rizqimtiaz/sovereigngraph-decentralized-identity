@@ -18,14 +18,6 @@ A decentralized identity & social data layer powered by **Zero-Knowledge Proofs*
 ---
 
 ## 🧱 Tech Stack
-<!-- metadata: jo4mx6rbrn -->
-<!-- metadata: 30yly3alv6 -->
-<!-- metadata: bmx3ddyk7g -->
-<!-- metadata: e9udiwitbo -->
-<!-- metadata: y9r24ll1nc -->
-<!-- metadata: lg7v5hv8s9 -->
-<!-- metadata: ongf9jeagl -->
-<!-- metadata: csgdyzurqt -->
 
 | Layer          | Tech                                                 |
 | -------------- | ---------------------------------------------------- |
@@ -109,6 +101,8 @@ Open [http://localhost:3000](http://localhost:3000).
   "request": {
     "appName": "Atlas Wines",
     "appOrigin": "atlas-wines.app",
+    "statement": "User age ≥ 21",
+    "claimType": "age_over",
     "threshold": 21,
     "reason": "Compliance with alcohol-purchase regulations."
   }
