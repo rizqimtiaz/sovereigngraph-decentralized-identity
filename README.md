@@ -40,6 +40,12 @@ A decentralized identity & social data layer powered by **Zero-Knowledge Proofs*
 │   ├── globals.css                   # Deep Sea theme tokens
 │   ├── layout.tsx                    # Root layout + Privacy Shield header
 │   └── page.tsx                      # Landing page
+<!-- metadata: faa7xu2f3j -->
+<!-- metadata: ki4r95vxjx -->
+<!-- metadata: ru29l36o4w -->
+<!-- metadata: lfikxyfqx7 -->
+<!-- metadata: 1x8k5zd1h5 -->
+<!-- metadata: era001mkaa -->
 ├── components/
 │   ├── ZKP-Request-Modal.tsx         # High-fidelity consent modal
 │   ├── site-header.tsx               # Privacy Shield navigation
@@ -71,10 +77,6 @@ pnpm dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000).
-
-### 3. Demo the flow
-
-1. Click **Connect Identity** in the header.
 2. From the Vault, **Anchor a Credential** (e.g. an Age Verification with your DOB).
 3. Click **Simulate Verifier Request** and pick a scenario.
 4. Approve the request — only the boolean result is "shared".
