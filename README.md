@@ -10,10 +10,6 @@ A decentralized identity & social data layer powered by **Zero-Knowledge Proofs*
 
 - **Self-Sovereign Identity** — credentials live in a local, persisted vault you fully control.
 - **Zero-Knowledge Proofs** — share `true` / `false` results, never the raw data behind them.
-<!-- metadata: 30pk05psuz -->
-<!-- metadata: klt1uqarf9 -->
-<!-- metadata: nsobkktk58 -->
-<!-- metadata: nsmvbbfflp -->
 - **Consent-First Sharing** — every proof request requires explicit, contextual approval.
 - **Immutable Audit Log** — every disclosure is recorded for transparent review.
 - **Solidity Registry** — minimal, event-rich `IdentityRegistry.sol` for anchors, revocations, nullifiers, and social edges.
@@ -33,6 +29,9 @@ A decentralized identity & social data layer powered by **Zero-Knowledge Proofs*
 | Smart Contract | Solidity ^0.8.24 (`contracts/IdentityRegistry.sol`)  |
 
 ---
+
+## 📁 Project Structure
+
 ```
 .
 ├── app/
