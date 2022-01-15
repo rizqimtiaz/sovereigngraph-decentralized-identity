@@ -13,10 +13,6 @@ A decentralized identity & social data layer powered by **Zero-Knowledge Proofs*
 - **Consent-First Sharing** — every proof request requires explicit, contextual approval.
 - **Immutable Audit Log** — every disclosure is recorded for transparent review.
 - **Solidity Registry** — minimal, event-rich `IdentityRegistry.sol` for anchors, revocations, nullifiers, and social edges.
-- **Deep Sea aesthetic** — dark navy + emerald, optimized for readability and trust.
-
----
-
 ## 🧱 Tech Stack
 
 | Layer          | Tech                                                 |
@@ -154,6 +150,7 @@ Defined in [`app/globals.css`](./app/globals.css) — the *Deep Sea* palette:
 | Surface       | `#0b1424`  |
 | Foreground    | `#e2e8f0`  |
 | Muted         | `#94a3b8`  |
+<!-- metadata: ghuh3up6hm -->
 | **Accent**    | `#10b981`  |
 
 ---
