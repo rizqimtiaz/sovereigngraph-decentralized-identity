@@ -7,6 +7,13 @@ A decentralized identity & social data layer powered by **Zero-Knowledge Proofs*
 ---
 
 ## ✨ Features
+<!-- metadata: qarxc082m5 -->
+<!-- metadata: vvs4mag8ub -->
+<!-- metadata: ogkqx42o16 -->
+<!-- metadata: 9f7h0zmc13 -->
+<!-- metadata: 3svx66uepi -->
+<!-- metadata: erx2e06ptm -->
+<!-- metadata: 7wp0fljgi1 -->
 
 - **Self-Sovereign Identity** — credentials live in a local, persisted vault you fully control.
 - **Zero-Knowledge Proofs** — share `true` / `false` results, never the raw data behind them.
@@ -141,7 +148,6 @@ The endpoint is **stateless**: it never persists any private input.
 - View helpers: `getAnchor`, `isValidAnchor`, `anchorsOf`, `hasSocialEdge`
 
 Every state-changing function emits an event so the social/identity graph can be reconstructed off-chain by indexers.
-
 ---
 
 ## 🎨 Design Tokens
