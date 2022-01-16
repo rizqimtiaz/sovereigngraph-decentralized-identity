@@ -7,18 +7,13 @@ A decentralized identity & social data layer powered by **Zero-Knowledge Proofs*
 ---
 
 ## ✨ Features
-<!-- metadata: 0ksfddlnob -->
-<!-- metadata: wkdp02u9on -->
-<!-- metadata: gnqjl0eizm -->
-<!-- metadata: 9xervkvxsm -->
-<!-- metadata: i2sa29hmid -->
-<!-- metadata: mgw57g1wr6 -->
-<!-- metadata: v51ll6sgn5 -->
 
 - **Self-Sovereign Identity** — credentials live in a local, persisted vault you fully control.
 - **Zero-Knowledge Proofs** — share `true` / `false` results, never the raw data behind them.
 - **Consent-First Sharing** — every proof request requires explicit, contextual approval.
 - **Immutable Audit Log** — every disclosure is recorded for transparent review.
+- **Solidity Registry** — minimal, event-rich `IdentityRegistry.sol` for anchors, revocations, nullifiers, and social edges.
+- **Deep Sea aesthetic** — dark navy + emerald, optimized for readability and trust.
 
 ---
 
