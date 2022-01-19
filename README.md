@@ -127,16 +127,6 @@ Open [http://localhost:3000](http://localhost:3000).
 ```
 
 The endpoint is **stateless**: it never persists any private input.
-<!-- metadata: 75xdzkw7cb -->
-<!-- metadata: s4o71hpu0n -->
-<!-- metadata: r4vgxqoirl -->
-<!-- metadata: rnb5b5yr7a -->
-<!-- metadata: kck5m20l1m -->
-<!-- metadata: 4ucvbqsu13 -->
-<!-- metadata: fbr8a448yd -->
-<!-- metadata: g4689lhlag -->
-<!-- metadata: 088crr2gw0 -->
-<!-- metadata: 6irjymrere -->
 
 ---
 
@@ -159,6 +149,10 @@ Every state-changing function emits an event so the social/identity graph can be
 Defined in [`app/globals.css`](./app/globals.css) — the *Deep Sea* palette:
 
 | Token         | Value      |
+| ------------- | ---------- |
+| Background    | `#020617`  |
+| Surface       | `#0b1424`  |
+| Foreground    | `#e2e8f0`  |
 | Muted         | `#94a3b8`  |
 | **Accent**    | `#10b981`  |
 
