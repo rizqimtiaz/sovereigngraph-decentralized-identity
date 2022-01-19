@@ -77,10 +77,6 @@ Open [http://localhost:3000](http://localhost:3000).
 1. Click **Connect Identity** in the header.
 2. From the Vault, **Anchor a Credential** (e.g. an Age Verification with your DOB).
 3. Click **Simulate Verifier Request** and pick a scenario.
-4. Approve the request — only the boolean result is "shared".
-5. Inspect the **Consent & Access Log** for an immutable audit trail.
-
----
 
 ## 🔐 ZK Proof API
 
@@ -137,6 +133,14 @@ The endpoint is **stateless**: it never persists any private input.
 - `anchorCredential(bytes32 commitment, ClaimType, string issuer)` → emits `CredentialAnchored`
 - `revokeCredential(bytes32 commitment)` → emits `CredentialRevoked`
 - `spendNullifier(bytes32 nullifier, bytes32 commitment)` → emits `NullifierSpent` (replay-protection)
+<!-- metadata: 9uutmfg5vh -->
+<!-- metadata: mmbie51ycr -->
+<!-- metadata: b037aq46h6 -->
+<!-- metadata: ev3yqnodlh -->
+<!-- metadata: v4il2tj0pq -->
+<!-- metadata: l49obzwigk -->
+<!-- metadata: 02v2ef8u7k -->
+<!-- metadata: is380wrs69 -->
 - `addSocialEdge(address peer)` / `removeSocialEdge(address peer)` → emits `SocialEdgeAdded` / `SocialEdgeRemoved`
 - View helpers: `getAnchor`, `isValidAnchor`, `anchorsOf`, `hasSocialEdge`
 
