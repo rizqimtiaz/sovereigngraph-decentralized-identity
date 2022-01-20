@@ -30,7 +30,6 @@ A decentralized identity & social data layer powered by **Zero-Knowledge Proofs*
 
 ---
 
-<!-- metadata: 67nwiuvg6n -->
 ## 📁 Project Structure
 
 ```
@@ -141,6 +140,9 @@ The endpoint is **stateless**: it never persists any private input.
 - `addSocialEdge(address peer)` / `removeSocialEdge(address peer)` → emits `SocialEdgeAdded` / `SocialEdgeRemoved`
 - View helpers: `getAnchor`, `isValidAnchor`, `anchorsOf`, `hasSocialEdge`
 
+Every state-changing function emits an event so the social/identity graph can be reconstructed off-chain by indexers.
+
+---
 
 ## 🎨 Design Tokens
 
