@@ -3,6 +3,8 @@
 A decentralized identity & social data layer powered by **Zero-Knowledge Proofs**. Users own their credentials in a private vault, anchor immutable commitments on-chain, and disclose only verifiable answers — never the underlying data.
 
 > **Anchor once. Prove anywhere. Disclose nothing.**
+<!-- metadata: mtzoxng2fy -->
+<!-- metadata: m6rkxi566q -->
 
 ---
 
@@ -129,7 +131,6 @@ Open [http://localhost:3000](http://localhost:3000).
 The endpoint is **stateless**: it never persists any private input.
 
 ---
-
 ## 🛡 Smart Contract
 
 `contracts/IdentityRegistry.sol` provides:
