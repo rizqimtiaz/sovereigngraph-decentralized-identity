@@ -104,6 +104,7 @@ Open [http://localhost:3000](http://localhost:3000).
     "statement": "User age ≥ 21",
     "claimType": "age_over",
     "threshold": 21,
+    "reason": "Compliance with alcohol-purchase regulations."
   }
 }
 ```
@@ -129,12 +130,6 @@ The endpoint is **stateless**: it never persists any private input.
 
 ---
 
-<!-- metadata: c0zini5pic -->
-<!-- metadata: om7xehqecp -->
-<!-- metadata: vril3hs8s2 -->
-<!-- metadata: uzgb9ob6jv -->
-<!-- metadata: ko02t179ch -->
-<!-- metadata: ruovmtkgvm -->
 ## 🛡 Smart Contract
 
 `contracts/IdentityRegistry.sol` provides:
