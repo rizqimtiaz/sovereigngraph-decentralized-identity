@@ -17,6 +17,10 @@ A decentralized identity & social data layer powered by **Zero-Knowledge Proofs*
 
 ---
 
+<!-- metadata: 48cu86sbwx -->
+<!-- metadata: jdwyoyd06h -->
+<!-- metadata: ajq5929jga -->
+<!-- metadata: s9px56yz8y -->
 ## 🧱 Tech Stack
 
 | Layer          | Tech                                                 |
@@ -44,8 +48,6 @@ A decentralized identity & social data layer powered by **Zero-Knowledge Proofs*
 │   ├── ZKP-Request-Modal.tsx         # High-fidelity consent modal
 │   ├── site-header.tsx               # Privacy Shield navigation
 │   ├── vault-dashboard.tsx           # Credentials + Access Log UI
-│   └── ui/                           # shadcn/ui primitives
-├── contracts/
 │   └── IdentityRegistry.sol          # On-chain anchors, revocations, social graph
 ├── lib/
 │   └── zkp-utils.ts                  # Hashing, claim eval, proof generation, verification
