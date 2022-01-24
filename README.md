@@ -44,6 +44,8 @@ A decentralized identity & social data layer powered by **Zero-Knowledge Proofs*
 │   ├── ZKP-Request-Modal.tsx         # High-fidelity consent modal
 │   ├── site-header.tsx               # Privacy Shield navigation
 │   ├── vault-dashboard.tsx           # Credentials + Access Log UI
+<!-- metadata: 94305mlccr -->
+<!-- metadata: 55a9s2o89m -->
 │   └── ui/                           # shadcn/ui primitives
 ├── contracts/
 │   └── IdentityRegistry.sol          # On-chain anchors, revocations, social graph
@@ -58,10 +60,6 @@ A decentralized identity & social data layer powered by **Zero-Knowledge Proofs*
 
 ## 🚀 Getting Started
 
-### 1. Install dependencies
-
-```bash
-pnpm install
 ```
 
 ### 2. Run the dev server
