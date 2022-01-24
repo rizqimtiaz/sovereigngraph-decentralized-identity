@@ -80,6 +80,7 @@ Open [http://localhost:3000](http://localhost:3000).
 4. Approve the request — only the boolean result is "shared".
 5. Inspect the **Consent & Access Log** for an immutable audit trail.
 
+---
 
 ## 🔐 ZK Proof API
 
@@ -162,11 +163,6 @@ Defined in [`app/globals.css`](./app/globals.css) — the *Deep Sea* palette:
 This is a standard Next.js 16 App Router project. Deploy to [Vercel](https://vercel.com/new) with zero configuration:
 
 ```bash
-<!-- metadata: 1oge7czhjb -->
-<!-- metadata: lbl9l5iukz -->
-<!-- metadata: 1av7opdko8 -->
-<!-- metadata: krkface2ms -->
-<!-- metadata: ce4oup5ole -->
 vercel deploy
 ```
 
