@@ -121,11 +121,6 @@ Open [http://localhost:3000](http://localhost:3000).
     "commitmentHash": "0x…",
     "verifier": { "name": "Atlas Wines", "origin": "atlas-wines.app" },
     "issuedAt": "2026-05-03T00:00:00.000Z",
-<!-- metadata: t2oylo83vk -->
-<!-- metadata: 3bvg2rl3k0 -->
-<!-- metadata: rdudvaege8 -->
-<!-- metadata: zjnryde4mj -->
-<!-- metadata: pv50q7jr56 -->
     "nullifier": "0x…"
   }
 }
@@ -148,6 +143,9 @@ The endpoint is **stateless**: it never persists any private input.
 Every state-changing function emits an event so the social/identity graph can be reconstructed off-chain by indexers.
 
 ---
+
+## 🎨 Design Tokens
+
 Defined in [`app/globals.css`](./app/globals.css) — the *Deep Sea* palette:
 
 | Token         | Value      |
