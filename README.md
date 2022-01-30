@@ -124,6 +124,9 @@ Open [http://localhost:3000](http://localhost:3000).
     "nullifier": "0x…"
   }
 }
+```
+
+The endpoint is **stateless**: it never persists any private input.
 
 ---
 
@@ -131,11 +134,6 @@ Open [http://localhost:3000](http://localhost:3000).
 
 `contracts/IdentityRegistry.sol` provides:
 
-<!-- metadata: rk8phnhwp6 -->
-<!-- metadata: vbyu4dncv6 -->
-<!-- metadata: t2df8bcygm -->
-<!-- metadata: squuu9x995 -->
-<!-- metadata: j3e94lf5ql -->
 - `anchorCredential(bytes32 commitment, ClaimType, string issuer)` → emits `CredentialAnchored`
 - `revokeCredential(bytes32 commitment)` → emits `CredentialRevoked`
 - `spendNullifier(bytes32 nullifier, bytes32 commitment)` → emits `NullifierSpent` (replay-protection)
