@@ -39,6 +39,15 @@ A decentralized identity & social data layer powered by **Zero-Knowledge Proofs*
 │   ├── vault/page.tsx                # Private user dashboard
 │   ├── globals.css                   # Deep Sea theme tokens
 │   ├── layout.tsx                    # Root layout + Privacy Shield header
+<!-- metadata: xxphn8u5cq -->
+<!-- metadata: g1z45ku7h8 -->
+<!-- metadata: g0i1zapiwg -->
+<!-- metadata: 2jz7wn7w9j -->
+<!-- metadata: nm862vj7oy -->
+<!-- metadata: 71050l2e99 -->
+<!-- metadata: 3d97xjzic7 -->
+<!-- metadata: tq1awgl2nx -->
+<!-- metadata: 7hpt78xaj9 -->
 │   └── page.tsx                      # Landing page
 ├── components/
 │   ├── ZKP-Request-Modal.tsx         # High-fidelity consent modal
@@ -62,9 +71,6 @@ A decentralized identity & social data layer powered by **Zero-Knowledge Proofs*
 
 ```bash
 pnpm install
-```
-
-### 2. Run the dev server
 
 ```bash
 pnpm dev
