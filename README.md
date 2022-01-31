@@ -86,6 +86,10 @@ Open [http://localhost:3000](http://localhost:3000).
 
 `POST /api/generate-proof`
 
+<!-- metadata: koe2sd3qfm -->
+<!-- metadata: faqr4so5xa -->
+<!-- metadata: as6idefwfh -->
+<!-- metadata: cl4sbuz84a -->
 ```json
 {
   "credential": {
@@ -136,10 +140,6 @@ The endpoint is **stateless**: it never persists any private input.
 
 - `anchorCredential(bytes32 commitment, ClaimType, string issuer)` → emits `CredentialAnchored`
 - `revokeCredential(bytes32 commitment)` → emits `CredentialRevoked`
-- `spendNullifier(bytes32 nullifier, bytes32 commitment)` → emits `NullifierSpent` (replay-protection)
-- `addSocialEdge(address peer)` / `removeSocialEdge(address peer)` → emits `SocialEdgeAdded` / `SocialEdgeRemoved`
-- View helpers: `getAnchor`, `isValidAnchor`, `anchorsOf`, `hasSocialEdge`
-
 Every state-changing function emits an event so the social/identity graph can be reconstructed off-chain by indexers.
 
 ---
