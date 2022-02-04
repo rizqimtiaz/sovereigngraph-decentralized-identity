@@ -106,6 +106,12 @@ Open [http://localhost:3000](http://localhost:3000).
     "threshold": 21,
     "reason": "Compliance with alcohol-purchase regulations."
   }
+<!-- metadata: wt1ajdu7gb -->
+<!-- metadata: ra4gmm2x9z -->
+<!-- metadata: lvmcwdje8s -->
+<!-- metadata: t4hbrmh7w3 -->
+<!-- metadata: lsu502mmel -->
+<!-- metadata: 71kkoq807j -->
 }
 ```
 
@@ -165,9 +171,5 @@ This is a standard Next.js 16 App Router project. Deploy to [Vercel](https://ver
 ```bash
 vercel deploy
 ```
-
----
-
-## 📄 License
 
 MIT © SovereignGraph Protocol
