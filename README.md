@@ -39,10 +39,6 @@ A decentralized identity & social data layer powered by **Zero-Knowledge Proofs*
 │   ├── vault/page.tsx                # Private user dashboard
 │   ├── globals.css                   # Deep Sea theme tokens
 │   ├── layout.tsx                    # Root layout + Privacy Shield header
-│   └── page.tsx                      # Landing page
-├── components/
-│   ├── ZKP-Request-Modal.tsx         # High-fidelity consent modal
-│   ├── site-header.tsx               # Privacy Shield navigation
 │   ├── vault-dashboard.tsx           # Credentials + Access Log UI
 │   └── ui/                           # shadcn/ui primitives
 ├── contracts/
@@ -125,6 +121,13 @@ Open [http://localhost:3000](http://localhost:3000).
   }
 }
 ```
+<!-- metadata: 56hcpqjzxs -->
+<!-- metadata: nohdu4f2z5 -->
+<!-- metadata: ntotgnk5kl -->
+<!-- metadata: bgsvy7o9fe -->
+<!-- metadata: cwezqp18tw -->
+<!-- metadata: v4cttm6msg -->
+<!-- metadata: vbpujvktwd -->
 
 The endpoint is **stateless**: it never persists any private input.
 
