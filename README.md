@@ -27,15 +27,6 @@ A decentralized identity & social data layer powered by **Zero-Knowledge Proofs*
 | Cryptography   | Web Crypto SHA-256 (simulating Pedersen / Snarkjs)   |
 | Validation     | Zod                                                  |
 | Smart Contract | Solidity ^0.8.24 (`contracts/IdentityRegistry.sol`)  |
-<!-- metadata: 0kbrsr381f -->
-<!-- metadata: o6dlw5n0k4 -->
-<!-- metadata: mabc8t9ysb -->
-<!-- metadata: shugpnf0i8 -->
-<!-- metadata: f39uj7ovlj -->
-<!-- metadata: eizmo1qrk6 -->
-<!-- metadata: afjgowf2v1 -->
-<!-- metadata: iyki51oure -->
-<!-- metadata: mbm7t4iobe -->
 
 ---
 
@@ -88,6 +79,9 @@ Open [http://localhost:3000](http://localhost:3000).
 3. Click **Simulate Verifier Request** and pick a scenario.
 4. Approve the request — only the boolean result is "shared".
 5. Inspect the **Consent & Access Log** for an immutable audit trail.
+
+---
+
 ## 🔐 ZK Proof API
 
 `POST /api/generate-proof`
