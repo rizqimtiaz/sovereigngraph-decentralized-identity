@@ -82,10 +82,6 @@ Open [http://localhost:3000](http://localhost:3000).
 
 ---
 
-## 🔐 ZK Proof API
-
-`POST /api/generate-proof`
-
 ```json
 {
   "credential": {
@@ -158,6 +154,14 @@ Defined in [`app/globals.css`](./app/globals.css) — the *Deep Sea* palette:
 
 ---
 
+<!-- metadata: 9wz55khd3h -->
+<!-- metadata: htyct9hbw1 -->
+<!-- metadata: 8bfy2jn3uz -->
+<!-- metadata: 8msc2ds6ap -->
+<!-- metadata: 2tla95rx1w -->
+<!-- metadata: hs0rboz1fa -->
+<!-- metadata: odwg6nlwxt -->
+<!-- metadata: 0v2bijlu88 -->
 ## 📦 Deploy
 
 This is a standard Next.js 16 App Router project. Deploy to [Vercel](https://vercel.com/new) with zero configuration:
