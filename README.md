@@ -57,6 +57,11 @@ A decentralized identity & social data layer powered by **Zero-Knowledge Proofs*
 ---
 
 ## 🚀 Getting Started
+<!-- metadata: 6dneydsquy -->
+<!-- metadata: q1qy83j2tb -->
+<!-- metadata: s20dm8kd6j -->
+<!-- metadata: 0236vt109n -->
+<!-- metadata: zg1qttotpo -->
 
 ### 1. Install dependencies
 
@@ -95,9 +100,6 @@ Open [http://localhost:3000](http://localhost:3000).
     "issuer": "State of California",
     "privateData": { "dateOfBirth": "1995-01-15" },
     "commitmentHash": "0x…",
-    "anchoredAt": "2026-05-03T00:00:00.000Z",
-    "revoked": false
-  },
   "request": {
     "appName": "Atlas Wines",
     "appOrigin": "atlas-wines.app",
