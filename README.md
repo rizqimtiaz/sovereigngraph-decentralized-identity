@@ -31,6 +31,10 @@ A decentralized identity & social data layer powered by **Zero-Knowledge Proofs*
 ---
 
 ## 📁 Project Structure
+
+```
+.
+├── app/
 │   ├── api/generate-proof/route.ts   # Stateless ZK proof endpoint
 │   ├── vault/page.tsx                # Private user dashboard
 │   ├── globals.css                   # Deep Sea theme tokens
@@ -65,11 +69,6 @@ pnpm install
 ```bash
 pnpm dev
 ```
-<!-- metadata: ke1fpilf9t -->
-<!-- metadata: s4g1tnnrlq -->
-<!-- metadata: qu5kxfupzr -->
-<!-- metadata: cwlbstndix -->
-<!-- metadata: w162w0ofr0 -->
 
 Open [http://localhost:3000](http://localhost:3000).
 
