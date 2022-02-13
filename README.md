@@ -49,6 +49,9 @@ A decentralized identity & social data layer powered by **Zero-Knowledge Proofs*
 │   └── IdentityRegistry.sol          # On-chain anchors, revocations, social graph
 ├── lib/
 │   └── zkp-utils.ts                  # Hashing, claim eval, proof generation, verification
+├── store/
+│   └── useVaultStore.ts              # Zustand vault + consent management
+└── README.md
 ```
 
 ---
@@ -101,13 +104,6 @@ Open [http://localhost:3000](http://localhost:3000).
     "statement": "User age ≥ 21",
     "claimType": "age_over",
     "threshold": 21,
-<!-- metadata: 07i3poxrv0 -->
-<!-- metadata: nu6w2lqcqr -->
-<!-- metadata: zey3l1fq69 -->
-<!-- metadata: 10bkogfrct -->
-<!-- metadata: jsdrxw87pi -->
-<!-- metadata: 6lcyre85wv -->
-<!-- metadata: 0a0a2qa95h -->
     "reason": "Compliance with alcohol-purchase regulations."
   }
 }
