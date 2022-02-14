@@ -52,8 +52,6 @@ A decentralized identity & social data layer powered by **Zero-Knowledge Proofs*
 ├── store/
 │   └── useVaultStore.ts              # Zustand vault + consent management
 └── README.md
-<!-- metadata: 5lnigvi3ka -->
-<!-- metadata: hvhyk5724g -->
 ```
 
 ---
@@ -126,6 +124,7 @@ Open [http://localhost:3000](http://localhost:3000).
     "nullifier": "0x…"
   }
 }
+```
 
 The endpoint is **stateless**: it never persists any private input.
 
