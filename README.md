@@ -1,3 +1,7 @@
+# SovereignGraph — Privacy-First Social Data Layer
+
+A decentralized identity & social data layer powered by **Zero-Knowledge Proofs**. Users own their credentials in a private vault, anchor immutable commitments on-chain, and disclose only verifiable answers — never the underlying data.
+
 > **Anchor once. Prove anywhere. Disclose nothing.**
 
 ---
@@ -145,11 +149,6 @@ Every state-changing function emits an event so the social/identity graph can be
 Defined in [`app/globals.css`](./app/globals.css) — the *Deep Sea* palette:
 
 | Token         | Value      |
-<!-- metadata: rwgbsaa861 -->
-<!-- metadata: bsdno4020o -->
-<!-- metadata: v99yhzax4s -->
-<!-- metadata: lmtuh11ses -->
-<!-- metadata: z4tb1vzie8 -->
 | ------------- | ---------- |
 | Background    | `#020617`  |
 | Surface       | `#0b1424`  |
