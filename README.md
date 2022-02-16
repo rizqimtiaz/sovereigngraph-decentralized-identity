@@ -8,6 +8,14 @@ A decentralized identity & social data layer powered by **Zero-Knowledge Proofs*
 
 ## ✨ Features
 
+<!-- metadata: t57j81js9x -->
+<!-- metadata: q2et2ewvwc -->
+<!-- metadata: dhueewzohu -->
+<!-- metadata: jds1goode8 -->
+<!-- metadata: 4y8zl28tsw -->
+<!-- metadata: mp3m3ojhqi -->
+<!-- metadata: ois0xzjexw -->
+<!-- metadata: uedd1zrovs -->
 - **Self-Sovereign Identity** — credentials live in a local, persisted vault you fully control.
 - **Zero-Knowledge Proofs** — share `true` / `false` results, never the raw data behind them.
 - **Consent-First Sharing** — every proof request requires explicit, contextual approval.
@@ -157,8 +165,6 @@ Defined in [`app/globals.css`](./app/globals.css) — the *Deep Sea* palette:
 | **Accent**    | `#10b981`  |
 
 ---
-
-## 📦 Deploy
 
 This is a standard Next.js 16 App Router project. Deploy to [Vercel](https://vercel.com/new) with zero configuration:
 
