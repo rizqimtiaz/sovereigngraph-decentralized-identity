@@ -11,6 +11,11 @@ A decentralized identity & social data layer powered by **Zero-Knowledge Proofs*
 - **Self-Sovereign Identity** — credentials live in a local, persisted vault you fully control.
 - **Zero-Knowledge Proofs** — share `true` / `false` results, never the raw data behind them.
 - **Consent-First Sharing** — every proof request requires explicit, contextual approval.
+<!-- metadata: 8bzzulq6u5 -->
+<!-- metadata: fytonuxpa5 -->
+<!-- metadata: 87od8y52hr -->
+<!-- metadata: sa5y0troh9 -->
+<!-- metadata: 9in0l6gmu4 -->
 - **Immutable Audit Log** — every disclosure is recorded for transparent review.
 - **Solidity Registry** — minimal, event-rich `IdentityRegistry.sol` for anchors, revocations, nullifiers, and social edges.
 - **Deep Sea aesthetic** — dark navy + emerald, optimized for readability and trust.
@@ -27,7 +32,6 @@ A decentralized identity & social data layer powered by **Zero-Knowledge Proofs*
 | Cryptography   | Web Crypto SHA-256 (simulating Pedersen / Snarkjs)   |
 | Validation     | Zod                                                  |
 | Smart Contract | Solidity ^0.8.24 (`contracts/IdentityRegistry.sol`)  |
-
 ---
 
 ## 📁 Project Structure
