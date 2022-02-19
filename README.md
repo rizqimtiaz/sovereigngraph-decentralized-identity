@@ -15,9 +15,6 @@ A decentralized identity & social data layer powered by **Zero-Knowledge Proofs*
 - **Solidity Registry** — minimal, event-rich `IdentityRegistry.sol` for anchors, revocations, nullifiers, and social edges.
 - **Deep Sea aesthetic** — dark navy + emerald, optimized for readability and trust.
 
-<!-- metadata: ikc4z0fpae -->
-<!-- metadata: eiyuqiaiod -->
-<!-- metadata: r2opr760nj -->
 ---
 
 ## 🧱 Tech Stack
@@ -105,6 +102,10 @@ Open [http://localhost:3000](http://localhost:3000).
     "appName": "Atlas Wines",
     "appOrigin": "atlas-wines.app",
     "statement": "User age ≥ 21",
+    "claimType": "age_over",
+    "threshold": 21,
+    "reason": "Compliance with alcohol-purchase regulations."
+  }
 }
 ```
 
