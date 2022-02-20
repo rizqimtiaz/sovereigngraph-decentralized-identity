@@ -57,7 +57,6 @@ A decentralized identity & social data layer powered by **Zero-Knowledge Proofs*
 ---
 
 ## 🚀 Getting Started
-
 ### 1. Install dependencies
 
 ```bash
@@ -72,6 +71,10 @@ pnpm dev
 
 Open [http://localhost:3000](http://localhost:3000).
 
+<!-- metadata: pszlkdoulh -->
+<!-- metadata: jekh8qztxq -->
+<!-- metadata: tp6kbq6p8d -->
+<!-- metadata: px0sagim2k -->
 ### 3. Demo the flow
 
 1. Click **Connect Identity** in the header.
