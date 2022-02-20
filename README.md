@@ -132,8 +132,6 @@ The endpoint is **stateless**: it never persists any private input.
 
 ## 🛡 Smart Contract
 
-<!-- metadata: vi5sx1gso0 -->
-<!-- metadata: am0ulusjg3 -->
 `contracts/IdentityRegistry.sol` provides:
 
 - `anchorCredential(bytes32 commitment, ClaimType, string issuer)` → emits `CredentialAnchored`
@@ -167,6 +165,7 @@ This is a standard Next.js 16 App Router project. Deploy to [Vercel](https://ver
 ```bash
 vercel deploy
 ```
+
 ---
 
 ## 📄 License
