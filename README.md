@@ -50,6 +50,7 @@ A decentralized identity & social data layer powered by **Zero-Knowledge Proofs*
 ├── lib/
 │   └── zkp-utils.ts                  # Hashing, claim eval, proof generation, verification
 ├── store/
+│   └── useVaultStore.ts              # Zustand vault + consent management
 └── README.md
 ```
 
@@ -95,7 +96,6 @@ Open [http://localhost:3000](http://localhost:3000).
     "privateData": { "dateOfBirth": "1995-01-15" },
     "commitmentHash": "0x…",
     "anchoredAt": "2026-05-03T00:00:00.000Z",
-<!-- metadata: ipbmwlpttd -->
     "revoked": false
   },
   "request": {
