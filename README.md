@@ -71,6 +71,10 @@ pnpm dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000).
+<!-- metadata: z5fjbsh5zf -->
+<!-- metadata: 0m1fhmt7bd -->
+<!-- metadata: t3cxow9h8k -->
+<!-- metadata: c9ez2nr4lg -->
 
 ### 3. Demo the flow
 
@@ -93,9 +97,6 @@ Open [http://localhost:3000](http://localhost:3000).
     "type": "age_over",
     "label": "Government ID",
     "issuer": "State of California",
-    "privateData": { "dateOfBirth": "1995-01-15" },
-    "commitmentHash": "0x…",
-    "anchoredAt": "2026-05-03T00:00:00.000Z",
     "revoked": false
   },
   "request": {
