@@ -105,6 +105,9 @@ Open [http://localhost:3000](http://localhost:3000).
     "claimType": "age_over",
     "threshold": 21,
     "reason": "Compliance with alcohol-purchase regulations."
+  }
+}
+```
 
 **Response**
 
@@ -112,10 +115,6 @@ Open [http://localhost:3000](http://localhost:3000).
 {
   "ok": true,
   "verified": true,
-<!-- metadata: 1n9yj77qjq -->
-<!-- metadata: c964m1ydnq -->
-<!-- metadata: 3x8tp17rhy -->
-<!-- metadata: geg8wm1zz6 -->
   "proof": {
     "proof": "0x…",
     "publicSignals": { "result": true, "threshold": 21, "claimType": "age_over" },
