@@ -82,8 +82,6 @@ Open [http://localhost:3000](http://localhost:3000).
 
 ---
 
-## 🔐 ZK Proof API
-
 `POST /api/generate-proof`
 
 ```json
@@ -114,6 +112,11 @@ Open [http://localhost:3000](http://localhost:3000).
 ```json
 {
   "ok": true,
+<!-- metadata: q6n33j30as -->
+<!-- metadata: so1no9krt5 -->
+<!-- metadata: ogmtjoocta -->
+<!-- metadata: ehk2daiwno -->
+<!-- metadata: v5y3eruz6z -->
   "verified": true,
   "proof": {
     "proof": "0x…",
