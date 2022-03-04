@@ -146,6 +146,8 @@ Every state-changing function emits an event so the social/identity graph can be
 
 ## 🎨 Design Tokens
 
+Defined in [`app/globals.css`](./app/globals.css) — the *Deep Sea* palette:
+
 | Token         | Value      |
 | ------------- | ---------- |
 | Background    | `#020617`  |
@@ -157,16 +159,6 @@ Every state-changing function emits an event so the social/identity graph can be
 ---
 
 ## 📦 Deploy
-<!-- metadata: cj877etexg -->
-<!-- metadata: ulf24wtn1n -->
-<!-- metadata: 2hjfbgmoyo -->
-<!-- metadata: hbljxnlpj3 -->
-<!-- metadata: v8ya7f8dsu -->
-<!-- metadata: 67fsefykt5 -->
-<!-- metadata: 9wvbdq8o9q -->
-<!-- metadata: e086lkz3je -->
-<!-- metadata: 226btd5swm -->
-<!-- metadata: peulrzu6ta -->
 
 This is a standard Next.js 16 App Router project. Deploy to [Vercel](https://vercel.com/new) with zero configuration:
 
