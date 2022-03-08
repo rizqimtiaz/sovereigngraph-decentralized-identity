@@ -132,6 +132,16 @@ The endpoint is **stateless**: it never persists any private input.
 
 ## 🛡 Smart Contract
 
+<!-- metadata: c2bste7hdp -->
+<!-- metadata: 76pjl46yi5 -->
+<!-- metadata: 4gigsc5m1q -->
+<!-- metadata: 42jzoehlhd -->
+<!-- metadata: hrh6yr4uhp -->
+<!-- metadata: orxvpje3e5 -->
+<!-- metadata: k0849h1u2u -->
+<!-- metadata: s8w053vkyk -->
+<!-- metadata: tge2lps61c -->
+<!-- metadata: 8lffef0zwh -->
 `contracts/IdentityRegistry.sol` provides:
 
 - `anchorCredential(bytes32 commitment, ClaimType, string issuer)` → emits `CredentialAnchored`
@@ -147,9 +157,6 @@ Every state-changing function emits an event so the social/identity graph can be
 ## 🎨 Design Tokens
 
 Defined in [`app/globals.css`](./app/globals.css) — the *Deep Sea* palette:
-
-| Token         | Value      |
-| ------------- | ---------- |
 | Background    | `#020617`  |
 | Surface       | `#0b1424`  |
 | Foreground    | `#e2e8f0`  |
