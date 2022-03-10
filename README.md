@@ -46,7 +46,6 @@ A decentralized identity & social data layer powered by **Zero-Knowledge Proofs*
 │   ├── vault-dashboard.tsx           # Credentials + Access Log UI
 │   └── ui/                           # shadcn/ui primitives
 ├── contracts/
-│   └── IdentityRegistry.sol          # On-chain anchors, revocations, social graph
 ├── lib/
 │   └── zkp-utils.ts                  # Hashing, claim eval, proof generation, verification
 ├── store/
@@ -152,6 +151,14 @@ Defined in [`app/globals.css`](./app/globals.css) — the *Deep Sea* palette:
 | ------------- | ---------- |
 | Background    | `#020617`  |
 | Surface       | `#0b1424`  |
+<!-- metadata: snkj1gfklo -->
+<!-- metadata: unp9mu1h6z -->
+<!-- metadata: e9qilmdv80 -->
+<!-- metadata: v4ityvzdbl -->
+<!-- metadata: rtw9pozubj -->
+<!-- metadata: xukelu7for -->
+<!-- metadata: z5b3o90oti -->
+<!-- metadata: s39imjzdq2 -->
 | Foreground    | `#e2e8f0`  |
 | Muted         | `#94a3b8`  |
 | **Accent**    | `#10b981`  |
