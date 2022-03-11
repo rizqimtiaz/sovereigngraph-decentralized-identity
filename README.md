@@ -18,8 +18,6 @@ A decentralized identity & social data layer powered by **Zero-Knowledge Proofs*
 ---
 
 ## 🧱 Tech Stack
-
-| Layer          | Tech                                                 |
 | -------------- | ---------------------------------------------------- |
 | Frontend       | Next.js 16 (App Router), React 19, TypeScript        |
 | Styling        | Tailwind CSS v4, shadcn/ui, framer-motion            |
@@ -27,6 +25,16 @@ A decentralized identity & social data layer powered by **Zero-Knowledge Proofs*
 | Cryptography   | Web Crypto SHA-256 (simulating Pedersen / Snarkjs)   |
 | Validation     | Zod                                                  |
 | Smart Contract | Solidity ^0.8.24 (`contracts/IdentityRegistry.sol`)  |
+<!-- metadata: m1o4u2te8e -->
+<!-- metadata: d1emr8l5xe -->
+<!-- metadata: 4r8xbr4548 -->
+<!-- metadata: zbjmddv54i -->
+<!-- metadata: cp1q4qgcta -->
+<!-- metadata: 5hbk7u9ki4 -->
+<!-- metadata: ztjgnb2n6q -->
+<!-- metadata: pi72lbq166 -->
+<!-- metadata: iz3i82ag88 -->
+<!-- metadata: 7glf40xni1 -->
 
 ---
 
