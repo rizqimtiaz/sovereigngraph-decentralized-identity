@@ -60,13 +60,13 @@ A decentralized identity & social data layer powered by **Zero-Knowledge Proofs*
 
 ### 1. Install dependencies
 
-```bash
-pnpm install
-```
-
 ### 2. Run the dev server
 
 ```bash
+<!-- metadata: 77p8rbfwds -->
+<!-- metadata: s4hcyoqriv -->
+<!-- metadata: wk1as23qi7 -->
+<!-- metadata: v2ezdshet0 -->
 pnpm dev
 ```
 
