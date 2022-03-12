@@ -89,6 +89,8 @@ Open [http://localhost:3000](http://localhost:3000).
 ```json
 {
   "credential": {
+    "id": "cred_…",
+    "type": "age_over",
     "label": "Government ID",
     "issuer": "State of California",
     "privateData": { "dateOfBirth": "1995-01-15" },
@@ -154,14 +156,6 @@ Defined in [`app/globals.css`](./app/globals.css) — the *Deep Sea* palette:
 | Muted         | `#94a3b8`  |
 | **Accent**    | `#10b981`  |
 
-<!-- metadata: zd6ypocdcl -->
-<!-- metadata: xv8bg3arbk -->
-<!-- metadata: q6usvj1n0p -->
-<!-- metadata: 8pstbekbmf -->
-<!-- metadata: zvugkef5z7 -->
-<!-- metadata: 1jni3pld77 -->
-<!-- metadata: jcl92m0d2s -->
-<!-- metadata: 3yk9nwbf3w -->
 ---
 
 ## 📦 Deploy
