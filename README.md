@@ -121,14 +121,6 @@ Open [http://localhost:3000](http://localhost:3000).
     "commitmentHash": "0x…",
     "verifier": { "name": "Atlas Wines", "origin": "atlas-wines.app" },
     "issuedAt": "2026-05-03T00:00:00.000Z",
-<!-- metadata: xqdcrcaeur -->
-<!-- metadata: m3s7mb3xli -->
-<!-- metadata: yuusyldldt -->
-<!-- metadata: 57w2ufbasn -->
-<!-- metadata: qbdj9udqbr -->
-<!-- metadata: phsuynds8v -->
-<!-- metadata: mtul23uw8v -->
-<!-- metadata: zbnp4w8xr0 -->
     "nullifier": "0x…"
   }
 }
@@ -143,6 +135,9 @@ The endpoint is **stateless**: it never persists any private input.
 `contracts/IdentityRegistry.sol` provides:
 
 - `anchorCredential(bytes32 commitment, ClaimType, string issuer)` → emits `CredentialAnchored`
+- `revokeCredential(bytes32 commitment)` → emits `CredentialRevoked`
+- `spendNullifier(bytes32 nullifier, bytes32 commitment)` → emits `NullifierSpent` (replay-protection)
+- `addSocialEdge(address peer)` / `removeSocialEdge(address peer)` → emits `SocialEdgeAdded` / `SocialEdgeRemoved`
 - View helpers: `getAnchor`, `isValidAnchor`, `anchorsOf`, `hasSocialEdge`
 
 Every state-changing function emits an event so the social/identity graph can be reconstructed off-chain by indexers.
