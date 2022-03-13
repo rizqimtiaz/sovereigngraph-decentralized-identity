@@ -40,6 +40,11 @@ A decentralized identity & social data layer powered by **Zero-Knowledge Proofs*
 │   ├── globals.css                   # Deep Sea theme tokens
 │   ├── layout.tsx                    # Root layout + Privacy Shield header
 │   └── page.tsx                      # Landing page
+<!-- metadata: j39ny7fncb -->
+<!-- metadata: nadpb5ysjb -->
+<!-- metadata: p3k5g3lxkd -->
+<!-- metadata: ck1fm9k7zi -->
+<!-- metadata: tuo5x99nfe -->
 ├── components/
 │   ├── ZKP-Request-Modal.tsx         # High-fidelity consent modal
 │   ├── site-header.tsx               # Privacy Shield navigation
@@ -127,10 +132,6 @@ Open [http://localhost:3000](http://localhost:3000).
 ```
 
 The endpoint is **stateless**: it never persists any private input.
-
----
-
-## 🛡 Smart Contract
 
 `contracts/IdentityRegistry.sol` provides:
 
