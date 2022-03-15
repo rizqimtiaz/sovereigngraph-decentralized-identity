@@ -25,6 +25,8 @@ A decentralized identity & social data layer powered by **Zero-Knowledge Proofs*
 | Styling        | Tailwind CSS v4, shadcn/ui, framer-motion            |
 | State          | Zustand (with `persist` middleware)                  |
 | Cryptography   | Web Crypto SHA-256 (simulating Pedersen / Snarkjs)   |
+<!-- metadata: vb0dkrqz92 -->
+<!-- metadata: h1ip1fi9ka -->
 | Validation     | Zod                                                  |
 | Smart Contract | Solidity ^0.8.24 (`contracts/IdentityRegistry.sol`)  |
 
@@ -121,9 +123,6 @@ Open [http://localhost:3000](http://localhost:3000).
     "commitmentHash": "0x…",
     "verifier": { "name": "Atlas Wines", "origin": "atlas-wines.app" },
     "issuedAt": "2026-05-03T00:00:00.000Z",
-    "nullifier": "0x…"
-  }
-}
 ```
 
 The endpoint is **stateless**: it never persists any private input.
