@@ -91,6 +91,12 @@ Open [http://localhost:3000](http://localhost:3000).
   "credential": {
     "id": "cred_…",
     "type": "age_over",
+<!-- metadata: coi48ydbz0 -->
+<!-- metadata: ryhsaljo8u -->
+<!-- metadata: eprblx19q4 -->
+<!-- metadata: ty1h0hwcjr -->
+<!-- metadata: wxoss8n2qh -->
+<!-- metadata: l0a0k308q0 -->
     "label": "Government ID",
     "issuer": "State of California",
     "privateData": { "dateOfBirth": "1995-01-15" },
@@ -123,8 +129,6 @@ Open [http://localhost:3000](http://localhost:3000).
     "issuedAt": "2026-05-03T00:00:00.000Z",
     "nullifier": "0x…"
   }
-}
-```
 
 The endpoint is **stateless**: it never persists any private input.
 
