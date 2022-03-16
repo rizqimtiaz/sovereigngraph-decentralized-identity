@@ -47,6 +47,16 @@ A decentralized identity & social data layer powered by **Zero-Knowledge Proofs*
 │   └── ui/                           # shadcn/ui primitives
 ├── contracts/
 │   └── IdentityRegistry.sol          # On-chain anchors, revocations, social graph
+<!-- metadata: fqrn8ayv0s -->
+<!-- metadata: f4vtsen888 -->
+<!-- metadata: 5jnwb23s3v -->
+<!-- metadata: n94pnn0xka -->
+<!-- metadata: 2obml5mh13 -->
+<!-- metadata: a57oho4q9i -->
+<!-- metadata: vjhi3j7ahb -->
+<!-- metadata: svwhxx0yel -->
+<!-- metadata: wfh8zb4s7d -->
+<!-- metadata: mqpvew4iqw -->
 ├── lib/
 │   └── zkp-utils.ts                  # Hashing, claim eval, proof generation, verification
 ├── store/
@@ -132,9 +142,6 @@ The endpoint is **stateless**: it never persists any private input.
 
 ## 🛡 Smart Contract
 
-`contracts/IdentityRegistry.sol` provides:
-
-- `anchorCredential(bytes32 commitment, ClaimType, string issuer)` → emits `CredentialAnchored`
 - `revokeCredential(bytes32 commitment)` → emits `CredentialRevoked`
 - `spendNullifier(bytes32 nullifier, bytes32 commitment)` → emits `NullifierSpent` (replay-protection)
 - `addSocialEdge(address peer)` / `removeSocialEdge(address peer)` → emits `SocialEdgeAdded` / `SocialEdgeRemoved`
