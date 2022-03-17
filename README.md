@@ -61,7 +61,6 @@ A decentralized identity & social data layer powered by **Zero-Knowledge Proofs*
 ### 1. Install dependencies
 
 ```bash
-pnpm install
 ```
 
 ### 2. Run the dev server
@@ -153,6 +152,11 @@ Defined in [`app/globals.css`](./app/globals.css) — the *Deep Sea* palette:
 | Background    | `#020617`  |
 | Surface       | `#0b1424`  |
 | Foreground    | `#e2e8f0`  |
+<!-- metadata: t8exp61ts4 -->
+<!-- metadata: 0k0dnkuk2q -->
+<!-- metadata: 1vet1w0au3 -->
+<!-- metadata: dgfl7tp8y5 -->
+<!-- metadata: 50kbcccxul -->
 | Muted         | `#94a3b8`  |
 | **Accent**    | `#10b981`  |
 
