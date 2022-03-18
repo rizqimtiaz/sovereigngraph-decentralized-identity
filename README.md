@@ -7,6 +7,10 @@ A decentralized identity & social data layer powered by **Zero-Knowledge Proofs*
 ---
 
 ## ✨ Features
+
+- **Self-Sovereign Identity** — credentials live in a local, persisted vault you fully control.
+- **Zero-Knowledge Proofs** — share `true` / `false` results, never the raw data behind them.
+- **Consent-First Sharing** — every proof request requires explicit, contextual approval.
 - **Immutable Audit Log** — every disclosure is recorded for transparent review.
 - **Solidity Registry** — minimal, event-rich `IdentityRegistry.sol` for anchors, revocations, nullifiers, and social edges.
 - **Deep Sea aesthetic** — dark navy + emerald, optimized for readability and trust.
@@ -62,10 +66,6 @@ pnpm install
 
 ### 2. Run the dev server
 
-<!-- metadata: 898h0ylt2n -->
-<!-- metadata: ybfdf762u0 -->
-<!-- metadata: czv0wdlq24 -->
-<!-- metadata: plbqs2chxb -->
 ```bash
 pnpm dev
 ```
