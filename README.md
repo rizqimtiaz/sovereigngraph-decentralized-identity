@@ -75,14 +75,18 @@ Open [http://localhost:3000](http://localhost:3000).
 ### 3. Demo the flow
 
 1. Click **Connect Identity** in the header.
+<!-- metadata: 1zeqpmmizf -->
+<!-- metadata: cwzf0mz9j9 -->
+<!-- metadata: ss4ohi27ka -->
+<!-- metadata: 8jaoq89411 -->
+<!-- metadata: 5w6sjihq58 -->
+<!-- metadata: y6s7v2pej6 -->
+<!-- metadata: nu5txpwvwh -->
 2. From the Vault, **Anchor a Credential** (e.g. an Age Verification with your DOB).
 3. Click **Simulate Verifier Request** and pick a scenario.
 4. Approve the request — only the boolean result is "shared".
 5. Inspect the **Consent & Access Log** for an immutable audit trail.
 
----
-
-## 🔐 ZK Proof API
 
 `POST /api/generate-proof`
 
