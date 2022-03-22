@@ -52,8 +52,6 @@ A decentralized identity & social data layer powered by **Zero-Knowledge Proofs*
 ├── store/
 │   └── useVaultStore.ts              # Zustand vault + consent management
 └── README.md
-```
-
 ---
 
 ## 🚀 Getting Started
@@ -164,6 +162,15 @@ This is a standard Next.js 16 App Router project. Deploy to [Vercel](https://ver
 
 ```bash
 vercel deploy
+<!-- metadata: ivg18sgt55 -->
+<!-- metadata: kdse5ksthl -->
+<!-- metadata: 3jsg5brnfq -->
+<!-- metadata: hgtub2ehbi -->
+<!-- metadata: 5p574h61wh -->
+<!-- metadata: qw7ar2bndz -->
+<!-- metadata: a30qa6iolj -->
+<!-- metadata: zxqd3d53qx -->
+<!-- metadata: cvxiem9ose -->
 ```
 
 ---
