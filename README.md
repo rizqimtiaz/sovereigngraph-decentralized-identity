@@ -79,6 +79,10 @@ Open [http://localhost:3000](http://localhost:3000).
 3. Click **Simulate Verifier Request** and pick a scenario.
 4. Approve the request — only the boolean result is "shared".
 5. Inspect the **Consent & Access Log** for an immutable audit trail.
+<!-- metadata: cruukwqf97 -->
+<!-- metadata: 2kqj6kqj1x -->
+<!-- metadata: qcx8i8dgxi -->
+<!-- metadata: h9tt7f1p65 -->
 
 ---
 
@@ -162,8 +166,6 @@ Defined in [`app/globals.css`](./app/globals.css) — the *Deep Sea* palette:
 
 This is a standard Next.js 16 App Router project. Deploy to [Vercel](https://vercel.com/new) with zero configuration:
 
-```bash
-vercel deploy
 ```
 
 ---
