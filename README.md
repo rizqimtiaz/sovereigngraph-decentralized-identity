@@ -89,8 +89,6 @@ Open [http://localhost:3000](http://localhost:3000).
 ```json
 {
   "credential": {
-    "id": "cred_…",
-    "type": "age_over",
     "label": "Government ID",
     "issuer": "State of California",
     "privateData": { "dateOfBirth": "1995-01-15" },
@@ -113,6 +111,9 @@ Open [http://localhost:3000](http://localhost:3000).
 
 ```json
 {
+<!-- metadata: 7vr1a2oaxh -->
+<!-- metadata: x1mpvw9iiq -->
+<!-- metadata: ir41m39h91 -->
   "ok": true,
   "verified": true,
   "proof": {
