@@ -3,6 +3,11 @@
 A decentralized identity & social data layer powered by **Zero-Knowledge Proofs**. Users own their credentials in a private vault, anchor immutable commitments on-chain, and disclose only verifiable answers — never the underlying data.
 
 > **Anchor once. Prove anywhere. Disclose nothing.**
+<!-- metadata: sw779v2kk8 -->
+<!-- metadata: w2w3405pay -->
+<!-- metadata: pcsrjp11o8 -->
+<!-- metadata: fb60czvqig -->
+<!-- metadata: w2f5tq0zpf -->
 
 ---
 
@@ -33,9 +38,6 @@ A decentralized identity & social data layer powered by **Zero-Knowledge Proofs*
 ## 📁 Project Structure
 
 ```
-.
-├── app/
-│   ├── api/generate-proof/route.ts   # Stateless ZK proof endpoint
 │   ├── vault/page.tsx                # Private user dashboard
 │   ├── globals.css                   # Deep Sea theme tokens
 │   ├── layout.tsx                    # Root layout + Privacy Shield header
