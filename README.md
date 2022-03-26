@@ -143,6 +143,7 @@ The endpoint is **stateless**: it never persists any private input.
 Every state-changing function emits an event so the social/identity graph can be reconstructed off-chain by indexers.
 
 ---
+
 ## 🎨 Design Tokens
 
 Defined in [`app/globals.css`](./app/globals.css) — the *Deep Sea* palette:
@@ -162,13 +163,6 @@ Defined in [`app/globals.css`](./app/globals.css) — the *Deep Sea* palette:
 This is a standard Next.js 16 App Router project. Deploy to [Vercel](https://vercel.com/new) with zero configuration:
 
 ```bash
-<!-- metadata: 81blga0ii6 -->
-<!-- metadata: 16jyr8b7b8 -->
-<!-- metadata: 7632whane5 -->
-<!-- metadata: zzy27dr0gk -->
-<!-- metadata: x6lskqysaz -->
-<!-- metadata: 1r6t95mbbd -->
-<!-- metadata: wc06imwna4 -->
 vercel deploy
 ```
 
