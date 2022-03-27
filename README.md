@@ -33,10 +33,6 @@ A decentralized identity & social data layer powered by **Zero-Knowledge Proofs*
 ## 📁 Project Structure
 
 ```
-<!-- metadata: th3i6zyrj7 -->
-<!-- metadata: 0rmhu3rdx4 -->
-<!-- metadata: om57bwgr6q -->
-<!-- metadata: 5ojb88hzf5 -->
 .
 ├── app/
 │   ├── api/generate-proof/route.ts   # Stateless ZK proof endpoint
@@ -67,6 +63,9 @@ A decentralized identity & social data layer powered by **Zero-Knowledge Proofs*
 ```bash
 pnpm install
 ```
+
+### 2. Run the dev server
+
 ```bash
 pnpm dev
 ```
