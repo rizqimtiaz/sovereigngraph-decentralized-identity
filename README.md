@@ -95,14 +95,6 @@ Open [http://localhost:3000](http://localhost:3000).
     "issuer": "State of California",
     "privateData": { "dateOfBirth": "1995-01-15" },
     "commitmentHash": "0x…",
-<!-- metadata: mp1rzfuow9 -->
-<!-- metadata: eaxvawyik9 -->
-<!-- metadata: w8a8z3aowz -->
-<!-- metadata: jwr422yj19 -->
-<!-- metadata: 7izdanqais -->
-<!-- metadata: t26mxcmu0e -->
-<!-- metadata: w0snmcqmib -->
-<!-- metadata: jv0o27x8ne -->
     "anchoredAt": "2026-05-03T00:00:00.000Z",
     "revoked": false
   },
@@ -126,6 +118,9 @@ Open [http://localhost:3000](http://localhost:3000).
   "proof": {
     "proof": "0x…",
     "publicSignals": { "result": true, "threshold": 21, "claimType": "age_over" },
+    "commitmentHash": "0x…",
+    "verifier": { "name": "Atlas Wines", "origin": "atlas-wines.app" },
+    "issuedAt": "2026-05-03T00:00:00.000Z",
     "nullifier": "0x…"
   }
 }
