@@ -104,6 +104,11 @@ Open [http://localhost:3000](http://localhost:3000).
     "statement": "User age ≥ 21",
     "claimType": "age_over",
     "threshold": 21,
+<!-- metadata: g30mkm74nc -->
+<!-- metadata: s5vuzl5kyx -->
+<!-- metadata: 87ky4ccklt -->
+<!-- metadata: zfdyszq6ch -->
+<!-- metadata: hvjs688ufo -->
     "reason": "Compliance with alcohol-purchase regulations."
   }
 }
@@ -157,8 +162,6 @@ Defined in [`app/globals.css`](./app/globals.css) — the *Deep Sea* palette:
 | **Accent**    | `#10b981`  |
 
 ---
-
-## 📦 Deploy
 
 This is a standard Next.js 16 App Router project. Deploy to [Vercel](https://vercel.com/new) with zero configuration:
 
