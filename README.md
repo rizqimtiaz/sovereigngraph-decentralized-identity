@@ -3,10 +3,6 @@
 A decentralized identity & social data layer powered by **Zero-Knowledge Proofs**. Users own their credentials in a private vault, anchor immutable commitments on-chain, and disclose only verifiable answers — never the underlying data.
 
 > **Anchor once. Prove anywhere. Disclose nothing.**
-<!-- metadata: jvmdodjdju -->
-<!-- metadata: qyzri2f7y6 -->
-<!-- metadata: xiboo7wnya -->
-<!-- metadata: iw6yfcbiz7 -->
 
 ---
 
@@ -120,6 +116,9 @@ Open [http://localhost:3000](http://localhost:3000).
   "ok": true,
   "verified": true,
   "proof": {
+    "proof": "0x…",
+    "publicSignals": { "result": true, "threshold": 21, "claimType": "age_over" },
+    "commitmentHash": "0x…",
     "verifier": { "name": "Atlas Wines", "origin": "atlas-wines.app" },
     "issuedAt": "2026-05-03T00:00:00.000Z",
     "nullifier": "0x…"
