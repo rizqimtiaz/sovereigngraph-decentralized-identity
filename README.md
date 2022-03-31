@@ -40,6 +40,8 @@ A decentralized identity & social data layer powered by **Zero-Knowledge Proofs*
 │   ├── globals.css                   # Deep Sea theme tokens
 │   ├── layout.tsx                    # Root layout + Privacy Shield header
 │   └── page.tsx                      # Landing page
+├── components/
+│   ├── ZKP-Request-Modal.tsx         # High-fidelity consent modal
 │   ├── site-header.tsx               # Privacy Shield navigation
 │   ├── vault-dashboard.tsx           # Credentials + Access Log UI
 │   └── ui/                           # shadcn/ui primitives
@@ -72,14 +74,6 @@ Open [http://localhost:3000](http://localhost:3000).
 
 ### 3. Demo the flow
 
-<!-- metadata: 1rmnbd9fg3 -->
-<!-- metadata: h4e3fzexdg -->
-<!-- metadata: ui406nptkf -->
-<!-- metadata: bztavsg9v5 -->
-<!-- metadata: elg5v7uc37 -->
-<!-- metadata: ovayf05bj6 -->
-<!-- metadata: j7cnagd6hs -->
-<!-- metadata: juv86bjuwz -->
 1. Click **Connect Identity** in the header.
 2. From the Vault, **Anchor a Credential** (e.g. an Age Verification with your DOB).
 3. Click **Simulate Verifier Request** and pick a scenario.
