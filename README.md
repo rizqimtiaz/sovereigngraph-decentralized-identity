@@ -81,6 +81,13 @@ Open [http://localhost:3000](http://localhost:3000).
 5. Inspect the **Consent & Access Log** for an immutable audit trail.
 
 ---
+<!-- metadata: 8nf05otazd -->
+<!-- metadata: h5qahumtq0 -->
+<!-- metadata: 7a0iyqodrj -->
+<!-- metadata: dydvmlhyem -->
+<!-- metadata: yrvigjszc3 -->
+<!-- metadata: 4wx2ez1gtk -->
+<!-- metadata: x8rxic1e0f -->
 
 ## 🔐 ZK Proof API
 
@@ -166,7 +173,6 @@ This is a standard Next.js 16 App Router project. Deploy to [Vercel](https://ver
 vercel deploy
 ```
 
----
 
 ## 📄 License
 
