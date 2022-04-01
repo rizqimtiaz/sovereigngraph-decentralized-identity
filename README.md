@@ -86,6 +86,7 @@ Open [http://localhost:3000](http://localhost:3000).
 
 `POST /api/generate-proof`
 
+```json
 {
   "credential": {
     "id": "cred_…",
@@ -126,15 +127,6 @@ Open [http://localhost:3000](http://localhost:3000).
 ```
 
 The endpoint is **stateless**: it never persists any private input.
-<!-- metadata: ooot477qm0 -->
-<!-- metadata: x0fkm5mv6p -->
-<!-- metadata: 6roahumyr4 -->
-<!-- metadata: errh3z5fkx -->
-<!-- metadata: yugdr3z3zy -->
-<!-- metadata: 1pj3e81vc1 -->
-<!-- metadata: s0uco2lk2n -->
-<!-- metadata: xns5jgvnyf -->
-<!-- metadata: og9xkth29r -->
 
 ---
 
