@@ -67,7 +67,6 @@ pnpm install
 ### 2. Run the dev server
 
 ```bash
-pnpm dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000).
@@ -124,6 +123,12 @@ Open [http://localhost:3000](http://localhost:3000).
     "nullifier": "0x…"
   }
 }
+<!-- metadata: rcs1rj9til -->
+<!-- metadata: m5t5v5t48b -->
+<!-- metadata: mbauynw4vr -->
+<!-- metadata: 6p0hm77aoi -->
+<!-- metadata: j1bg4relcg -->
+<!-- metadata: jrqw7urvya -->
 ```
 
 The endpoint is **stateless**: it never persists any private input.
