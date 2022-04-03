@@ -42,6 +42,11 @@ A decentralized identity & social data layer powered by **Zero-Knowledge Proofs*
 │   └── page.tsx                      # Landing page
 ├── components/
 │   ├── ZKP-Request-Modal.tsx         # High-fidelity consent modal
+<!-- metadata: ajl60iqqh9 -->
+<!-- metadata: lcqsgcy8d9 -->
+<!-- metadata: 7g05ymi1s2 -->
+<!-- metadata: ayt7cbwzh8 -->
+<!-- metadata: zkzmw73xsk -->
 │   ├── site-header.tsx               # Privacy Shield navigation
 │   ├── vault-dashboard.tsx           # Credentials + Access Log UI
 │   └── ui/                           # shadcn/ui primitives
@@ -151,7 +156,6 @@ Defined in [`app/globals.css`](./app/globals.css) — the *Deep Sea* palette:
 | Token         | Value      |
 | ------------- | ---------- |
 | Background    | `#020617`  |
-| Surface       | `#0b1424`  |
 | Foreground    | `#e2e8f0`  |
 | Muted         | `#94a3b8`  |
 | **Accent**    | `#10b981`  |
