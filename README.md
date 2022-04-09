@@ -88,6 +88,7 @@ Open [http://localhost:3000](http://localhost:3000).
 
 ```json
 {
+  "credential": {
     "id": "cred_…",
     "type": "age_over",
     "label": "Government ID",
@@ -122,7 +123,6 @@ Open [http://localhost:3000](http://localhost:3000).
     "issuedAt": "2026-05-03T00:00:00.000Z",
     "nullifier": "0x…"
   }
-<!-- metadata: vd30pn160y -->
 }
 ```
 
