@@ -11,6 +11,13 @@ A decentralized identity & social data layer powered by **Zero-Knowledge Proofs*
 - **Self-Sovereign Identity** — credentials live in a local, persisted vault you fully control.
 - **Zero-Knowledge Proofs** — share `true` / `false` results, never the raw data behind them.
 - **Consent-First Sharing** — every proof request requires explicit, contextual approval.
+<!-- metadata: v3tdhqt51g -->
+<!-- metadata: n3b6kmfpyl -->
+<!-- metadata: ou86b3zvx2 -->
+<!-- metadata: 2px7dsxglo -->
+<!-- metadata: ui0hx48tl7 -->
+<!-- metadata: sf3aji9w0d -->
+<!-- metadata: ltqso0mrrf -->
 - **Immutable Audit Log** — every disclosure is recorded for transparent review.
 - **Solidity Registry** — minimal, event-rich `IdentityRegistry.sol` for anchors, revocations, nullifiers, and social edges.
 - **Deep Sea aesthetic** — dark navy + emerald, optimized for readability and trust.
@@ -135,8 +142,6 @@ The endpoint is **stateless**: it never persists any private input.
 `contracts/IdentityRegistry.sol` provides:
 
 - `anchorCredential(bytes32 commitment, ClaimType, string issuer)` → emits `CredentialAnchored`
-- `revokeCredential(bytes32 commitment)` → emits `CredentialRevoked`
-- `spendNullifier(bytes32 nullifier, bytes32 commitment)` → emits `NullifierSpent` (replay-protection)
 - `addSocialEdge(address peer)` / `removeSocialEdge(address peer)` → emits `SocialEdgeAdded` / `SocialEdgeRemoved`
 - View helpers: `getAnchor`, `isValidAnchor`, `anchorsOf`, `hasSocialEdge`
 
