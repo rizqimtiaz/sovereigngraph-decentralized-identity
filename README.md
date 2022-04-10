@@ -1,10 +1,6 @@
 # SovereignGraph — Privacy-First Social Data Layer
 
 A decentralized identity & social data layer powered by **Zero-Knowledge Proofs**. Users own their credentials in a private vault, anchor immutable commitments on-chain, and disclose only verifiable answers — never the underlying data.
-<!-- metadata: t1ou6l0rea -->
-<!-- metadata: 9xl88zszkh -->
-<!-- metadata: fqtmwoxe27 -->
-<!-- metadata: eb18tgbkss -->
 
 > **Anchor once. Prove anywhere. Disclose nothing.**
 
@@ -52,6 +48,8 @@ A decentralized identity & social data layer powered by **Zero-Knowledge Proofs*
 ├── contracts/
 │   └── IdentityRegistry.sol          # On-chain anchors, revocations, social graph
 ├── lib/
+│   └── zkp-utils.ts                  # Hashing, claim eval, proof generation, verification
+├── store/
 │   └── useVaultStore.ts              # Zustand vault + consent management
 └── README.md
 ```
