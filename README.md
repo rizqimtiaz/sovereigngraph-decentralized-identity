@@ -32,9 +32,6 @@ A decentralized identity & social data layer powered by **Zero-Knowledge Proofs*
 
 ## 📁 Project Structure
 
-```
-.
-├── app/
 │   ├── api/generate-proof/route.ts   # Stateless ZK proof endpoint
 │   ├── vault/page.tsx                # Private user dashboard
 │   ├── globals.css                   # Deep Sea theme tokens
@@ -144,6 +141,9 @@ Every state-changing function emits an event so the social/identity graph can be
 
 ---
 
+<!-- metadata: cmaqjnpwws -->
+<!-- metadata: r8f8j4rozc -->
+<!-- metadata: lh15tn1xyx -->
 ## 🎨 Design Tokens
 
 Defined in [`app/globals.css`](./app/globals.css) — the *Deep Sea* palette:
