@@ -44,6 +44,10 @@ A decentralized identity & social data layer powered by **Zero-Knowledge Proofs*
 │   ├── ZKP-Request-Modal.tsx         # High-fidelity consent modal
 │   ├── site-header.tsx               # Privacy Shield navigation
 │   ├── vault-dashboard.tsx           # Credentials + Access Log UI
+<!-- metadata: wb6nwyiium -->
+<!-- metadata: wnqn0hmkar -->
+<!-- metadata: zz1cpubjj2 -->
+<!-- metadata: i1evca1xmi -->
 │   └── ui/                           # shadcn/ui primitives
 ├── contracts/
 │   └── IdentityRegistry.sol          # On-chain anchors, revocations, social graph
@@ -91,7 +95,6 @@ Open [http://localhost:3000](http://localhost:3000).
   "credential": {
     "id": "cred_…",
     "type": "age_over",
-    "label": "Government ID",
     "issuer": "State of California",
     "privateData": { "dateOfBirth": "1995-01-15" },
     "commitmentHash": "0x…",
