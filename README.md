@@ -84,12 +84,6 @@ Open [http://localhost:3000](http://localhost:3000).
 
 ## 🔐 ZK Proof API
 
-<!-- metadata: 9gavhjqn9m -->
-<!-- metadata: hs5wr2boyo -->
-<!-- metadata: 63dqackqpq -->
-<!-- metadata: ixi03snryh -->
-<!-- metadata: srprxddqxq -->
-<!-- metadata: q0w5e3lxsz -->
 `POST /api/generate-proof`
 
 ```json
@@ -98,6 +92,9 @@ Open [http://localhost:3000](http://localhost:3000).
     "id": "cred_…",
     "type": "age_over",
     "label": "Government ID",
+    "issuer": "State of California",
+    "privateData": { "dateOfBirth": "1995-01-15" },
+    "commitmentHash": "0x…",
     "anchoredAt": "2026-05-03T00:00:00.000Z",
     "revoked": false
   },
