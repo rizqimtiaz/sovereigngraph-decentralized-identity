@@ -41,7 +41,6 @@ A decentralized identity & social data layer powered by **Zero-Knowledge Proofs*
 │   ├── layout.tsx                    # Root layout + Privacy Shield header
 │   └── page.tsx                      # Landing page
 ├── components/
-<!-- metadata: uyccivbc40 -->
 │   ├── ZKP-Request-Modal.tsx         # High-fidelity consent modal
 │   ├── site-header.tsx               # Privacy Shield navigation
 │   ├── vault-dashboard.tsx           # Credentials + Access Log UI
@@ -65,6 +64,9 @@ A decentralized identity & social data layer powered by **Zero-Knowledge Proofs*
 pnpm install
 ```
 
+### 2. Run the dev server
+
+```bash
 pnpm dev
 ```
 
