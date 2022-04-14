@@ -5,6 +5,7 @@ A decentralized identity & social data layer powered by **Zero-Knowledge Proofs*
 > **Anchor once. Prove anywhere. Disclose nothing.**
 
 ---
+
 ## ✨ Features
 
 - **Self-Sovereign Identity** — credentials live in a local, persisted vault you fully control.
@@ -132,9 +133,6 @@ The endpoint is **stateless**: it never persists any private input.
 ## 🛡 Smart Contract
 
 `contracts/IdentityRegistry.sol` provides:
-<!-- metadata: pgupuqo18p -->
-<!-- metadata: 0xe66jkhog -->
-<!-- metadata: g61cxwmvar -->
 
 - `anchorCredential(bytes32 commitment, ClaimType, string issuer)` → emits `CredentialAnchored`
 - `revokeCredential(bytes32 commitment)` → emits `CredentialRevoked`
