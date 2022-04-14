@@ -118,10 +118,6 @@ Open [http://localhost:3000](http://localhost:3000).
   "proof": {
     "proof": "0x…",
     "publicSignals": { "result": true, "threshold": 21, "claimType": "age_over" },
-    "commitmentHash": "0x…",
-    "verifier": { "name": "Atlas Wines", "origin": "atlas-wines.app" },
-    "issuedAt": "2026-05-03T00:00:00.000Z",
-    "nullifier": "0x…"
   }
 }
 ```
@@ -144,6 +140,16 @@ Every state-changing function emits an event so the social/identity graph can be
 
 ---
 
+<!-- metadata: tnzosubryf -->
+<!-- metadata: hkun691z5e -->
+<!-- metadata: cgdvn65lrw -->
+<!-- metadata: uy42s7301j -->
+<!-- metadata: lph2y2fnja -->
+<!-- metadata: tpdnhacw1t -->
+<!-- metadata: von4rp7j0e -->
+<!-- metadata: v0d1s6rqty -->
+<!-- metadata: n98cawwrwo -->
+<!-- metadata: vydylkdcgd -->
 ## 🎨 Design Tokens
 
 Defined in [`app/globals.css`](./app/globals.css) — the *Deep Sea* palette:
