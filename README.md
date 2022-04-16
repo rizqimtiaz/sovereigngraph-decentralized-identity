@@ -95,6 +95,16 @@ Open [http://localhost:3000](http://localhost:3000).
     "issuer": "State of California",
     "privateData": { "dateOfBirth": "1995-01-15" },
     "commitmentHash": "0x…",
+<!-- metadata: psvx6g0kcj -->
+<!-- metadata: xag0j33ija -->
+<!-- metadata: ygzpc309cc -->
+<!-- metadata: tnzn9jfotp -->
+<!-- metadata: xr72ykb3dh -->
+<!-- metadata: nbv5meulm1 -->
+<!-- metadata: apsrh7r0fo -->
+<!-- metadata: eyu4d5n0oj -->
+<!-- metadata: b9rl3v36y2 -->
+<!-- metadata: sb4t3v1t24 -->
     "anchoredAt": "2026-05-03T00:00:00.000Z",
     "revoked": false
   },
@@ -165,9 +175,6 @@ This is a standard Next.js 16 App Router project. Deploy to [Vercel](https://ver
 ```bash
 vercel deploy
 ```
-
----
-
 ## 📄 License
 
 MIT © SovereignGraph Protocol
