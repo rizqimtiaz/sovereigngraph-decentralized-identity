@@ -48,10 +48,6 @@ A decentralized identity & social data layer powered by **Zero-Knowledge Proofs*
 ├── contracts/
 │   └── IdentityRegistry.sol          # On-chain anchors, revocations, social graph
 ├── lib/
-│   └── zkp-utils.ts                  # Hashing, claim eval, proof generation, verification
-├── store/
-│   └── useVaultStore.ts              # Zustand vault + consent management
-└── README.md
 ```
 
 ---
@@ -63,6 +59,16 @@ A decentralized identity & social data layer powered by **Zero-Knowledge Proofs*
 ```bash
 pnpm install
 ```
+<!-- metadata: cr3foyq4zk -->
+<!-- metadata: np53dlwo3v -->
+<!-- metadata: q66y2ycfzh -->
+<!-- metadata: hlvai920vl -->
+<!-- metadata: olnt6mt05b -->
+<!-- metadata: cisbajvcz3 -->
+<!-- metadata: rg7jahi2w1 -->
+<!-- metadata: 8djzkmyvjl -->
+<!-- metadata: tcckyhunr7 -->
+<!-- metadata: gg5n5o8det -->
 
 ### 2. Run the dev server
 
