@@ -6,15 +6,6 @@ A decentralized identity & social data layer powered by **Zero-Knowledge Proofs*
 
 ---
 
-<!-- metadata: e0vifbqmvt -->
-<!-- metadata: 2ts6m2g0f3 -->
-<!-- metadata: llzy0ebmfa -->
-<!-- metadata: a1vwhuzdvo -->
-<!-- metadata: r6s1nqfr5v -->
-<!-- metadata: x285nupx6l -->
-<!-- metadata: lq6spo8rr4 -->
-<!-- metadata: 68x1a6j2ca -->
-<!-- metadata: x3cvthhe9u -->
 ## ✨ Features
 
 - **Self-Sovereign Identity** — credentials live in a local, persisted vault you fully control.
@@ -107,6 +98,7 @@ Open [http://localhost:3000](http://localhost:3000).
     "anchoredAt": "2026-05-03T00:00:00.000Z",
     "revoked": false
   },
+  "request": {
     "appName": "Atlas Wines",
     "appOrigin": "atlas-wines.app",
     "statement": "User age ≥ 21",
