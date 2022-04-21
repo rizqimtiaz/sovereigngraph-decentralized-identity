@@ -102,10 +102,6 @@ Open [http://localhost:3000](http://localhost:3000).
     "appName": "Atlas Wines",
     "appOrigin": "atlas-wines.app",
     "statement": "User age ≥ 21",
-    "claimType": "age_over",
-    "threshold": 21,
-    "reason": "Compliance with alcohol-purchase regulations."
-  }
 }
 ```
 
@@ -161,6 +157,14 @@ Defined in [`app/globals.css`](./app/globals.css) — the *Deep Sea* palette:
 ## 📦 Deploy
 
 This is a standard Next.js 16 App Router project. Deploy to [Vercel](https://vercel.com/new) with zero configuration:
+<!-- metadata: dddibzpa7c -->
+<!-- metadata: 6bx7hy26vt -->
+<!-- metadata: zreyiepdki -->
+<!-- metadata: odam3pmxqp -->
+<!-- metadata: 6ikksmnwp7 -->
+<!-- metadata: mibr9mx9wh -->
+<!-- metadata: mfc5g64o9g -->
+<!-- metadata: qd52nm7gew -->
 
 ```bash
 vercel deploy
