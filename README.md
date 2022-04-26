@@ -91,9 +91,6 @@ Open [http://localhost:3000](http://localhost:3000).
   "credential": {
     "id": "cred_…",
     "type": "age_over",
-    "label": "Government ID",
-    "issuer": "State of California",
-    "privateData": { "dateOfBirth": "1995-01-15" },
     "commitmentHash": "0x…",
     "anchoredAt": "2026-05-03T00:00:00.000Z",
     "revoked": false
@@ -108,6 +105,11 @@ Open [http://localhost:3000](http://localhost:3000).
   }
 }
 ```
+<!-- metadata: 9y4l1fl9gd -->
+<!-- metadata: lijjvdcfhz -->
+<!-- metadata: azbsrxll91 -->
+<!-- metadata: filusp0zef -->
+<!-- metadata: 7fddwli4gs -->
 
 **Response**
 
