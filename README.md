@@ -94,16 +94,13 @@ Open [http://localhost:3000](http://localhost:3000).
     "label": "Government ID",
     "issuer": "State of California",
     "privateData": { "dateOfBirth": "1995-01-15" },
+    "commitmentHash": "0x…",
+    "anchoredAt": "2026-05-03T00:00:00.000Z",
     "revoked": false
   },
   "request": {
     "appName": "Atlas Wines",
     "appOrigin": "atlas-wines.app",
-<!-- metadata: 9mae27p890 -->
-<!-- metadata: 20quv9683l -->
-<!-- metadata: cp377xrejk -->
-<!-- metadata: wuv8grm7m6 -->
-<!-- metadata: dbp51qdxcj -->
     "statement": "User age ≥ 21",
     "claimType": "age_over",
     "threshold": 21,
