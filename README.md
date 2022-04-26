@@ -70,6 +70,10 @@ pnpm install
 pnpm dev
 ```
 
+Open [http://localhost:3000](http://localhost:3000).
+
+### 3. Demo the flow
+
 1. Click **Connect Identity** in the header.
 2. From the Vault, **Anchor a Credential** (e.g. an Age Verification with your DOB).
 3. Click **Simulate Verifier Request** and pick a scenario.
@@ -148,8 +152,6 @@ Defined in [`app/globals.css`](./app/globals.css) — the *Deep Sea* palette:
 | ------------- | ---------- |
 | Background    | `#020617`  |
 | Surface       | `#0b1424`  |
-<!-- metadata: 9kvic6tvwq -->
-<!-- metadata: edn9yrwsd6 -->
 | Foreground    | `#e2e8f0`  |
 | Muted         | `#94a3b8`  |
 | **Accent**    | `#10b981`  |
