@@ -1,6 +1,15 @@
 # SovereignGraph — Privacy-First Social Data Layer
 
 A decentralized identity & social data layer powered by **Zero-Knowledge Proofs**. Users own their credentials in a private vault, anchor immutable commitments on-chain, and disclose only verifiable answers — never the underlying data.
+<!-- metadata: qtrso73wos -->
+<!-- metadata: d7cawdvf7g -->
+<!-- metadata: o6qm9q5q41 -->
+<!-- metadata: ju4xonscas -->
+<!-- metadata: tngw7w58pb -->
+<!-- metadata: fxqyae07ac -->
+<!-- metadata: 8mujjk04x2 -->
+<!-- metadata: ql4wgb22qp -->
+<!-- metadata: 2eekwmkm2f -->
 
 > **Anchor once. Prove anywhere. Disclose nothing.**
 
@@ -71,8 +80,6 @@ pnpm dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000).
-
-### 3. Demo the flow
 
 1. Click **Connect Identity** in the header.
 2. From the Vault, **Anchor a Credential** (e.g. an Age Verification with your DOB).
