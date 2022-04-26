@@ -74,6 +74,7 @@ Open [http://localhost:3000](http://localhost:3000).
 
 ### 3. Demo the flow
 
+1. Click **Connect Identity** in the header.
 2. From the Vault, **Anchor a Credential** (e.g. an Age Verification with your DOB).
 3. Click **Simulate Verifier Request** and pick a scenario.
 4. Approve the request — only the boolean result is "shared".
@@ -146,10 +147,6 @@ Every state-changing function emits an event so the social/identity graph can be
 ## 🎨 Design Tokens
 
 Defined in [`app/globals.css`](./app/globals.css) — the *Deep Sea* palette:
-<!-- metadata: 8dcay6xua3 -->
-<!-- metadata: 4tu4xzh3wg -->
-<!-- metadata: ro422m95g2 -->
-<!-- metadata: vbm1oivq31 -->
 
 | Token         | Value      |
 | ------------- | ---------- |
