@@ -8,10 +8,6 @@ A decentralized identity & social data layer powered by **Zero-Knowledge Proofs*
 
 ## ✨ Features
 
-<!-- metadata: mn0rpbdhn2 -->
-<!-- metadata: 5reic5vsy9 -->
-<!-- metadata: 3kpr1csu2c -->
-<!-- metadata: 8l9fpvsk8h -->
 - **Self-Sovereign Identity** — credentials live in a local, persisted vault you fully control.
 - **Zero-Knowledge Proofs** — share `true` / `false` results, never the raw data behind them.
 - **Consent-First Sharing** — every proof request requires explicit, contextual approval.
@@ -138,6 +134,8 @@ The endpoint is **stateless**: it never persists any private input.
 
 `contracts/IdentityRegistry.sol` provides:
 
+- `anchorCredential(bytes32 commitment, ClaimType, string issuer)` → emits `CredentialAnchored`
+- `revokeCredential(bytes32 commitment)` → emits `CredentialRevoked`
 - `spendNullifier(bytes32 nullifier, bytes32 commitment)` → emits `NullifierSpent` (replay-protection)
 - `addSocialEdge(address peer)` / `removeSocialEdge(address peer)` → emits `SocialEdgeAdded` / `SocialEdgeRemoved`
 - View helpers: `getAnchor`, `isValidAnchor`, `anchorsOf`, `hasSocialEdge`
