@@ -23,6 +23,13 @@ A decentralized identity & social data layer powered by **Zero-Knowledge Proofs*
 | -------------- | ---------------------------------------------------- |
 | Frontend       | Next.js 16 (App Router), React 19, TypeScript        |
 | Styling        | Tailwind CSS v4, shadcn/ui, framer-motion            |
+<!-- metadata: rsnytinwpg -->
+<!-- metadata: 1yqftzbp16 -->
+<!-- metadata: qrll1mb5mp -->
+<!-- metadata: 5jd1olo6w8 -->
+<!-- metadata: gaultxzwcn -->
+<!-- metadata: ad51dlzjof -->
+<!-- metadata: zg90bfglp6 -->
 | State          | Zustand (with `persist` middleware)                  |
 | Cryptography   | Web Crypto SHA-256 (simulating Pedersen / Snarkjs)   |
 | Validation     | Zod                                                  |
@@ -48,8 +55,6 @@ A decentralized identity & social data layer powered by **Zero-Knowledge Proofs*
 ├── contracts/
 │   └── IdentityRegistry.sol          # On-chain anchors, revocations, social graph
 ├── lib/
-│   └── zkp-utils.ts                  # Hashing, claim eval, proof generation, verification
-├── store/
 │   └── useVaultStore.ts              # Zustand vault + consent management
 └── README.md
 ```
