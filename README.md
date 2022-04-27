@@ -50,6 +50,12 @@ A decentralized identity & social data layer powered by **Zero-Knowledge Proofs*
 ├── lib/
 │   └── zkp-utils.ts                  # Hashing, claim eval, proof generation, verification
 ├── store/
+<!-- metadata: n2k1xrbl86 -->
+<!-- metadata: cv4gbseoo0 -->
+<!-- metadata: soqm0qg0vv -->
+<!-- metadata: 26bxpc829f -->
+<!-- metadata: vbtlc8tqac -->
+<!-- metadata: oc3zuydlbe -->
 │   └── useVaultStore.ts              # Zustand vault + consent management
 └── README.md
 ```
@@ -66,9 +72,6 @@ pnpm install
 
 ### 2. Run the dev server
 
-```bash
-pnpm dev
-```
 
 Open [http://localhost:3000](http://localhost:3000).
 
