@@ -4,9 +4,6 @@ A decentralized identity & social data layer powered by **Zero-Knowledge Proofs*
 
 > **Anchor once. Prove anywhere. Disclose nothing.**
 
-<!-- metadata: 5v18afurij -->
-<!-- metadata: 6filnyirgr -->
-<!-- metadata: bw46ebf9ck -->
 ---
 
 ## ✨ Features
@@ -123,6 +120,7 @@ Open [http://localhost:3000](http://localhost:3000).
     "publicSignals": { "result": true, "threshold": 21, "claimType": "age_over" },
     "commitmentHash": "0x…",
     "verifier": { "name": "Atlas Wines", "origin": "atlas-wines.app" },
+    "issuedAt": "2026-05-03T00:00:00.000Z",
     "nullifier": "0x…"
   }
 }
