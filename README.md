@@ -33,16 +33,6 @@ A decentralized identity & social data layer powered by **Zero-Knowledge Proofs*
 ## 📁 Project Structure
 
 ```
-<!-- metadata: 2p0iqmnxku -->
-<!-- metadata: fx57qdmijc -->
-<!-- metadata: wigv7cf0x5 -->
-<!-- metadata: mwe9ck11g1 -->
-<!-- metadata: ugt7rnzyre -->
-<!-- metadata: v68ojrdxpi -->
-<!-- metadata: zzyeve361n -->
-<!-- metadata: ohdborhspu -->
-<!-- metadata: rccjgkom7x -->
-<!-- metadata: so3do59256 -->
 .
 ├── app/
 │   ├── api/generate-proof/route.ts   # Stateless ZK proof endpoint
@@ -75,6 +65,8 @@ pnpm install
 ```
 
 ### 2. Run the dev server
+
+```bash
 pnpm dev
 ```
 
