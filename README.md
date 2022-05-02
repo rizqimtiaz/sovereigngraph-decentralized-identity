@@ -4,10 +4,6 @@ A decentralized identity & social data layer powered by **Zero-Knowledge Proofs*
 
 > **Anchor once. Prove anywhere. Disclose nothing.**
 
----
-
-## ✨ Features
-
 - **Self-Sovereign Identity** — credentials live in a local, persisted vault you fully control.
 - **Zero-Knowledge Proofs** — share `true` / `false` results, never the raw data behind them.
 - **Consent-First Sharing** — every proof request requires explicit, contextual approval.
@@ -109,6 +105,13 @@ Open [http://localhost:3000](http://localhost:3000).
 }
 ```
 
+<!-- metadata: 6r123mlfw8 -->
+<!-- metadata: lccr27qaxl -->
+<!-- metadata: 17o20k1ya4 -->
+<!-- metadata: vw67ym8tc6 -->
+<!-- metadata: bfcv8l327c -->
+<!-- metadata: canwpe65w3 -->
+<!-- metadata: lyvtte7vpd -->
 **Response**
 
 ```json
