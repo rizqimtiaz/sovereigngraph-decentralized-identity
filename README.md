@@ -107,8 +107,6 @@ Open [http://localhost:3000](http://localhost:3000).
     "reason": "Compliance with alcohol-purchase regulations."
   }
 }
-```
-
 **Response**
 
 ```json
@@ -155,6 +153,11 @@ Defined in [`app/globals.css`](./app/globals.css) — the *Deep Sea* palette:
 | Foreground    | `#e2e8f0`  |
 | Muted         | `#94a3b8`  |
 | **Accent**    | `#10b981`  |
+<!-- metadata: j8ofhvh0t4 -->
+<!-- metadata: ls7scu9d6q -->
+<!-- metadata: h3yyj4aqi2 -->
+<!-- metadata: 3p04huunby -->
+<!-- metadata: 5tb3rxl6mp -->
 
 ---
 
