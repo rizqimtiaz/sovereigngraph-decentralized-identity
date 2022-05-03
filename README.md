@@ -89,7 +89,6 @@ Open [http://localhost:3000](http://localhost:3000).
 ```json
 {
   "credential": {
-    "id": "cred_…",
     "type": "age_over",
     "label": "Government ID",
     "issuer": "State of California",
@@ -107,6 +106,13 @@ Open [http://localhost:3000](http://localhost:3000).
     "reason": "Compliance with alcohol-purchase regulations."
   }
 }
+<!-- metadata: c5idczvdxe -->
+<!-- metadata: cmlllixh7b -->
+<!-- metadata: zgwdjbf123 -->
+<!-- metadata: 9vym3senr6 -->
+<!-- metadata: ja94q3go3b -->
+<!-- metadata: 6z5uhrxo8u -->
+<!-- metadata: e703v5tszo -->
 ```
 
 **Response**
