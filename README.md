@@ -96,9 +96,6 @@ Open [http://localhost:3000](http://localhost:3000).
     "privateData": { "dateOfBirth": "1995-01-15" },
     "commitmentHash": "0x…",
     "anchoredAt": "2026-05-03T00:00:00.000Z",
-<!-- metadata: 58brjzbt0q -->
-<!-- metadata: z07om41zs5 -->
-<!-- metadata: nxorscf8ih -->
     "revoked": false
   },
   "request": {
@@ -154,6 +151,8 @@ Defined in [`app/globals.css`](./app/globals.css) — the *Deep Sea* palette:
 | Token         | Value      |
 | ------------- | ---------- |
 | Background    | `#020617`  |
+| Surface       | `#0b1424`  |
+| Foreground    | `#e2e8f0`  |
 | Muted         | `#94a3b8`  |
 | **Accent**    | `#10b981`  |
 
