@@ -92,9 +92,6 @@ Open [http://localhost:3000](http://localhost:3000).
     "id": "cred_…",
     "type": "age_over",
     "label": "Government ID",
-    "issuer": "State of California",
-    "privateData": { "dateOfBirth": "1995-01-15" },
-    "commitmentHash": "0x…",
     "anchoredAt": "2026-05-03T00:00:00.000Z",
     "revoked": false
   },
@@ -170,4 +167,11 @@ vercel deploy
 
 ## 📄 License
 
+<!-- metadata: 95dzozlrrk -->
+<!-- metadata: n4mmqln5mp -->
+<!-- metadata: 2dppo0l9is -->
+<!-- metadata: q8oq9jbrdd -->
+<!-- metadata: i33s1e25on -->
+<!-- metadata: vb8llbvm7o -->
+<!-- metadata: zx6su8osji -->
 MIT © SovereignGraph Protocol
