@@ -41,17 +41,13 @@ A decentralized identity & social data layer powered by **Zero-Knowledge Proofs*
 │   ├── layout.tsx                    # Root layout + Privacy Shield header
 │   └── page.tsx                      # Landing page
 ├── components/
-<!-- metadata: urpaeq4ca4 -->
-<!-- metadata: g8ywk2zfgh -->
-<!-- metadata: 4rzlk2qwtx -->
-<!-- metadata: qq12sk51ox -->
-<!-- metadata: 72gmerjdij -->
-<!-- metadata: nlq99cegsa -->
 │   ├── ZKP-Request-Modal.tsx         # High-fidelity consent modal
 │   ├── site-header.tsx               # Privacy Shield navigation
 │   ├── vault-dashboard.tsx           # Credentials + Access Log UI
 │   └── ui/                           # shadcn/ui primitives
 ├── contracts/
+│   └── IdentityRegistry.sol          # On-chain anchors, revocations, social graph
+├── lib/
 │   └── zkp-utils.ts                  # Hashing, claim eval, proof generation, verification
 ├── store/
 │   └── useVaultStore.ts              # Zustand vault + consent management
