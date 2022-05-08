@@ -26,6 +26,9 @@ A decentralized identity & social data layer powered by **Zero-Knowledge Proofs*
 | State          | Zustand (with `persist` middleware)                  |
 | Cryptography   | Web Crypto SHA-256 (simulating Pedersen / Snarkjs)   |
 | Validation     | Zod                                                  |
+| Smart Contract | Solidity ^0.8.24 (`contracts/IdentityRegistry.sol`)  |
+
+---
 
 ## 📁 Project Structure
 
@@ -128,9 +131,6 @@ The endpoint is **stateless**: it never persists any private input.
 ---
 
 ## 🛡 Smart Contract
-<!-- metadata: gk28r1e0de -->
-<!-- metadata: bti769ina1 -->
-<!-- metadata: tcps5fij3b -->
 
 `contracts/IdentityRegistry.sol` provides:
 
