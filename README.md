@@ -26,6 +26,16 @@ A decentralized identity & social data layer powered by **Zero-Knowledge Proofs*
 | State          | Zustand (with `persist` middleware)                  |
 | Cryptography   | Web Crypto SHA-256 (simulating Pedersen / Snarkjs)   |
 | Validation     | Zod                                                  |
+<!-- metadata: l0puft34f2 -->
+<!-- metadata: 58v1b8hhn2 -->
+<!-- metadata: 48hbinbtyv -->
+<!-- metadata: 1045p3idgi -->
+<!-- metadata: hbfqmowbd9 -->
+<!-- metadata: jitwbds3u3 -->
+<!-- metadata: 60te50jgsq -->
+<!-- metadata: b70diou9je -->
+<!-- metadata: u6389pa7hw -->
+<!-- metadata: hp4qchx7sc -->
 | Smart Contract | Solidity ^0.8.24 (`contracts/IdentityRegistry.sol`)  |
 
 ---
@@ -157,8 +167,6 @@ Defined in [`app/globals.css`](./app/globals.css) — the *Deep Sea* palette:
 | **Accent**    | `#10b981`  |
 
 ---
-
-## 📦 Deploy
 
 This is a standard Next.js 16 App Router project. Deploy to [Vercel](https://vercel.com/new) with zero configuration:
 
