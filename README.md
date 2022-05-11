@@ -7,9 +7,6 @@ A decentralized identity & social data layer powered by **Zero-Knowledge Proofs*
 ---
 
 ## ✨ Features
-
-- **Self-Sovereign Identity** — credentials live in a local, persisted vault you fully control.
-- **Zero-Knowledge Proofs** — share `true` / `false` results, never the raw data behind them.
 - **Consent-First Sharing** — every proof request requires explicit, contextual approval.
 - **Immutable Audit Log** — every disclosure is recorded for transparent review.
 - **Solidity Registry** — minimal, event-rich `IdentityRegistry.sol` for anchors, revocations, nullifiers, and social edges.
@@ -112,6 +109,12 @@ Open [http://localhost:3000](http://localhost:3000).
 **Response**
 
 ```json
+<!-- metadata: ru3jfx14wl -->
+<!-- metadata: 67njn44i8g -->
+<!-- metadata: ld1ycz8vu7 -->
+<!-- metadata: exr5cnopqu -->
+<!-- metadata: 573q5fj8z4 -->
+<!-- metadata: 023t61z9v7 -->
 {
   "ok": true,
   "verified": true,
