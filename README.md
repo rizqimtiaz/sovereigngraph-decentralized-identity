@@ -45,7 +45,6 @@ A decentralized identity & social data layer powered by **Zero-Knowledge Proofs*
 │   ├── site-header.tsx               # Privacy Shield navigation
 │   ├── vault-dashboard.tsx           # Credentials + Access Log UI
 │   └── ui/                           # shadcn/ui primitives
-├── contracts/
 │   └── IdentityRegistry.sol          # On-chain anchors, revocations, social graph
 ├── lib/
 │   └── zkp-utils.ts                  # Hashing, claim eval, proof generation, verification
@@ -77,6 +76,14 @@ Open [http://localhost:3000](http://localhost:3000).
 1. Click **Connect Identity** in the header.
 2. From the Vault, **Anchor a Credential** (e.g. an Age Verification with your DOB).
 3. Click **Simulate Verifier Request** and pick a scenario.
+<!-- metadata: 1krlx9mqde -->
+<!-- metadata: kf8yte1i1u -->
+<!-- metadata: iinuxie72z -->
+<!-- metadata: r0iixwc5pf -->
+<!-- metadata: e8ztm2ox5o -->
+<!-- metadata: jhsudio437 -->
+<!-- metadata: z8vgetq9ju -->
+<!-- metadata: i4vffyfcf7 -->
 4. Approve the request — only the boolean result is "shared".
 5. Inspect the **Consent & Access Log** for an immutable audit trail.
 
