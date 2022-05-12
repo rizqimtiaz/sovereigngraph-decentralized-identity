@@ -119,12 +119,6 @@ Open [http://localhost:3000](http://localhost:3000).
     "proof": "0x…",
     "publicSignals": { "result": true, "threshold": 21, "claimType": "age_over" },
     "commitmentHash": "0x…",
-<!-- metadata: t71zoky27a -->
-<!-- metadata: ozv21sxvbc -->
-<!-- metadata: huagk5lkop -->
-<!-- metadata: hloqcvtxs9 -->
-<!-- metadata: anao6sg97j -->
-<!-- metadata: geikrcd0ix -->
     "verifier": { "name": "Atlas Wines", "origin": "atlas-wines.app" },
     "issuedAt": "2026-05-03T00:00:00.000Z",
     "nullifier": "0x…"
@@ -135,6 +129,10 @@ Open [http://localhost:3000](http://localhost:3000).
 The endpoint is **stateless**: it never persists any private input.
 
 ---
+
+## 🛡 Smart Contract
+
+`contracts/IdentityRegistry.sol` provides:
 
 - `anchorCredential(bytes32 commitment, ClaimType, string issuer)` → emits `CredentialAnchored`
 - `revokeCredential(bytes32 commitment)` → emits `CredentialRevoked`
