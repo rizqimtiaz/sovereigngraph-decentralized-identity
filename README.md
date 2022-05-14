@@ -40,8 +40,6 @@ A decentralized identity & social data layer powered by **Zero-Knowledge Proofs*
 │   ├── globals.css                   # Deep Sea theme tokens
 │   ├── layout.tsx                    # Root layout + Privacy Shield header
 │   └── page.tsx                      # Landing page
-├── components/
-│   ├── ZKP-Request-Modal.tsx         # High-fidelity consent modal
 │   ├── site-header.tsx               # Privacy Shield navigation
 │   ├── vault-dashboard.tsx           # Credentials + Access Log UI
 │   └── ui/                           # shadcn/ui primitives
@@ -161,6 +159,11 @@ Defined in [`app/globals.css`](./app/globals.css) — the *Deep Sea* palette:
 ## 📦 Deploy
 
 This is a standard Next.js 16 App Router project. Deploy to [Vercel](https://vercel.com/new) with zero configuration:
+<!-- metadata: 7p2pn4kn1i -->
+<!-- metadata: iiaf3cjrdm -->
+<!-- metadata: 1zttyb70xl -->
+<!-- metadata: 3pi22w64wj -->
+<!-- metadata: vphr2ehsxs -->
 
 ```bash
 vercel deploy
