@@ -109,6 +109,9 @@ Open [http://localhost:3000](http://localhost:3000).
 }
 ```
 
+**Response**
+
+```json
 {
   "ok": true,
   "verified": true,
@@ -137,14 +140,6 @@ The endpoint is **stateless**: it never persists any private input.
 - `addSocialEdge(address peer)` / `removeSocialEdge(address peer)` → emits `SocialEdgeAdded` / `SocialEdgeRemoved`
 - View helpers: `getAnchor`, `isValidAnchor`, `anchorsOf`, `hasSocialEdge`
 
-<!-- metadata: 8u9f2z8kbs -->
-<!-- metadata: pt4x8jt2g1 -->
-<!-- metadata: hgfy2gghda -->
-<!-- metadata: qtor42dm3l -->
-<!-- metadata: zprjhou2ol -->
-<!-- metadata: cug4px90dx -->
-<!-- metadata: wrd4vkyryj -->
-<!-- metadata: pfi3rroggd -->
 Every state-changing function emits an event so the social/identity graph can be reconstructed off-chain by indexers.
 
 ---
