@@ -103,6 +103,10 @@ Open [http://localhost:3000](http://localhost:3000).
     "appOrigin": "atlas-wines.app",
     "statement": "User age ≥ 21",
     "claimType": "age_over",
+    "threshold": 21,
+    "reason": "Compliance with alcohol-purchase regulations."
+  }
+}
 ```
 
 **Response**
@@ -125,7 +129,6 @@ Open [http://localhost:3000](http://localhost:3000).
 The endpoint is **stateless**: it never persists any private input.
 
 ---
-<!-- metadata: 3om528eci6 -->
 
 ## 🛡 Smart Contract
 
