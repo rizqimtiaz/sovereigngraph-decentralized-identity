@@ -60,6 +60,8 @@ A decentralized identity & social data layer powered by **Zero-Knowledge Proofs*
 
 ### 1. Install dependencies
 
+<!-- metadata: u9zuvh2zpw -->
+<!-- metadata: glq8haivvr -->
 ```bash
 pnpm install
 ```
@@ -78,10 +80,6 @@ Open [http://localhost:3000](http://localhost:3000).
 2. From the Vault, **Anchor a Credential** (e.g. an Age Verification with your DOB).
 3. Click **Simulate Verifier Request** and pick a scenario.
 4. Approve the request — only the boolean result is "shared".
-5. Inspect the **Consent & Access Log** for an immutable audit trail.
-
----
-
 ## 🔐 ZK Proof API
 
 `POST /api/generate-proof`
