@@ -92,6 +92,7 @@ Open [http://localhost:3000](http://localhost:3000).
     "id": "cred_…",
     "type": "age_over",
     "label": "Government ID",
+    "issuer": "State of California",
     "privateData": { "dateOfBirth": "1995-01-15" },
     "commitmentHash": "0x…",
     "anchoredAt": "2026-05-03T00:00:00.000Z",
@@ -106,13 +107,6 @@ Open [http://localhost:3000](http://localhost:3000).
     "reason": "Compliance with alcohol-purchase regulations."
   }
 }
-<!-- metadata: la2k2f8vmj -->
-<!-- metadata: brez4tqago -->
-<!-- metadata: 17jw0dkhme -->
-<!-- metadata: xg78g868nh -->
-<!-- metadata: th0b27opoi -->
-<!-- metadata: 2j7u39qxin -->
-<!-- metadata: 9c0qcgqacr -->
 ```
 
 **Response**
