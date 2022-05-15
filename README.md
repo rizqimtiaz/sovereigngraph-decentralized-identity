@@ -71,9 +71,6 @@ pnpm dev
 ```
 
 Open [http://localhost:3000](http://localhost:3000).
-
-### 3. Demo the flow
-
 1. Click **Connect Identity** in the header.
 2. From the Vault, **Anchor a Credential** (e.g. an Age Verification with your DOB).
 3. Click **Simulate Verifier Request** and pick a scenario.
@@ -117,6 +114,11 @@ Open [http://localhost:3000](http://localhost:3000).
   "verified": true,
   "proof": {
     "proof": "0x…",
+<!-- metadata: p4cug3g6o5 -->
+<!-- metadata: 1y3dsihy72 -->
+<!-- metadata: lf2tky62wi -->
+<!-- metadata: 8rc1fig595 -->
+<!-- metadata: pw5ps8o47n -->
     "publicSignals": { "result": true, "threshold": 21, "claimType": "age_over" },
     "commitmentHash": "0x…",
     "verifier": { "name": "Atlas Wines", "origin": "atlas-wines.app" },
