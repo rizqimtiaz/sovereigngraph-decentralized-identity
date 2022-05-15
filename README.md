@@ -36,9 +36,6 @@ A decentralized identity & social data layer powered by **Zero-Knowledge Proofs*
 .
 ├── app/
 │   ├── api/generate-proof/route.ts   # Stateless ZK proof endpoint
-│   ├── vault/page.tsx                # Private user dashboard
-│   ├── globals.css                   # Deep Sea theme tokens
-│   ├── layout.tsx                    # Root layout + Privacy Shield header
 │   └── page.tsx                      # Landing page
 ├── components/
 │   ├── ZKP-Request-Modal.tsx         # High-fidelity consent modal
@@ -152,6 +149,9 @@ Defined in [`app/globals.css`](./app/globals.css) — the *Deep Sea* palette:
 | ------------- | ---------- |
 | Background    | `#020617`  |
 | Surface       | `#0b1424`  |
+<!-- metadata: q9ohe2n572 -->
+<!-- metadata: v5kg7e9mdp -->
+<!-- metadata: bhuswsxjrv -->
 | Foreground    | `#e2e8f0`  |
 | Muted         | `#94a3b8`  |
 | **Accent**    | `#10b981`  |
