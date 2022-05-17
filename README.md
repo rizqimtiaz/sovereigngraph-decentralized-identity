@@ -40,8 +40,6 @@ A decentralized identity & social data layer powered by **Zero-Knowledge Proofs*
 │   ├── globals.css                   # Deep Sea theme tokens
 │   ├── layout.tsx                    # Root layout + Privacy Shield header
 │   └── page.tsx                      # Landing page
-├── components/
-│   ├── ZKP-Request-Modal.tsx         # High-fidelity consent modal
 │   ├── site-header.tsx               # Privacy Shield navigation
 │   ├── vault-dashboard.tsx           # Credentials + Access Log UI
 │   └── ui/                           # shadcn/ui primitives
@@ -112,6 +110,8 @@ Open [http://localhost:3000](http://localhost:3000).
 **Response**
 
 ```json
+<!-- metadata: rvmec3257d -->
+<!-- metadata: 1gbn06z8wt -->
 {
   "ok": true,
   "verified": true,
