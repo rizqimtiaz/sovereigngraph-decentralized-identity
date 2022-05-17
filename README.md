@@ -1,10 +1,4 @@
 # SovereignGraph — Privacy-First Social Data Layer
-<!-- metadata: yqfppfo5nv -->
-<!-- metadata: 5luem3jxl7 -->
-<!-- metadata: kca08rvwag -->
-<!-- metadata: hd2dyi7z0t -->
-<!-- metadata: aeky2phlix -->
-<!-- metadata: vyxxr8xasi -->
 
 A decentralized identity & social data layer powered by **Zero-Knowledge Proofs**. Users own their credentials in a private vault, anchor immutable commitments on-chain, and disclose only verifiable answers — never the underlying data.
 
@@ -13,6 +7,10 @@ A decentralized identity & social data layer powered by **Zero-Knowledge Proofs*
 ---
 
 ## ✨ Features
+
+- **Self-Sovereign Identity** — credentials live in a local, persisted vault you fully control.
+- **Zero-Knowledge Proofs** — share `true` / `false` results, never the raw data behind them.
+- **Consent-First Sharing** — every proof request requires explicit, contextual approval.
 - **Immutable Audit Log** — every disclosure is recorded for transparent review.
 - **Solidity Registry** — minimal, event-rich `IdentityRegistry.sol` for anchors, revocations, nullifiers, and social edges.
 - **Deep Sea aesthetic** — dark navy + emerald, optimized for readability and trust.
