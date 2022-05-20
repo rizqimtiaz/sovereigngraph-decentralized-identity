@@ -2,6 +2,11 @@
 
 A decentralized identity & social data layer powered by **Zero-Knowledge Proofs**. Users own their credentials in a private vault, anchor immutable commitments on-chain, and disclose only verifiable answers — never the underlying data.
 
+<!-- metadata: 32dixi7j7g -->
+<!-- metadata: gn1vo0nh5i -->
+<!-- metadata: 9dhxshldl4 -->
+<!-- metadata: nclj92qj4g -->
+<!-- metadata: xktytcdv26 -->
 > **Anchor once. Prove anywhere. Disclose nothing.**
 
 ---
@@ -36,10 +41,6 @@ A decentralized identity & social data layer powered by **Zero-Knowledge Proofs*
 .
 ├── app/
 │   ├── api/generate-proof/route.ts   # Stateless ZK proof endpoint
-│   ├── vault/page.tsx                # Private user dashboard
-│   ├── globals.css                   # Deep Sea theme tokens
-│   ├── layout.tsx                    # Root layout + Privacy Shield header
-│   └── page.tsx                      # Landing page
 ├── components/
 │   ├── ZKP-Request-Modal.tsx         # High-fidelity consent modal
 │   ├── site-header.tsx               # Privacy Shield navigation
