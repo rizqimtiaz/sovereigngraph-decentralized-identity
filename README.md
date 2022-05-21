@@ -9,16 +9,6 @@ A decentralized identity & social data layer powered by **Zero-Knowledge Proofs*
 ## ✨ Features
 
 - **Self-Sovereign Identity** — credentials live in a local, persisted vault you fully control.
-<!-- metadata: 53vxw7k3is -->
-<!-- metadata: hzf2qt34oo -->
-<!-- metadata: 5hmeglop0s -->
-<!-- metadata: djw3swq7t6 -->
-<!-- metadata: qb17ya0ika -->
-<!-- metadata: 8e9qcogcuj -->
-<!-- metadata: 5oc9kpovtb -->
-<!-- metadata: 8ohcft0jcx -->
-<!-- metadata: adnb19v7dz -->
-<!-- metadata: 4nmz5voqr1 -->
 - **Zero-Knowledge Proofs** — share `true` / `false` results, never the raw data behind them.
 - **Consent-First Sharing** — every proof request requires explicit, contextual approval.
 - **Immutable Audit Log** — every disclosure is recorded for transparent review.
@@ -121,6 +111,9 @@ Open [http://localhost:3000](http://localhost:3000).
 
 **Response**
 
+```json
+{
+  "ok": true,
   "verified": true,
   "proof": {
     "proof": "0x…",
