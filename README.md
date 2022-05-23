@@ -73,7 +73,6 @@ pnpm dev
 Open [http://localhost:3000](http://localhost:3000).
 
 ### 3. Demo the flow
-
 1. Click **Connect Identity** in the header.
 2. From the Vault, **Anchor a Credential** (e.g. an Age Verification with your DOB).
 3. Click **Simulate Verifier Request** and pick a scenario.
@@ -87,6 +86,14 @@ Open [http://localhost:3000](http://localhost:3000).
 `POST /api/generate-proof`
 
 ```json
+<!-- metadata: tr4p4ny4pk -->
+<!-- metadata: 8ibfz1q8ts -->
+<!-- metadata: cg1hc4xmso -->
+<!-- metadata: npk1sv3p76 -->
+<!-- metadata: h4ddee6mgd -->
+<!-- metadata: 3zzvmpu1xj -->
+<!-- metadata: jnc89jvdda -->
+<!-- metadata: kjo4cq6r0w -->
 {
   "credential": {
     "id": "cred_…",
