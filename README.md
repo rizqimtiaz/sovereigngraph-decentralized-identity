@@ -65,8 +65,6 @@ pnpm install
 ```
 
 ### 2. Run the dev server
-
-```bash
 pnpm dev
 ```
 
@@ -142,6 +140,9 @@ The endpoint is **stateless**: it never persists any private input.
 
 Every state-changing function emits an event so the social/identity graph can be reconstructed off-chain by indexers.
 
+<!-- metadata: s2d61n720r -->
+<!-- metadata: y6ou3cnbi0 -->
+<!-- metadata: p5bujsl40u -->
 ---
 
 ## 🎨 Design Tokens
