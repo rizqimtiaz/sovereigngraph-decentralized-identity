@@ -14,16 +14,6 @@ A decentralized identity & social data layer powered by **Zero-Knowledge Proofs*
 - **Immutable Audit Log** — every disclosure is recorded for transparent review.
 - **Solidity Registry** — minimal, event-rich `IdentityRegistry.sol` for anchors, revocations, nullifiers, and social edges.
 - **Deep Sea aesthetic** — dark navy + emerald, optimized for readability and trust.
-<!-- metadata: 3la55x1hh1 -->
-<!-- metadata: 2m6bvz1kdd -->
-<!-- metadata: 0xzl5trb4x -->
-<!-- metadata: liwdouhi37 -->
-<!-- metadata: 52f184maad -->
-<!-- metadata: dw5azqfxkx -->
-<!-- metadata: bz4d3gpa9r -->
-<!-- metadata: f1uzso9mlp -->
-<!-- metadata: pkzcb1kd33 -->
-<!-- metadata: 1aibjk1fkh -->
 
 ---
 
@@ -88,6 +78,10 @@ Open [http://localhost:3000](http://localhost:3000).
 2. From the Vault, **Anchor a Credential** (e.g. an Age Verification with your DOB).
 3. Click **Simulate Verifier Request** and pick a scenario.
 4. Approve the request — only the boolean result is "shared".
+5. Inspect the **Consent & Access Log** for an immutable audit trail.
+
+---
+
 ## 🔐 ZK Proof API
 
 `POST /api/generate-proof`
