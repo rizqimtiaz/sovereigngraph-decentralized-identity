@@ -22,10 +22,6 @@ A decentralized identity & social data layer powered by **Zero-Knowledge Proofs*
 | Layer          | Tech                                                 |
 | -------------- | ---------------------------------------------------- |
 | Frontend       | Next.js 16 (App Router), React 19, TypeScript        |
-<!-- metadata: zp660fh2gx -->
-<!-- metadata: 9d8pydq996 -->
-<!-- metadata: eb8bq1wz4l -->
-<!-- metadata: tsdxurtrjm -->
 | Styling        | Tailwind CSS v4, shadcn/ui, framer-motion            |
 | State          | Zustand (with `persist` middleware)                  |
 | Cryptography   | Web Crypto SHA-256 (simulating Pedersen / Snarkjs)   |
@@ -141,6 +137,9 @@ The endpoint is **stateless**: it never persists any private input.
 - `anchorCredential(bytes32 commitment, ClaimType, string issuer)` → emits `CredentialAnchored`
 - `revokeCredential(bytes32 commitment)` → emits `CredentialRevoked`
 - `spendNullifier(bytes32 nullifier, bytes32 commitment)` → emits `NullifierSpent` (replay-protection)
+- `addSocialEdge(address peer)` / `removeSocialEdge(address peer)` → emits `SocialEdgeAdded` / `SocialEdgeRemoved`
+- View helpers: `getAnchor`, `isValidAnchor`, `anchorsOf`, `hasSocialEdge`
+
 Every state-changing function emits an event so the social/identity graph can be reconstructed off-chain by indexers.
 
 ---
