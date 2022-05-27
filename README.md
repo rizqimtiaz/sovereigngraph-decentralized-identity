@@ -107,12 +107,12 @@ Open [http://localhost:3000](http://localhost:3000).
     "reason": "Compliance with alcohol-purchase regulations."
   }
 }
-<!-- metadata: bunop6azkm -->
-<!-- metadata: k56cxfxn9o -->
-<!-- metadata: xpkkb8xu8s -->
 ```
 
 **Response**
+
+```json
+{
   "ok": true,
   "verified": true,
   "proof": {
