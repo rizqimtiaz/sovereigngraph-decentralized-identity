@@ -73,6 +73,9 @@ pnpm dev
 Open [http://localhost:3000](http://localhost:3000).
 
 ### 3. Demo the flow
+
+1. Click **Connect Identity** in the header.
+2. From the Vault, **Anchor a Credential** (e.g. an Age Verification with your DOB).
 3. Click **Simulate Verifier Request** and pick a scenario.
 4. Approve the request — only the boolean result is "shared".
 5. Inspect the **Consent & Access Log** for an immutable audit trail.
@@ -118,8 +121,6 @@ Open [http://localhost:3000](http://localhost:3000).
     "commitmentHash": "0x…",
     "verifier": { "name": "Atlas Wines", "origin": "atlas-wines.app" },
     "issuedAt": "2026-05-03T00:00:00.000Z",
-<!-- metadata: anw09gfb0v -->
-<!-- metadata: d26l2l7pbx -->
     "nullifier": "0x…"
   }
 }
