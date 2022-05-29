@@ -128,11 +128,6 @@ Open [http://localhost:3000](http://localhost:3000).
 
 The endpoint is **stateless**: it never persists any private input.
 
-<!-- metadata: 8fwj97yej8 -->
-<!-- metadata: 1bqmfgveu8 -->
-<!-- metadata: og23faci79 -->
-<!-- metadata: mlasd3ff3o -->
-<!-- metadata: bwup53b2kd -->
 ---
 
 ## 🛡 Smart Contract
@@ -155,6 +150,8 @@ Defined in [`app/globals.css`](./app/globals.css) — the *Deep Sea* palette:
 
 | Token         | Value      |
 | ------------- | ---------- |
+| Background    | `#020617`  |
+| Surface       | `#0b1424`  |
 | Foreground    | `#e2e8f0`  |
 | Muted         | `#94a3b8`  |
 | **Accent**    | `#10b981`  |
