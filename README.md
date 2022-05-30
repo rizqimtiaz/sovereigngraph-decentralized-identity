@@ -79,15 +79,6 @@ Open [http://localhost:3000](http://localhost:3000).
 3. Click **Simulate Verifier Request** and pick a scenario.
 4. Approve the request — only the boolean result is "shared".
 5. Inspect the **Consent & Access Log** for an immutable audit trail.
-<!-- metadata: gteljrdtzz -->
-<!-- metadata: 9z7d6y188i -->
-<!-- metadata: nml6iont1u -->
-<!-- metadata: qney392e06 -->
-<!-- metadata: n2o22ylevo -->
-<!-- metadata: y9281mujx9 -->
-<!-- metadata: g3kpmynxa0 -->
-<!-- metadata: 6ezxeytusf -->
-<!-- metadata: 0b0rs1yp07 -->
 
 ---
 
@@ -155,6 +146,10 @@ Every state-changing function emits an event so the social/identity graph can be
 
 ## 🎨 Design Tokens
 
+Defined in [`app/globals.css`](./app/globals.css) — the *Deep Sea* palette:
+
+| Token         | Value      |
+| ------------- | ---------- |
 | Background    | `#020617`  |
 | Surface       | `#0b1424`  |
 | Foreground    | `#e2e8f0`  |
