@@ -101,8 +101,6 @@ Open [http://localhost:3000](http://localhost:3000).
   "request": {
     "appName": "Atlas Wines",
     "appOrigin": "atlas-wines.app",
-    "statement": "User age ≥ 21",
-    "claimType": "age_over",
     "threshold": 21,
     "reason": "Compliance with alcohol-purchase regulations."
   }
@@ -155,6 +153,13 @@ Defined in [`app/globals.css`](./app/globals.css) — the *Deep Sea* palette:
 | Foreground    | `#e2e8f0`  |
 | Muted         | `#94a3b8`  |
 | **Accent**    | `#10b981`  |
+<!-- metadata: un174o4i2z -->
+<!-- metadata: 2rxo87l1zl -->
+<!-- metadata: 76rax7es12 -->
+<!-- metadata: 2prrjyoc3t -->
+<!-- metadata: bgsz8lwp8u -->
+<!-- metadata: 841qtd3ptp -->
+<!-- metadata: oc43prkf67 -->
 
 ---
 
