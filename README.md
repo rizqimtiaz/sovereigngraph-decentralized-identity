@@ -102,7 +102,6 @@ Open [http://localhost:3000](http://localhost:3000).
     "appName": "Atlas Wines",
     "appOrigin": "atlas-wines.app",
     "statement": "User age ≥ 21",
-<!-- metadata: dd31bcbsb8 -->
     "claimType": "age_over",
     "threshold": 21,
     "reason": "Compliance with alcohol-purchase regulations."
@@ -133,6 +132,7 @@ The endpoint is **stateless**: it never persists any private input.
 
 ## 🛡 Smart Contract
 
+`contracts/IdentityRegistry.sol` provides:
 
 - `anchorCredential(bytes32 commitment, ClaimType, string issuer)` → emits `CredentialAnchored`
 - `revokeCredential(bytes32 commitment)` → emits `CredentialRevoked`
