@@ -33,10 +33,6 @@ A decentralized identity & social data layer powered by **Zero-Knowledge Proofs*
 ## 📁 Project Structure
 
 ```
-.
-├── app/
-│   ├── api/generate-proof/route.ts   # Stateless ZK proof endpoint
-│   ├── vault/page.tsx                # Private user dashboard
 │   ├── globals.css                   # Deep Sea theme tokens
 │   ├── layout.tsx                    # Root layout + Privacy Shield header
 │   └── page.tsx                      # Landing page
@@ -78,6 +74,13 @@ Open [http://localhost:3000](http://localhost:3000).
 2. From the Vault, **Anchor a Credential** (e.g. an Age Verification with your DOB).
 3. Click **Simulate Verifier Request** and pick a scenario.
 4. Approve the request — only the boolean result is "shared".
+<!-- metadata: wsrror78kl -->
+<!-- metadata: ge5o8pinsz -->
+<!-- metadata: 4rtpxnnwy6 -->
+<!-- metadata: c1t0h5cq0h -->
+<!-- metadata: zxqjrxrzyx -->
+<!-- metadata: cyo715b8kq -->
+<!-- metadata: vnltefe86k -->
 5. Inspect the **Consent & Access Log** for an immutable audit trail.
 
 ---
