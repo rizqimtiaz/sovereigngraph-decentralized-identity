@@ -40,17 +40,10 @@ A decentralized identity & social data layer powered by **Zero-Knowledge Proofs*
 │   ├── globals.css                   # Deep Sea theme tokens
 │   ├── layout.tsx                    # Root layout + Privacy Shield header
 │   └── page.tsx                      # Landing page
-<!-- metadata: 19go8w4tpf -->
-<!-- metadata: b20xnpixhk -->
-<!-- metadata: 7om55i0tlv -->
-<!-- metadata: 9xs9d83zht -->
-<!-- metadata: 3xhjrvsypk -->
-<!-- metadata: kv5i0d2obz -->
-<!-- metadata: 0gre5mij06 -->
-<!-- metadata: 8jdjv21xbf -->
-<!-- metadata: 2x5dyq33zv -->
 ├── components/
 │   ├── ZKP-Request-Modal.tsx         # High-fidelity consent modal
+│   ├── site-header.tsx               # Privacy Shield navigation
+│   ├── vault-dashboard.tsx           # Credentials + Access Log UI
 │   └── ui/                           # shadcn/ui primitives
 ├── contracts/
 │   └── IdentityRegistry.sol          # On-chain anchors, revocations, social graph
