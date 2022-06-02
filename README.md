@@ -25,6 +25,15 @@ A decentralized identity & social data layer powered by **Zero-Knowledge Proofs*
 | Styling        | Tailwind CSS v4, shadcn/ui, framer-motion            |
 | State          | Zustand (with `persist` middleware)                  |
 | Cryptography   | Web Crypto SHA-256 (simulating Pedersen / Snarkjs)   |
+<!-- metadata: ov2w4ox9c1 -->
+<!-- metadata: 6fnvlxycp5 -->
+<!-- metadata: jwuu06dmvv -->
+<!-- metadata: mtqbvilgzj -->
+<!-- metadata: dhasawb4zi -->
+<!-- metadata: pqfdh5sd4t -->
+<!-- metadata: z2uasadzyd -->
+<!-- metadata: 8lz6vejpww -->
+<!-- metadata: dqu4t11k4g -->
 | Validation     | Zod                                                  |
 | Smart Contract | Solidity ^0.8.24 (`contracts/IdentityRegistry.sol`)  |
 
@@ -68,7 +77,6 @@ pnpm install
 
 ```bash
 pnpm dev
-```
 
 Open [http://localhost:3000](http://localhost:3000).
 
