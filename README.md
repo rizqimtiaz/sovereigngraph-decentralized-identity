@@ -81,7 +81,6 @@ Open [http://localhost:3000](http://localhost:3000).
 5. Inspect the **Consent & Access Log** for an immutable audit trail.
 
 ---
-
 ## 🔐 ZK Proof API
 
 `POST /api/generate-proof`
@@ -143,6 +142,15 @@ The endpoint is **stateless**: it never persists any private input.
 Every state-changing function emits an event so the social/identity graph can be reconstructed off-chain by indexers.
 
 ---
+<!-- metadata: 5ezzgk8imk -->
+<!-- metadata: uywvlztzgt -->
+<!-- metadata: 936o4cjcor -->
+<!-- metadata: nz84jzoxcb -->
+<!-- metadata: 86gvcwtyzf -->
+<!-- metadata: mg4iwvc9mh -->
+<!-- metadata: 465dfzolx5 -->
+<!-- metadata: u2kk86p7y3 -->
+<!-- metadata: iuzuhz0h2d -->
 
 ## 🎨 Design Tokens
 
