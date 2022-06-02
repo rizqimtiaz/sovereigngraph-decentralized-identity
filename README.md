@@ -54,6 +54,9 @@ A decentralized identity & social data layer powered by **Zero-Knowledge Proofs*
 └── README.md
 ```
 
+---
+
+## 🚀 Getting Started
 
 ### 1. Install dependencies
 
@@ -70,11 +73,6 @@ pnpm dev
 Open [http://localhost:3000](http://localhost:3000).
 
 ### 3. Demo the flow
-<!-- metadata: l1x9tada18 -->
-<!-- metadata: r9jgq0n3wj -->
-<!-- metadata: 8sfk5n1b5k -->
-<!-- metadata: a8bq3xvqve -->
-<!-- metadata: n7hb9gbbbu -->
 
 1. Click **Connect Identity** in the header.
 2. From the Vault, **Anchor a Credential** (e.g. an Age Verification with your DOB).
