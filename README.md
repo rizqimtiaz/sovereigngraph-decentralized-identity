@@ -141,6 +141,16 @@ The endpoint is **stateless**: it never persists any private input.
 - View helpers: `getAnchor`, `isValidAnchor`, `anchorsOf`, `hasSocialEdge`
 
 Every state-changing function emits an event so the social/identity graph can be reconstructed off-chain by indexers.
+<!-- metadata: quokhxymyb -->
+<!-- metadata: 3qf4ntbab3 -->
+<!-- metadata: u6y916pes1 -->
+<!-- metadata: yw3sn7ivmk -->
+<!-- metadata: 4eh1d42non -->
+<!-- metadata: gu3i98y3xs -->
+<!-- metadata: ru2r2n9f77 -->
+<!-- metadata: 2e46ihysxm -->
+<!-- metadata: z4ilndljbk -->
+<!-- metadata: afzixz8l6u -->
 
 ---
 
@@ -165,8 +175,6 @@ This is a standard Next.js 16 App Router project. Deploy to [Vercel](https://ver
 ```bash
 vercel deploy
 ```
-
----
 
 ## 📄 License
 
