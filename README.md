@@ -78,9 +78,6 @@ Open [http://localhost:3000](http://localhost:3000).
 2. From the Vault, **Anchor a Credential** (e.g. an Age Verification with your DOB).
 3. Click **Simulate Verifier Request** and pick a scenario.
 4. Approve the request — only the boolean result is "shared".
-5. Inspect the **Consent & Access Log** for an immutable audit trail.
-
----
 
 ## 🔐 ZK Proof API
 
@@ -111,6 +108,9 @@ Open [http://localhost:3000](http://localhost:3000).
 
 **Response**
 
+<!-- metadata: 05n13mese9 -->
+<!-- metadata: 6zh2762ioc -->
+<!-- metadata: eyis2sx5gi -->
 ```json
 {
   "ok": true,
