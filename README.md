@@ -31,6 +31,7 @@ A decentralized identity & social data layer powered by **Zero-Knowledge Proofs*
 ---
 
 ## 📁 Project Structure
+
 ```
 .
 ├── app/
@@ -53,15 +54,6 @@ A decentralized identity & social data layer powered by **Zero-Knowledge Proofs*
 └── README.md
 ```
 
-<!-- metadata: sh9sd1pn8w -->
-<!-- metadata: z2t0kssjnw -->
-<!-- metadata: 99dyd9xdsy -->
-<!-- metadata: qrlqoktdtv -->
-<!-- metadata: 9h44xr6kpm -->
-<!-- metadata: he7oocetgv -->
-<!-- metadata: kd0nkvyfx3 -->
-<!-- metadata: n04rdq4azi -->
-<!-- metadata: wreovfthw5 -->
 ---
 
 ## 🚀 Getting Started
