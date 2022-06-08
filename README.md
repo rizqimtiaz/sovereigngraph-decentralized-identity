@@ -68,6 +68,16 @@ pnpm install
 
 ```bash
 pnpm dev
+<!-- metadata: e7g2ee0alt -->
+<!-- metadata: jamshgq6wy -->
+<!-- metadata: oiii9t9v4s -->
+<!-- metadata: cyuoy2708d -->
+<!-- metadata: g6ikz6hwl9 -->
+<!-- metadata: 0tlxpqrlm2 -->
+<!-- metadata: y8q8a3ftzh -->
+<!-- metadata: fkyqtfn2yn -->
+<!-- metadata: y4xn446g7b -->
+<!-- metadata: mou50ug7rn -->
 ```
 
 Open [http://localhost:3000](http://localhost:3000).
@@ -113,9 +123,6 @@ Open [http://localhost:3000](http://localhost:3000).
 
 ```json
 {
-  "ok": true,
-  "verified": true,
-  "proof": {
     "proof": "0x…",
     "publicSignals": { "result": true, "threshold": 21, "claimType": "age_over" },
     "commitmentHash": "0x…",
