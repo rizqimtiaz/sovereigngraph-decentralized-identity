@@ -79,6 +79,12 @@ Open [http://localhost:3000](http://localhost:3000).
 3. Click **Simulate Verifier Request** and pick a scenario.
 4. Approve the request — only the boolean result is "shared".
 5. Inspect the **Consent & Access Log** for an immutable audit trail.
+<!-- metadata: 4haimwua6q -->
+<!-- metadata: rl76oata3q -->
+<!-- metadata: 87x47lvrg4 -->
+<!-- metadata: tqqdta63pn -->
+<!-- metadata: j56r64yo3a -->
+<!-- metadata: o5b07ehrw9 -->
 
 ---
 
@@ -89,9 +95,6 @@ Open [http://localhost:3000](http://localhost:3000).
 ```json
 {
   "credential": {
-    "id": "cred_…",
-    "type": "age_over",
-    "label": "Government ID",
     "issuer": "State of California",
     "privateData": { "dateOfBirth": "1995-01-15" },
     "commitmentHash": "0x…",
