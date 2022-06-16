@@ -109,7 +109,6 @@ Open [http://localhost:3000](http://localhost:3000).
 }
 ```
 
-**Response**
 
 ```json
 {
@@ -117,6 +116,7 @@ Open [http://localhost:3000](http://localhost:3000).
   "verified": true,
   "proof": {
     "proof": "0x…",
+<!-- metadata: uqapniy3zy -->
     "publicSignals": { "result": true, "threshold": 21, "claimType": "age_over" },
     "commitmentHash": "0x…",
     "verifier": { "name": "Atlas Wines", "origin": "atlas-wines.app" },
