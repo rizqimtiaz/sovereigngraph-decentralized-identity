@@ -23,9 +23,6 @@ A decentralized identity & social data layer powered by **Zero-Knowledge Proofs*
 | -------------- | ---------------------------------------------------- |
 | Frontend       | Next.js 16 (App Router), React 19, TypeScript        |
 | Styling        | Tailwind CSS v4, shadcn/ui, framer-motion            |
-<!-- metadata: chx9p5dv93 -->
-<!-- metadata: oemulzq80m -->
-<!-- metadata: ui2el3d540 -->
 | State          | Zustand (with `persist` middleware)                  |
 | Cryptography   | Web Crypto SHA-256 (simulating Pedersen / Snarkjs)   |
 | Validation     | Zod                                                  |
@@ -90,6 +87,9 @@ Open [http://localhost:3000](http://localhost:3000).
 `POST /api/generate-proof`
 
 ```json
+{
+  "credential": {
+    "id": "cred_…",
     "type": "age_over",
     "label": "Government ID",
     "issuer": "State of California",
