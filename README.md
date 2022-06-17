@@ -12,6 +12,16 @@ A decentralized identity & social data layer powered by **Zero-Knowledge Proofs*
 - **Zero-Knowledge Proofs** — share `true` / `false` results, never the raw data behind them.
 - **Consent-First Sharing** — every proof request requires explicit, contextual approval.
 - **Immutable Audit Log** — every disclosure is recorded for transparent review.
+<!-- metadata: 6ku9duhk8t -->
+<!-- metadata: 9dm8xwe9kk -->
+<!-- metadata: g8o3wyp1a0 -->
+<!-- metadata: 948vhidrp2 -->
+<!-- metadata: 58o1rav3tu -->
+<!-- metadata: az4qwbpp0o -->
+<!-- metadata: jekexeghrh -->
+<!-- metadata: cprszd8oad -->
+<!-- metadata: aiiriljwim -->
+<!-- metadata: 5hb11e27qo -->
 - **Solidity Registry** — minimal, event-rich `IdentityRegistry.sol` for anchors, revocations, nullifiers, and social edges.
 - **Deep Sea aesthetic** — dark navy + emerald, optimized for readability and trust.
 
@@ -108,7 +118,6 @@ Open [http://localhost:3000](http://localhost:3000).
   }
 }
 ```
-
 **Response**
 
 ```json
