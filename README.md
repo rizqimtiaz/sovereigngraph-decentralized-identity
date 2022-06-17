@@ -17,6 +17,8 @@ A decentralized identity & social data layer powered by **Zero-Knowledge Proofs*
 
 ---
 
+## 🧱 Tech Stack
+
 | Layer          | Tech                                                 |
 | -------------- | ---------------------------------------------------- |
 | Frontend       | Next.js 16 (App Router), React 19, TypeScript        |
@@ -53,11 +55,6 @@ A decentralized identity & social data layer powered by **Zero-Knowledge Proofs*
 ```
 
 ---
-<!-- metadata: 9jbvr2kgmw -->
-<!-- metadata: 825i17cwej -->
-<!-- metadata: wq67w6k27e -->
-<!-- metadata: 6nm1qcfigx -->
-<!-- metadata: 5e3lxet2rf -->
 
 ## 🚀 Getting Started
 
