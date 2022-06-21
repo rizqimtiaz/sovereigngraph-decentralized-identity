@@ -116,17 +116,12 @@ Open [http://localhost:3000](http://localhost:3000).
   "ok": true,
   "verified": true,
   "proof": {
+    "proof": "0x…",
+    "publicSignals": { "result": true, "threshold": 21, "claimType": "age_over" },
+    "commitmentHash": "0x…",
     "verifier": { "name": "Atlas Wines", "origin": "atlas-wines.app" },
     "issuedAt": "2026-05-03T00:00:00.000Z",
     "nullifier": "0x…"
-<!-- metadata: 9x3sinlet7 -->
-<!-- metadata: na9gy0vx00 -->
-<!-- metadata: 45h5ty4qu1 -->
-<!-- metadata: pshb7lodjc -->
-<!-- metadata: okibt6hv6l -->
-<!-- metadata: c9apdbcs5b -->
-<!-- metadata: 98gwu3p4i5 -->
-<!-- metadata: bv1olbp7gj -->
   }
 }
 ```
