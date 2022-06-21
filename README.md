@@ -57,9 +57,6 @@ A decentralized identity & social data layer powered by **Zero-Knowledge Proofs*
 ---
 
 ## 🚀 Getting Started
-
-### 1. Install dependencies
-
 ```bash
 pnpm install
 ```
@@ -147,6 +144,13 @@ Every state-changing function emits an event so the social/identity graph can be
 ## 🎨 Design Tokens
 
 Defined in [`app/globals.css`](./app/globals.css) — the *Deep Sea* palette:
+<!-- metadata: 5vomsbste4 -->
+<!-- metadata: tamdysdswc -->
+<!-- metadata: 5sips3o919 -->
+<!-- metadata: 07c2guqrlw -->
+<!-- metadata: lzm5r0qtvm -->
+<!-- metadata: gnb0de6r6a -->
+<!-- metadata: paurih55gf -->
 
 | Token         | Value      |
 | ------------- | ---------- |
