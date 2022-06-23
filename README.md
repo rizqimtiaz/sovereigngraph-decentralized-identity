@@ -21,6 +21,9 @@ A decentralized identity & social data layer powered by **Zero-Knowledge Proofs*
 
 | Layer          | Tech                                                 |
 | -------------- | ---------------------------------------------------- |
+| Frontend       | Next.js 16 (App Router), React 19, TypeScript        |
+| Styling        | Tailwind CSS v4, shadcn/ui, framer-motion            |
+| State          | Zustand (with `persist` middleware)                  |
 | Cryptography   | Web Crypto SHA-256 (simulating Pedersen / Snarkjs)   |
 | Validation     | Zod                                                  |
 | Smart Contract | Solidity ^0.8.24 (`contracts/IdentityRegistry.sol`)  |
@@ -71,15 +74,6 @@ Open [http://localhost:3000](http://localhost:3000).
 
 ### 3. Demo the flow
 
-<!-- metadata: cndnnaqx7h -->
-<!-- metadata: 64a6a5ifmi -->
-<!-- metadata: 61hxsuxgts -->
-<!-- metadata: 2jl0vaxguj -->
-<!-- metadata: 5b1v1yv4ee -->
-<!-- metadata: abe2wrfzsj -->
-<!-- metadata: grm049kmr4 -->
-<!-- metadata: zka4g1xlrw -->
-<!-- metadata: 5x1d7knfnr -->
 1. Click **Connect Identity** in the header.
 2. From the Vault, **Anchor a Credential** (e.g. an Age Verification with your DOB).
 3. Click **Simulate Verifier Request** and pick a scenario.
