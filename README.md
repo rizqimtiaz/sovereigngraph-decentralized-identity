@@ -105,6 +105,12 @@ Open [http://localhost:3000](http://localhost:3000).
     "claimType": "age_over",
     "threshold": 21,
     "reason": "Compliance with alcohol-purchase regulations."
+<!-- metadata: cjmiemwdqp -->
+<!-- metadata: no4uop3ecd -->
+<!-- metadata: g4uedly29m -->
+<!-- metadata: zqpbl44q7y -->
+<!-- metadata: pfv988wdt1 -->
+<!-- metadata: ipxxbo3lak -->
   }
 }
 ```
@@ -166,7 +172,6 @@ This is a standard Next.js 16 App Router project. Deploy to [Vercel](https://ver
 vercel deploy
 ```
 
----
 
 ## 📄 License
 
