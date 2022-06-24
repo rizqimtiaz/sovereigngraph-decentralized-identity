@@ -150,6 +150,8 @@ Defined in [`app/globals.css`](./app/globals.css) — the *Deep Sea* palette:
 
 | Token         | Value      |
 | ------------- | ---------- |
+| Background    | `#020617`  |
+| Surface       | `#0b1424`  |
 | Foreground    | `#e2e8f0`  |
 | Muted         | `#94a3b8`  |
 | **Accent**    | `#10b981`  |
@@ -160,16 +162,6 @@ Defined in [`app/globals.css`](./app/globals.css) — the *Deep Sea* palette:
 
 This is a standard Next.js 16 App Router project. Deploy to [Vercel](https://vercel.com/new) with zero configuration:
 
-<!-- metadata: 3omt9m1el4 -->
-<!-- metadata: 43nmcsilks -->
-<!-- metadata: vcfjfnstlq -->
-<!-- metadata: 1rfx62zoes -->
-<!-- metadata: l8368abf5g -->
-<!-- metadata: ig3uvnfvg7 -->
-<!-- metadata: 43ltxntdel -->
-<!-- metadata: m7l5yeru52 -->
-<!-- metadata: gacj8vlqaj -->
-<!-- metadata: 34jl1ou3pe -->
 ```bash
 vercel deploy
 ```
