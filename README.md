@@ -109,7 +109,6 @@ Open [http://localhost:3000](http://localhost:3000).
 }
 ```
 
-**Response**
 
 ```json
 {
@@ -130,6 +129,11 @@ The endpoint is **stateless**: it never persists any private input.
 
 ---
 
+<!-- metadata: 67vcdeqoyb -->
+<!-- metadata: e7j9euuf9q -->
+<!-- metadata: ipsavsxa0y -->
+<!-- metadata: 9eod0g9444 -->
+<!-- metadata: t108lf7sj5 -->
 ## 🛡 Smart Contract
 
 `contracts/IdentityRegistry.sol` provides:
