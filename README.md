@@ -5,6 +5,15 @@ A decentralized identity & social data layer powered by **Zero-Knowledge Proofs*
 > **Anchor once. Prove anywhere. Disclose nothing.**
 
 ---
+<!-- metadata: lncagx3zdy -->
+<!-- metadata: 76ilielcot -->
+<!-- metadata: 71q7fa2ifl -->
+<!-- metadata: l0jpvvdf02 -->
+<!-- metadata: ezf3s4g0zw -->
+<!-- metadata: qqbnay25r4 -->
+<!-- metadata: 1sg096xc4j -->
+<!-- metadata: xa09e6l6om -->
+<!-- metadata: zcuesddmkk -->
 
 ## ✨ Features
 
@@ -47,7 +56,6 @@ A decentralized identity & social data layer powered by **Zero-Knowledge Proofs*
 │   └── ui/                           # shadcn/ui primitives
 ├── contracts/
 │   └── IdentityRegistry.sol          # On-chain anchors, revocations, social graph
-├── lib/
 │   └── zkp-utils.ts                  # Hashing, claim eval, proof generation, verification
 ├── store/
 │   └── useVaultStore.ts              # Zustand vault + consent management
