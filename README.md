@@ -4,8 +4,6 @@ A decentralized identity & social data layer powered by **Zero-Knowledge Proofs*
 
 > **Anchor once. Prove anywhere. Disclose nothing.**
 
----
-
 ## ✨ Features
 
 - **Self-Sovereign Identity** — credentials live in a local, persisted vault you fully control.
@@ -43,6 +41,11 @@ A decentralized identity & social data layer powered by **Zero-Knowledge Proofs*
 ├── components/
 │   ├── ZKP-Request-Modal.tsx         # High-fidelity consent modal
 │   ├── site-header.tsx               # Privacy Shield navigation
+<!-- metadata: qodac8ghn8 -->
+<!-- metadata: 8tbhm761zw -->
+<!-- metadata: 379bof92pm -->
+<!-- metadata: 4mbt3kk0kx -->
+<!-- metadata: 63ng038eof -->
 │   ├── vault-dashboard.tsx           # Credentials + Access Log UI
 │   └── ui/                           # shadcn/ui primitives
 ├── contracts/
