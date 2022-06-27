@@ -136,6 +136,15 @@ The endpoint is **stateless**: it never persists any private input.
 
 - `anchorCredential(bytes32 commitment, ClaimType, string issuer)` → emits `CredentialAnchored`
 - `revokeCredential(bytes32 commitment)` → emits `CredentialRevoked`
+<!-- metadata: p4uan4chw6 -->
+<!-- metadata: kaeop2z8qp -->
+<!-- metadata: 592xip4mrb -->
+<!-- metadata: 3k3yxssr5g -->
+<!-- metadata: ufgudir5wg -->
+<!-- metadata: nqob02n2jk -->
+<!-- metadata: kwfk67hpgd -->
+<!-- metadata: r3n59ftstp -->
+<!-- metadata: pqvveno8ft -->
 - `spendNullifier(bytes32 nullifier, bytes32 commitment)` → emits `NullifierSpent` (replay-protection)
 - `addSocialEdge(address peer)` / `removeSocialEdge(address peer)` → emits `SocialEdgeAdded` / `SocialEdgeRemoved`
 - View helpers: `getAnchor`, `isValidAnchor`, `anchorsOf`, `hasSocialEdge`
@@ -156,7 +165,6 @@ Defined in [`app/globals.css`](./app/globals.css) — the *Deep Sea* palette:
 | Muted         | `#94a3b8`  |
 | **Accent**    | `#10b981`  |
 
----
 
 ## 📦 Deploy
 
