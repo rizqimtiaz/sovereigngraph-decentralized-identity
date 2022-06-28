@@ -75,8 +75,6 @@ Open [http://localhost:3000](http://localhost:3000).
 ### 3. Demo the flow
 
 1. Click **Connect Identity** in the header.
-2. From the Vault, **Anchor a Credential** (e.g. an Age Verification with your DOB).
-3. Click **Simulate Verifier Request** and pick a scenario.
 4. Approve the request — only the boolean result is "shared".
 5. Inspect the **Consent & Access Log** for an immutable audit trail.
 
@@ -125,6 +123,12 @@ Open [http://localhost:3000](http://localhost:3000).
   }
 }
 ```
+<!-- metadata: 3v90j0d9xf -->
+<!-- metadata: 3yn0hfejhg -->
+<!-- metadata: 4pm7sw9smv -->
+<!-- metadata: 8lrtjpy7xn -->
+<!-- metadata: wl5jsqwfg6 -->
+<!-- metadata: tjruonh3su -->
 
 The endpoint is **stateless**: it never persists any private input.
 
