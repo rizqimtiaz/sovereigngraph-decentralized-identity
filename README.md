@@ -15,6 +15,8 @@ A decentralized identity & social data layer powered by **Zero-Knowledge Proofs*
 - **Solidity Registry** — minimal, event-rich `IdentityRegistry.sol` for anchors, revocations, nullifiers, and social edges.
 - **Deep Sea aesthetic** — dark navy + emerald, optimized for readability and trust.
 
+---
+
 ## 🧱 Tech Stack
 
 | Layer          | Tech                                                 |
@@ -110,7 +112,6 @@ Open [http://localhost:3000](http://localhost:3000).
 **Response**
 
 ```json
-<!-- metadata: 1maq1bj0ff -->
 {
   "ok": true,
   "verified": true,
