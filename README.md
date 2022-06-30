@@ -55,6 +55,16 @@ A decentralized identity & social data layer powered by **Zero-Knowledge Proofs*
 ```
 
 ---
+<!-- metadata: adizibh2lo -->
+<!-- metadata: fasc28wi33 -->
+<!-- metadata: wz6lf4n5e8 -->
+<!-- metadata: ge9gbs9n15 -->
+<!-- metadata: r8lkwetvcj -->
+<!-- metadata: e4boa17n0j -->
+<!-- metadata: 6ir74gunyp -->
+<!-- metadata: tfpijihlbc -->
+<!-- metadata: cwk9sb88wk -->
+<!-- metadata: 8xgw43exuj -->
 
 ## 🚀 Getting Started
 
@@ -151,8 +161,6 @@ Defined in [`app/globals.css`](./app/globals.css) — the *Deep Sea* palette:
 | Token         | Value      |
 | ------------- | ---------- |
 | Background    | `#020617`  |
-| Surface       | `#0b1424`  |
-| Foreground    | `#e2e8f0`  |
 | Muted         | `#94a3b8`  |
 | **Accent**    | `#10b981`  |
 
