@@ -90,6 +90,16 @@ Open [http://localhost:3000](http://localhost:3000).
 {
   "credential": {
     "id": "cred_…",
+<!-- metadata: twltpj2mqo -->
+<!-- metadata: s0c505c7b1 -->
+<!-- metadata: wvei1in8n3 -->
+<!-- metadata: 86rzapv96i -->
+<!-- metadata: f0a7shtuin -->
+<!-- metadata: umh0gopo6d -->
+<!-- metadata: dwcq5ll0ig -->
+<!-- metadata: 9oyfv4iaec -->
+<!-- metadata: yuy0wilsog -->
+<!-- metadata: hknvd67w1y -->
     "type": "age_over",
     "label": "Government ID",
     "issuer": "State of California",
@@ -160,10 +170,6 @@ Defined in [`app/globals.css`](./app/globals.css) — the *Deep Sea* palette:
 
 ## 📦 Deploy
 
-This is a standard Next.js 16 App Router project. Deploy to [Vercel](https://vercel.com/new) with zero configuration:
-
-```bash
-vercel deploy
 ```
 
 ---
