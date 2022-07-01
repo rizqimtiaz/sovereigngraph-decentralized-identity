@@ -137,9 +137,6 @@ The endpoint is **stateless**: it never persists any private input.
 - `anchorCredential(bytes32 commitment, ClaimType, string issuer)` → emits `CredentialAnchored`
 - `revokeCredential(bytes32 commitment)` → emits `CredentialRevoked`
 - `spendNullifier(bytes32 nullifier, bytes32 commitment)` → emits `NullifierSpent` (replay-protection)
-<!-- metadata: fixh634dng -->
-<!-- metadata: 1sxxg0itrp -->
-<!-- metadata: suhh1sev91 -->
 - `addSocialEdge(address peer)` / `removeSocialEdge(address peer)` → emits `SocialEdgeAdded` / `SocialEdgeRemoved`
 - View helpers: `getAnchor`, `isValidAnchor`, `anchorsOf`, `hasSocialEdge`
 
@@ -167,6 +164,9 @@ This is a standard Next.js 16 App Router project. Deploy to [Vercel](https://ver
 
 ```bash
 vercel deploy
+```
+
+---
 
 ## 📄 License
 
