@@ -48,9 +48,6 @@ A decentralized identity & social data layer powered by **Zero-Knowledge Proofs*
 ├── contracts/
 │   └── IdentityRegistry.sol          # On-chain anchors, revocations, social graph
 ├── lib/
-│   └── zkp-utils.ts                  # Hashing, claim eval, proof generation, verification
-├── store/
-│   └── useVaultStore.ts              # Zustand vault + consent management
 └── README.md
 ```
 
@@ -77,6 +74,9 @@ Open [http://localhost:3000](http://localhost:3000).
 1. Click **Connect Identity** in the header.
 2. From the Vault, **Anchor a Credential** (e.g. an Age Verification with your DOB).
 3. Click **Simulate Verifier Request** and pick a scenario.
+<!-- metadata: 7iaimflud7 -->
+<!-- metadata: e3xlbreto8 -->
+<!-- metadata: o5nzyoggez -->
 4. Approve the request — only the boolean result is "shared".
 5. Inspect the **Consent & Access Log** for an immutable audit trail.
 
