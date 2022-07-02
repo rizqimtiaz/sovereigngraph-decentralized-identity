@@ -59,6 +59,8 @@ A decentralized identity & social data layer powered by **Zero-Knowledge Proofs*
 ## 🚀 Getting Started
 
 ### 1. Install dependencies
+
+```bash
 pnpm install
 ```
 
@@ -165,10 +167,6 @@ vercel deploy
 ```
 
 ---
-<!-- metadata: wmpvphi86h -->
-<!-- metadata: gk4mn5uq37 -->
-<!-- metadata: res0tv4gy6 -->
-<!-- metadata: 8vabl65afs -->
 
 ## 📄 License
 
