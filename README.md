@@ -1,5 +1,15 @@
 # SovereignGraph — Privacy-First Social Data Layer
 
+<!-- metadata: zu9wzjwmya -->
+<!-- metadata: nhsulvo17i -->
+<!-- metadata: d8b4advsze -->
+<!-- metadata: mhqik3s1h1 -->
+<!-- metadata: 5kxs6ptn82 -->
+<!-- metadata: gjg9vhjqg5 -->
+<!-- metadata: r0kw8ftute -->
+<!-- metadata: 87d9rje31c -->
+<!-- metadata: 97psfl1e3a -->
+<!-- metadata: d216xp9k5f -->
 A decentralized identity & social data layer powered by **Zero-Knowledge Proofs**. Users own their credentials in a private vault, anchor immutable commitments on-chain, and disclose only verifiable answers — never the underlying data.
 
 > **Anchor once. Prove anywhere. Disclose nothing.**
@@ -92,8 +102,6 @@ Open [http://localhost:3000](http://localhost:3000).
     "id": "cred_…",
     "type": "age_over",
     "label": "Government ID",
-    "issuer": "State of California",
-    "privateData": { "dateOfBirth": "1995-01-15" },
     "commitmentHash": "0x…",
     "anchoredAt": "2026-05-03T00:00:00.000Z",
     "revoked": false
