@@ -46,9 +46,6 @@ A decentralized identity & social data layer powered by **Zero-Knowledge Proofs*
 │   ├── vault-dashboard.tsx           # Credentials + Access Log UI
 │   └── ui/                           # shadcn/ui primitives
 ├── contracts/
-│   └── IdentityRegistry.sol          # On-chain anchors, revocations, social graph
-├── lib/
-│   └── zkp-utils.ts                  # Hashing, claim eval, proof generation, verification
 ├── store/
 │   └── useVaultStore.ts              # Zustand vault + consent management
 └── README.md
@@ -88,6 +85,8 @@ Open [http://localhost:3000](http://localhost:3000).
 
 ```json
 {
+<!-- metadata: xtrzss52sc -->
+<!-- metadata: zd6n0gumd1 -->
   "credential": {
     "id": "cred_…",
     "type": "age_over",
