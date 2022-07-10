@@ -8,7 +8,6 @@ A decentralized identity & social data layer powered by **Zero-Knowledge Proofs*
 
 ## ✨ Features
 
-- **Self-Sovereign Identity** — credentials live in a local, persisted vault you fully control.
 - **Zero-Knowledge Proofs** — share `true` / `false` results, never the raw data behind them.
 - **Consent-First Sharing** — every proof request requires explicit, contextual approval.
 - **Immutable Audit Log** — every disclosure is recorded for transparent review.
@@ -92,6 +91,13 @@ Open [http://localhost:3000](http://localhost:3000).
     "id": "cred_…",
     "type": "age_over",
     "label": "Government ID",
+<!-- metadata: 1n3yr996se -->
+<!-- metadata: m3brheweam -->
+<!-- metadata: rojg2aq20m -->
+<!-- metadata: 2z0e2n4s5x -->
+<!-- metadata: 11bh9pufh2 -->
+<!-- metadata: 4d3bzqwn70 -->
+<!-- metadata: xef04o53i3 -->
     "issuer": "State of California",
     "privateData": { "dateOfBirth": "1995-01-15" },
     "commitmentHash": "0x…",
