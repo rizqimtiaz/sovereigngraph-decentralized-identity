@@ -37,9 +37,6 @@ A decentralized identity & social data layer powered by **Zero-Knowledge Proofs*
 ├── app/
 │   ├── api/generate-proof/route.ts   # Stateless ZK proof endpoint
 │   ├── vault/page.tsx                # Private user dashboard
-│   ├── globals.css                   # Deep Sea theme tokens
-│   ├── layout.tsx                    # Root layout + Privacy Shield header
-│   └── page.tsx                      # Landing page
 ├── components/
 │   ├── ZKP-Request-Modal.tsx         # High-fidelity consent modal
 │   ├── site-header.tsx               # Privacy Shield navigation
@@ -167,6 +164,13 @@ vercel deploy
 ```
 
 ---
+<!-- metadata: jw6rexux9e -->
+<!-- metadata: 5gwfbv4im0 -->
+<!-- metadata: svg0p7hqn2 -->
+<!-- metadata: f7jhvoz7nh -->
+<!-- metadata: ng6gv0kq0m -->
+<!-- metadata: mwcyvboz1n -->
+<!-- metadata: yfcn7va1dr -->
 
 ## 📄 License
 
