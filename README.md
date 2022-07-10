@@ -17,7 +17,6 @@ A decentralized identity & social data layer powered by **Zero-Knowledge Proofs*
 
 ---
 
-<!-- metadata: 763ynzldkc -->
 ## 🧱 Tech Stack
 
 | Layer          | Tech                                                 |
@@ -132,6 +131,8 @@ The endpoint is **stateless**: it never persists any private input.
 ---
 
 ## 🛡 Smart Contract
+
+`contracts/IdentityRegistry.sol` provides:
 
 - `anchorCredential(bytes32 commitment, ClaimType, string issuer)` → emits `CredentialAnchored`
 - `revokeCredential(bytes32 commitment)` → emits `CredentialRevoked`
