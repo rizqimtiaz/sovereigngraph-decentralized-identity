@@ -31,14 +31,6 @@ A decentralized identity & social data layer powered by **Zero-Knowledge Proofs*
 ---
 
 ## 📁 Project Structure
-<!-- metadata: hdsqj46stz -->
-<!-- metadata: bdqxvbmrzn -->
-<!-- metadata: cov7ua3a9r -->
-<!-- metadata: 42mc3nut6j -->
-<!-- metadata: nuogrzwp6e -->
-<!-- metadata: 7s04el4fzp -->
-<!-- metadata: lgvrvid53r -->
-<!-- metadata: cxpuef6f79 -->
 
 ```
 .
@@ -126,6 +118,8 @@ Open [http://localhost:3000](http://localhost:3000).
   "proof": {
     "proof": "0x…",
     "publicSignals": { "result": true, "threshold": 21, "claimType": "age_over" },
+    "commitmentHash": "0x…",
+    "verifier": { "name": "Atlas Wines", "origin": "atlas-wines.app" },
     "issuedAt": "2026-05-03T00:00:00.000Z",
     "nullifier": "0x…"
   }
