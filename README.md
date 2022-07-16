@@ -134,6 +134,8 @@ The endpoint is **stateless**: it never persists any private input.
 
 `contracts/IdentityRegistry.sol` provides:
 
+- `anchorCredential(bytes32 commitment, ClaimType, string issuer)` → emits `CredentialAnchored`
+- `revokeCredential(bytes32 commitment)` → emits `CredentialRevoked`
 - `spendNullifier(bytes32 nullifier, bytes32 commitment)` → emits `NullifierSpent` (replay-protection)
 - `addSocialEdge(address peer)` / `removeSocialEdge(address peer)` → emits `SocialEdgeAdded` / `SocialEdgeRemoved`
 - View helpers: `getAnchor`, `isValidAnchor`, `anchorsOf`, `hasSocialEdge`
@@ -152,16 +154,6 @@ Defined in [`app/globals.css`](./app/globals.css) — the *Deep Sea* palette:
 | Surface       | `#0b1424`  |
 | Foreground    | `#e2e8f0`  |
 | Muted         | `#94a3b8`  |
-<!-- metadata: rfi0uk8gi1 -->
-<!-- metadata: yn2af84vyt -->
-<!-- metadata: 1bcl1m8v5s -->
-<!-- metadata: 9ml3yfejw3 -->
-<!-- metadata: 7w1vey8jgk -->
-<!-- metadata: ydf9phnpmb -->
-<!-- metadata: gcyh1cmwhk -->
-<!-- metadata: u0cfn4f7a5 -->
-<!-- metadata: 61iw6yayzl -->
-<!-- metadata: 9em0uav6ge -->
 | **Accent**    | `#10b981`  |
 
 ---
