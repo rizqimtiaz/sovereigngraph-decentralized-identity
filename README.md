@@ -127,10 +127,8 @@ Open [http://localhost:3000](http://localhost:3000).
 ```
 
 The endpoint is **stateless**: it never persists any private input.
-<!-- metadata: 8tgxaca72f -->
-<!-- metadata: j6ius0dolx -->
-<!-- metadata: kexssyldzy -->
 
+---
 
 ## 🛡 Smart Contract
 
