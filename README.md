@@ -26,6 +26,10 @@ A decentralized identity & social data layer powered by **Zero-Knowledge Proofs*
 | State          | Zustand (with `persist` middleware)                  |
 | Cryptography   | Web Crypto SHA-256 (simulating Pedersen / Snarkjs)   |
 | Validation     | Zod                                                  |
+| Smart Contract | Solidity ^0.8.24 (`contracts/IdentityRegistry.sol`)  |
+
+---
+
 ## 📁 Project Structure
 
 ```
@@ -35,12 +39,6 @@ A decentralized identity & social data layer powered by **Zero-Knowledge Proofs*
 │   ├── vault/page.tsx                # Private user dashboard
 │   ├── globals.css                   # Deep Sea theme tokens
 │   ├── layout.tsx                    # Root layout + Privacy Shield header
-<!-- metadata: zoxe7tv9jv -->
-<!-- metadata: 8hn6q1sm0t -->
-<!-- metadata: nwxmstgt12 -->
-<!-- metadata: ulrd8k6ihg -->
-<!-- metadata: 1gcef3ecvw -->
-<!-- metadata: 8yz422gx7v -->
 │   └── page.tsx                      # Landing page
 ├── components/
 │   ├── ZKP-Request-Modal.tsx         # High-fidelity consent modal
