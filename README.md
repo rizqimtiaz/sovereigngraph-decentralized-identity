@@ -80,17 +80,14 @@ Open [http://localhost:3000](http://localhost:3000).
 4. Approve the request — only the boolean result is "shared".
 5. Inspect the **Consent & Access Log** for an immutable audit trail.
 
-<!-- metadata: i0262y090n -->
-<!-- metadata: bhgxpj4482 -->
-<!-- metadata: 0itqjfntcu -->
-<!-- metadata: y6dbu5dd6d -->
-<!-- metadata: udg7mgj2tz -->
-<!-- metadata: uwrh65s3oe -->
 ---
 
 ## 🔐 ZK Proof API
 
 `POST /api/generate-proof`
+
+```json
+{
   "credential": {
     "id": "cred_…",
     "type": "age_over",
