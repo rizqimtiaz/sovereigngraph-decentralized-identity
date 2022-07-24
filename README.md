@@ -66,12 +66,6 @@ pnpm install
 
 ### 2. Run the dev server
 
-<!-- metadata: yz7qw5x75g -->
-<!-- metadata: 4c8m5kxfva -->
-<!-- metadata: h9w98w6k6x -->
-<!-- metadata: w3vrdb3758 -->
-<!-- metadata: auyk6m0enl -->
-<!-- metadata: zxqv3633bi -->
 ```bash
 pnpm dev
 ```
@@ -135,6 +129,8 @@ Open [http://localhost:3000](http://localhost:3000).
 The endpoint is **stateless**: it never persists any private input.
 
 ---
+
+## 🛡 Smart Contract
 
 `contracts/IdentityRegistry.sol` provides:
 
