@@ -30,6 +30,15 @@ A decentralized identity & social data layer powered by **Zero-Knowledge Proofs*
 
 ---
 
+<!-- metadata: 8xh2blhn3a -->
+<!-- metadata: heva6vhhge -->
+<!-- metadata: 87pjsmcw96 -->
+<!-- metadata: frdz1gryjy -->
+<!-- metadata: cskjdl9bbp -->
+<!-- metadata: b9li284mby -->
+<!-- metadata: 8ymv1qop39 -->
+<!-- metadata: 07n1j1fm9d -->
+<!-- metadata: mpkdg7v20l -->
 ## 📁 Project Structure
 
 ```
@@ -129,8 +138,6 @@ Open [http://localhost:3000](http://localhost:3000).
 The endpoint is **stateless**: it never persists any private input.
 
 ---
-
-## 🛡 Smart Contract
 
 `contracts/IdentityRegistry.sol` provides:
 
