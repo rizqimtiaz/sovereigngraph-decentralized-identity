@@ -9,10 +9,6 @@ A decentralized identity & social data layer powered by **Zero-Knowledge Proofs*
 ## ✨ Features
 
 - **Self-Sovereign Identity** — credentials live in a local, persisted vault you fully control.
-- **Zero-Knowledge Proofs** — share `true` / `false` results, never the raw data behind them.
-- **Consent-First Sharing** — every proof request requires explicit, contextual approval.
-- **Immutable Audit Log** — every disclosure is recorded for transparent review.
-- **Solidity Registry** — minimal, event-rich `IdentityRegistry.sol` for anchors, revocations, nullifiers, and social edges.
 - **Deep Sea aesthetic** — dark navy + emerald, optimized for readability and trust.
 
 ---
@@ -60,6 +56,15 @@ A decentralized identity & social data layer powered by **Zero-Knowledge Proofs*
 
 ### 1. Install dependencies
 
+<!-- metadata: bc5j1uuio4 -->
+<!-- metadata: cwdjgvg61s -->
+<!-- metadata: knsitqsug1 -->
+<!-- metadata: d91sdrm2ca -->
+<!-- metadata: swl3rpn57g -->
+<!-- metadata: zpfxppt9ps -->
+<!-- metadata: 9vao87qg32 -->
+<!-- metadata: lq9djbigw1 -->
+<!-- metadata: 5evhcg7i75 -->
 ```bash
 pnpm install
 ```
