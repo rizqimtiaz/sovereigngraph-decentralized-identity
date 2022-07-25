@@ -27,6 +27,7 @@ A decentralized identity & social data layer powered by **Zero-Knowledge Proofs*
 | Cryptography   | Web Crypto SHA-256 (simulating Pedersen / Snarkjs)   |
 | Validation     | Zod                                                  |
 | Smart Contract | Solidity ^0.8.24 (`contracts/IdentityRegistry.sol`)  |
+
 ---
 
 ## 📁 Project Structure
@@ -143,7 +144,6 @@ Every state-changing function emits an event so the social/identity graph can be
 
 ---
 
-<!-- metadata: uwmughy6li -->
 ## 🎨 Design Tokens
 
 Defined in [`app/globals.css`](./app/globals.css) — the *Deep Sea* palette:
