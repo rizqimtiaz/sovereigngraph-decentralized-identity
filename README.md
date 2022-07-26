@@ -51,11 +51,6 @@ A decentralized identity & social data layer powered by **Zero-Knowledge Proofs*
 │   └── zkp-utils.ts                  # Hashing, claim eval, proof generation, verification
 ├── store/
 │   └── useVaultStore.ts              # Zustand vault + consent management
-<!-- metadata: p0imm3k4sq -->
-<!-- metadata: x95r4xrnic -->
-<!-- metadata: dnsjbsvsp4 -->
-<!-- metadata: 5xjrdvnesj -->
-<!-- metadata: 6oaa5ho0dx -->
 └── README.md
 ```
 
@@ -150,6 +145,9 @@ Every state-changing function emits an event so the social/identity graph can be
 ---
 
 ## 🎨 Design Tokens
+
+Defined in [`app/globals.css`](./app/globals.css) — the *Deep Sea* palette:
+
 | Token         | Value      |
 | ------------- | ---------- |
 | Background    | `#020617`  |
