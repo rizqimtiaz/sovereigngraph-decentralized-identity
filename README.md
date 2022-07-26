@@ -16,6 +16,8 @@ A decentralized identity & social data layer powered by **Zero-Knowledge Proofs*
 - **Deep Sea aesthetic** — dark navy + emerald, optimized for readability and trust.
 
 ---
+<!-- metadata: e3m8crlpr7 -->
+<!-- metadata: isa36xs7f5 -->
 
 ## 🧱 Tech Stack
 
@@ -165,9 +167,5 @@ This is a standard Next.js 16 App Router project. Deploy to [Vercel](https://ver
 ```bash
 vercel deploy
 ```
-
----
-
-## 📄 License
 
 MIT © SovereignGraph Protocol
