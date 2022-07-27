@@ -35,6 +35,10 @@ A decentralized identity & social data layer powered by **Zero-Knowledge Proofs*
 ```
 .
 ├── app/
+│   ├── api/generate-proof/route.ts   # Stateless ZK proof endpoint
+│   ├── vault/page.tsx                # Private user dashboard
+│   ├── globals.css                   # Deep Sea theme tokens
+│   ├── layout.tsx                    # Root layout + Privacy Shield header
 │   └── page.tsx                      # Landing page
 ├── components/
 │   ├── ZKP-Request-Modal.tsx         # High-fidelity consent modal
@@ -84,12 +88,6 @@ Open [http://localhost:3000](http://localhost:3000).
 
 ```json
 {
-<!-- metadata: y2kh8p0yji -->
-<!-- metadata: m7bdqovqwa -->
-<!-- metadata: 3egitxv64i -->
-<!-- metadata: yqb1ysgrch -->
-<!-- metadata: 03jifkhu6d -->
-<!-- metadata: a9r1fwdqqd -->
   "credential": {
     "id": "cred_…",
     "type": "age_over",
