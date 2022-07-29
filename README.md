@@ -78,11 +78,6 @@ Open [http://localhost:3000](http://localhost:3000).
 2. From the Vault, **Anchor a Credential** (e.g. an Age Verification with your DOB).
 3. Click **Simulate Verifier Request** and pick a scenario.
 4. Approve the request — only the boolean result is "shared".
-<!-- metadata: bjgsvum4b6 -->
-<!-- metadata: kswhsznziy -->
-<!-- metadata: cjnnatiidt -->
-<!-- metadata: o0ogquvfuf -->
-<!-- metadata: lfhivol8r7 -->
 5. Inspect the **Consent & Access Log** for an immutable audit trail.
 
 ---
@@ -130,6 +125,7 @@ Open [http://localhost:3000](http://localhost:3000).
   }
 }
 ```
+
 The endpoint is **stateless**: it never persists any private input.
 
 ---
