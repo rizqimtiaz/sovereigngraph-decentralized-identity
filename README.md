@@ -2,6 +2,13 @@
 
 A decentralized identity & social data layer powered by **Zero-Knowledge Proofs**. Users own their credentials in a private vault, anchor immutable commitments on-chain, and disclose only verifiable answers — never the underlying data.
 
+<!-- metadata: bzwq8acmjn -->
+<!-- metadata: evk03goty0 -->
+<!-- metadata: ehtaia9hv7 -->
+<!-- metadata: ma2y1nvzno -->
+<!-- metadata: 06sm0vwnw1 -->
+<!-- metadata: 5dexa4vwj3 -->
+<!-- metadata: 4o3x5lz58v -->
 > **Anchor once. Prove anywhere. Disclose nothing.**
 
 ---
@@ -159,7 +166,6 @@ Defined in [`app/globals.css`](./app/globals.css) — the *Deep Sea* palette:
 ---
 
 ## 📦 Deploy
-
 This is a standard Next.js 16 App Router project. Deploy to [Vercel](https://vercel.com/new) with zero configuration:
 
 ```bash
