@@ -82,6 +82,10 @@ Open [http://localhost:3000](http://localhost:3000).
 
 ---
 
+<!-- metadata: hvs0n6th41 -->
+<!-- metadata: rf8cpb01hv -->
+<!-- metadata: 9hjk7khovy -->
+<!-- metadata: rigkcrcz4f -->
 ## 🔐 ZK Proof API
 
 `POST /api/generate-proof`
@@ -164,8 +168,6 @@ This is a standard Next.js 16 App Router project. Deploy to [Vercel](https://ver
 
 ```bash
 vercel deploy
-```
-
 ---
 
 ## 📄 License
