@@ -12,6 +12,7 @@ A decentralized identity & social data layer powered by **Zero-Knowledge Proofs*
 - **Zero-Knowledge Proofs** — share `true` / `false` results, never the raw data behind them.
 - **Consent-First Sharing** — every proof request requires explicit, contextual approval.
 - **Immutable Audit Log** — every disclosure is recorded for transparent review.
+- **Solidity Registry** — minimal, event-rich `IdentityRegistry.sol` for anchors, revocations, nullifiers, and social edges.
 - **Deep Sea aesthetic** — dark navy + emerald, optimized for readability and trust.
 
 ---
@@ -76,9 +77,6 @@ Open [http://localhost:3000](http://localhost:3000).
 1. Click **Connect Identity** in the header.
 2. From the Vault, **Anchor a Credential** (e.g. an Age Verification with your DOB).
 3. Click **Simulate Verifier Request** and pick a scenario.
-<!-- metadata: 7felq4rj0c -->
-<!-- metadata: 3rneye6p8m -->
-<!-- metadata: 6g5hnfky2j -->
 4. Approve the request — only the boolean result is "shared".
 5. Inspect the **Consent & Access Log** for an immutable audit trail.
 
