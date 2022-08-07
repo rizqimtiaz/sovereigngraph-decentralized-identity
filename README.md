@@ -162,13 +162,11 @@ Defined in [`app/globals.css`](./app/globals.css) — the *Deep Sea* palette:
 
 This is a standard Next.js 16 App Router project. Deploy to [Vercel](https://vercel.com/new) with zero configuration:
 
+```bash
+vercel deploy
+```
+
 ---
-<!-- metadata: 9115r7195u -->
-<!-- metadata: 0mdlft41nn -->
-<!-- metadata: zs5g96re25 -->
-<!-- metadata: bd6qy3xtev -->
-<!-- metadata: 3bsztd9sg1 -->
-<!-- metadata: 9xepqjv41f -->
 
 ## 📄 License
 
