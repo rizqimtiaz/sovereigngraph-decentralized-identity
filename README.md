@@ -22,6 +22,7 @@ A decentralized identity & social data layer powered by **Zero-Knowledge Proofs*
 | Layer          | Tech                                                 |
 | -------------- | ---------------------------------------------------- |
 | Frontend       | Next.js 16 (App Router), React 19, TypeScript        |
+| Styling        | Tailwind CSS v4, shadcn/ui, framer-motion            |
 | State          | Zustand (with `persist` middleware)                  |
 | Cryptography   | Web Crypto SHA-256 (simulating Pedersen / Snarkjs)   |
 | Validation     | Zod                                                  |
@@ -96,13 +97,6 @@ Open [http://localhost:3000](http://localhost:3000).
     "commitmentHash": "0x…",
     "anchoredAt": "2026-05-03T00:00:00.000Z",
     "revoked": false
-<!-- metadata: r7cva5cs08 -->
-<!-- metadata: xmqw91bow8 -->
-<!-- metadata: i2voh8hwrt -->
-<!-- metadata: o7j0gtsx8d -->
-<!-- metadata: zgev48726x -->
-<!-- metadata: xapxyd9jgu -->
-<!-- metadata: 2jwrwdf12z -->
   },
   "request": {
     "appName": "Atlas Wines",
