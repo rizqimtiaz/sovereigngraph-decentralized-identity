@@ -96,8 +96,6 @@ Open [http://localhost:3000](http://localhost:3000).
     "privateData": { "dateOfBirth": "1995-01-15" },
     "commitmentHash": "0x…",
     "anchoredAt": "2026-05-03T00:00:00.000Z",
-<!-- metadata: s5o6ihch9a -->
-<!-- metadata: byvx773kkp -->
     "revoked": false
   },
   "request": {
@@ -162,6 +160,9 @@ Defined in [`app/globals.css`](./app/globals.css) — the *Deep Sea* palette:
 
 ## 📦 Deploy
 
+This is a standard Next.js 16 App Router project. Deploy to [Vercel](https://vercel.com/new) with zero configuration:
+
+```bash
 vercel deploy
 ```
 
