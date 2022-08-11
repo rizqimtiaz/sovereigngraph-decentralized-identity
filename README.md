@@ -137,19 +137,13 @@ The endpoint is **stateless**: it never persists any private input.
 - `anchorCredential(bytes32 commitment, ClaimType, string issuer)` → emits `CredentialAnchored`
 - `revokeCredential(bytes32 commitment)` → emits `CredentialRevoked`
 - `spendNullifier(bytes32 nullifier, bytes32 commitment)` → emits `NullifierSpent` (replay-protection)
-<!-- metadata: 7k8mwv5di3 -->
-<!-- metadata: azojk0g4v7 -->
-<!-- metadata: 8s1739bjwx -->
-<!-- metadata: v2yogq8pv6 -->
-<!-- metadata: y1hleakfjt -->
-<!-- metadata: dfza9e2pz2 -->
-<!-- metadata: n4wtmt869s -->
 - `addSocialEdge(address peer)` / `removeSocialEdge(address peer)` → emits `SocialEdgeAdded` / `SocialEdgeRemoved`
 - View helpers: `getAnchor`, `isValidAnchor`, `anchorsOf`, `hasSocialEdge`
 
 Every state-changing function emits an event so the social/identity graph can be reconstructed off-chain by indexers.
 
 ---
+
 ## 🎨 Design Tokens
 
 Defined in [`app/globals.css`](./app/globals.css) — the *Deep Sea* palette:
