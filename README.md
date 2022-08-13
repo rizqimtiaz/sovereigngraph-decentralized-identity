@@ -35,9 +35,6 @@ A decentralized identity & social data layer powered by **Zero-Knowledge Proofs*
 ```
 .
 ├── app/
-│   ├── api/generate-proof/route.ts   # Stateless ZK proof endpoint
-│   ├── vault/page.tsx                # Private user dashboard
-│   ├── globals.css                   # Deep Sea theme tokens
 │   ├── layout.tsx                    # Root layout + Privacy Shield header
 │   └── page.tsx                      # Landing page
 ├── components/
@@ -134,6 +131,13 @@ The endpoint is **stateless**: it never persists any private input.
 
 `contracts/IdentityRegistry.sol` provides:
 
+<!-- metadata: imwq70eecm -->
+<!-- metadata: 766t6x9uai -->
+<!-- metadata: 9e9a7rsxft -->
+<!-- metadata: y63ba7ww65 -->
+<!-- metadata: qfn8rev1el -->
+<!-- metadata: cbiobkcxjx -->
+<!-- metadata: 282u7vvnfn -->
 - `anchorCredential(bytes32 commitment, ClaimType, string issuer)` → emits `CredentialAnchored`
 - `revokeCredential(bytes32 commitment)` → emits `CredentialRevoked`
 - `spendNullifier(bytes32 nullifier, bytes32 commitment)` → emits `NullifierSpent` (replay-protection)
