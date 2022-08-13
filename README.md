@@ -58,6 +58,15 @@ A decentralized identity & social data layer powered by **Zero-Knowledge Proofs*
 
 ## 🚀 Getting Started
 
+<!-- metadata: 4djj3e0tod -->
+<!-- metadata: 22gwxcs6jt -->
+<!-- metadata: ein0fj99ad -->
+<!-- metadata: aacz9jhfpi -->
+<!-- metadata: eh9wagfzlz -->
+<!-- metadata: dv7y8b31pa -->
+<!-- metadata: 5b9qmu3f6g -->
+<!-- metadata: 7vous0qrwj -->
+<!-- metadata: 1mn2q1hcox -->
 ### 1. Install dependencies
 
 ```bash
@@ -85,10 +94,6 @@ Open [http://localhost:3000](http://localhost:3000).
 ## 🔐 ZK Proof API
 
 `POST /api/generate-proof`
-
-```json
-{
-  "credential": {
     "id": "cred_…",
     "type": "age_over",
     "label": "Government ID",
