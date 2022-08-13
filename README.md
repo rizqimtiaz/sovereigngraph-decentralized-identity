@@ -38,6 +38,8 @@ A decentralized identity & social data layer powered by **Zero-Knowledge Proofs*
 │   ├── api/generate-proof/route.ts   # Stateless ZK proof endpoint
 │   ├── vault/page.tsx                # Private user dashboard
 │   ├── globals.css                   # Deep Sea theme tokens
+│   ├── layout.tsx                    # Root layout + Privacy Shield header
+│   └── page.tsx                      # Landing page
 ├── components/
 │   ├── ZKP-Request-Modal.tsx         # High-fidelity consent modal
 │   ├── site-header.tsx               # Privacy Shield navigation
@@ -81,15 +83,6 @@ Open [http://localhost:3000](http://localhost:3000).
 ---
 
 ## 🔐 ZK Proof API
-<!-- metadata: 0ef84gqc0w -->
-<!-- metadata: uxnjzp6k1p -->
-<!-- metadata: u9j8ok5h5n -->
-<!-- metadata: 9fyjim9wvn -->
-<!-- metadata: nmyhv9cuav -->
-<!-- metadata: c1xwwnvxuf -->
-<!-- metadata: vmb5g14iez -->
-<!-- metadata: litnohhlm9 -->
-<!-- metadata: c46mfpp8y2 -->
 
 `POST /api/generate-proof`
 
