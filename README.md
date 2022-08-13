@@ -101,17 +101,11 @@ Open [http://localhost:3000](http://localhost:3000).
   "request": {
     "appName": "Atlas Wines",
     "appOrigin": "atlas-wines.app",
+    "statement": "User age ≥ 21",
+    "claimType": "age_over",
+    "threshold": 21,
     "reason": "Compliance with alcohol-purchase regulations."
   }
-<!-- metadata: pvq00gt0o8 -->
-<!-- metadata: abkoso0sc0 -->
-<!-- metadata: wxjf4ifazo -->
-<!-- metadata: bb0ea8j208 -->
-<!-- metadata: sxtyam8x41 -->
-<!-- metadata: o6u9j7o22w -->
-<!-- metadata: 1hu7383aw0 -->
-<!-- metadata: z2otunyp1v -->
-<!-- metadata: e1t1dn0fr5 -->
 }
 ```
 
