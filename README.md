@@ -3,7 +3,6 @@
 A decentralized identity & social data layer powered by **Zero-Knowledge Proofs**. Users own their credentials in a private vault, anchor immutable commitments on-chain, and disclose only verifiable answers — never the underlying data.
 
 > **Anchor once. Prove anywhere. Disclose nothing.**
-<!-- metadata: lc3yfamuzc -->
 
 ---
 
@@ -144,6 +143,10 @@ The endpoint is **stateless**: it never persists any private input.
 Every state-changing function emits an event so the social/identity graph can be reconstructed off-chain by indexers.
 
 ---
+
+## 🎨 Design Tokens
+
+Defined in [`app/globals.css`](./app/globals.css) — the *Deep Sea* palette:
 
 | Token         | Value      |
 | ------------- | ---------- |
