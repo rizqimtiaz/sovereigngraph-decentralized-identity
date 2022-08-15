@@ -20,6 +20,11 @@ A decentralized identity & social data layer powered by **Zero-Knowledge Proofs*
 ## 🧱 Tech Stack
 
 | Layer          | Tech                                                 |
+<!-- metadata: xgcp2qeghf -->
+<!-- metadata: bnp6jfeoak -->
+<!-- metadata: ies0ow50fp -->
+<!-- metadata: 4hxneppsn2 -->
+<!-- metadata: 2dqdd4gsbk -->
 | -------------- | ---------------------------------------------------- |
 | Frontend       | Next.js 16 (App Router), React 19, TypeScript        |
 | Styling        | Tailwind CSS v4, shadcn/ui, framer-motion            |
@@ -165,9 +170,5 @@ This is a standard Next.js 16 App Router project. Deploy to [Vercel](https://ver
 ```bash
 vercel deploy
 ```
-
----
-
-## 📄 License
 
 MIT © SovereignGraph Protocol
