@@ -101,12 +101,6 @@ Open [http://localhost:3000](http://localhost:3000).
   "request": {
     "appName": "Atlas Wines",
     "appOrigin": "atlas-wines.app",
-<!-- metadata: ayimvwd75q -->
-<!-- metadata: oy24nm6xgr -->
-<!-- metadata: 5k0uquuc78 -->
-<!-- metadata: bhi3ichimt -->
-<!-- metadata: yt3pqau9fg -->
-<!-- metadata: l0o77e1651 -->
     "statement": "User age ≥ 21",
     "claimType": "age_over",
     "threshold": 21,
@@ -121,6 +115,7 @@ Open [http://localhost:3000](http://localhost:3000).
 {
   "ok": true,
   "verified": true,
+  "proof": {
     "proof": "0x…",
     "publicSignals": { "result": true, "threshold": 21, "claimType": "age_over" },
     "commitmentHash": "0x…",
