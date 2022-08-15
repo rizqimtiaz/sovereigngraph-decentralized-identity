@@ -15,9 +15,6 @@ A decentralized identity & social data layer powered by **Zero-Knowledge Proofs*
 - **Solidity Registry** — minimal, event-rich `IdentityRegistry.sol` for anchors, revocations, nullifiers, and social edges.
 - **Deep Sea aesthetic** — dark navy + emerald, optimized for readability and trust.
 
-<!-- metadata: 17l15p1qci -->
-<!-- metadata: d38wxo3wkb -->
-<!-- metadata: l78truxlr3 -->
 ---
 
 ## 🧱 Tech Stack
@@ -84,6 +81,10 @@ Open [http://localhost:3000](http://localhost:3000).
 5. Inspect the **Consent & Access Log** for an immutable audit trail.
 
 ---
+
+## 🔐 ZK Proof API
+
+`POST /api/generate-proof`
 
 ```json
 {
