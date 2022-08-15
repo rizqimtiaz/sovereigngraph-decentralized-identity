@@ -16,6 +16,8 @@ A decentralized identity & social data layer powered by **Zero-Knowledge Proofs*
 - **Deep Sea aesthetic** — dark navy + emerald, optimized for readability and trust.
 
 ---
+<!-- metadata: 8lwy5ii0s5 -->
+<!-- metadata: d6zjuqix8u -->
 
 ## 🧱 Tech Stack
 
@@ -119,8 +121,6 @@ Open [http://localhost:3000](http://localhost:3000).
     "proof": "0x…",
     "publicSignals": { "result": true, "threshold": 21, "claimType": "age_over" },
     "commitmentHash": "0x…",
-    "verifier": { "name": "Atlas Wines", "origin": "atlas-wines.app" },
-    "issuedAt": "2026-05-03T00:00:00.000Z",
     "nullifier": "0x…"
   }
 }
