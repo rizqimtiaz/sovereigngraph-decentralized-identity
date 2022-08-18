@@ -110,6 +110,7 @@ Open [http://localhost:3000](http://localhost:3000).
 ```
 
 **Response**
+
 ```json
 {
   "ok": true,
@@ -153,13 +154,6 @@ Defined in [`app/globals.css`](./app/globals.css) — the *Deep Sea* palette:
 | Surface       | `#0b1424`  |
 | Foreground    | `#e2e8f0`  |
 | Muted         | `#94a3b8`  |
-<!-- metadata: fnsv3axzfz -->
-<!-- metadata: j2ywf10r5f -->
-<!-- metadata: utdsphfn0u -->
-<!-- metadata: vx2kr12pzm -->
-<!-- metadata: 7mkievw69l -->
-<!-- metadata: g2vmg0mihj -->
-<!-- metadata: n1j1jg1o76 -->
 | **Accent**    | `#10b981`  |
 
 ---
