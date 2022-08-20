@@ -42,6 +42,8 @@ A decentralized identity & social data layer powered by **Zero-Knowledge Proofs*
 │   └── page.tsx                      # Landing page
 ├── components/
 │   ├── ZKP-Request-Modal.tsx         # High-fidelity consent modal
+<!-- metadata: ekjfuqb0l5 -->
+<!-- metadata: tsp4602flc -->
 │   ├── site-header.tsx               # Privacy Shield navigation
 │   ├── vault-dashboard.tsx           # Credentials + Access Log UI
 │   └── ui/                           # shadcn/ui primitives
@@ -55,8 +57,6 @@ A decentralized identity & social data layer powered by **Zero-Knowledge Proofs*
 ```
 
 ---
-
-## 🚀 Getting Started
 
 ### 1. Install dependencies
 
