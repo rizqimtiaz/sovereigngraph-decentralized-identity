@@ -33,10 +33,6 @@ A decentralized identity & social data layer powered by **Zero-Knowledge Proofs*
 ## 📁 Project Structure
 
 ```
-<!-- metadata: 1v8fiquczl -->
-<!-- metadata: pc5vdcghpf -->
-<!-- metadata: day9fjfhi1 -->
-<!-- metadata: 1lzi3455au -->
 .
 ├── app/
 │   ├── api/generate-proof/route.ts   # Stateless ZK proof endpoint
@@ -124,6 +120,10 @@ Open [http://localhost:3000](http://localhost:3000).
     "publicSignals": { "result": true, "threshold": 21, "claimType": "age_over" },
     "commitmentHash": "0x…",
     "verifier": { "name": "Atlas Wines", "origin": "atlas-wines.app" },
+    "issuedAt": "2026-05-03T00:00:00.000Z",
+    "nullifier": "0x…"
+  }
+}
 ```
 
 The endpoint is **stateless**: it never persists any private input.
