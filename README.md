@@ -22,6 +22,9 @@ A decentralized identity & social data layer powered by **Zero-Knowledge Proofs*
 | Layer          | Tech                                                 |
 | -------------- | ---------------------------------------------------- |
 | Frontend       | Next.js 16 (App Router), React 19, TypeScript        |
+| Styling        | Tailwind CSS v4, shadcn/ui, framer-motion            |
+| State          | Zustand (with `persist` middleware)                  |
+| Cryptography   | Web Crypto SHA-256 (simulating Pedersen / Snarkjs)   |
 | Validation     | Zod                                                  |
 | Smart Contract | Solidity ^0.8.24 (`contracts/IdentityRegistry.sol`)  |
 
@@ -92,15 +95,6 @@ Open [http://localhost:3000](http://localhost:3000).
     "issuer": "State of California",
     "privateData": { "dateOfBirth": "1995-01-15" },
     "commitmentHash": "0x…",
-<!-- metadata: jf9r6ep4zy -->
-<!-- metadata: huc5d1p9st -->
-<!-- metadata: 8kozarlbxn -->
-<!-- metadata: 64n7ljt8hj -->
-<!-- metadata: poejtu3b13 -->
-<!-- metadata: 25wkhmphpv -->
-<!-- metadata: ov6gqqzagg -->
-<!-- metadata: blv54g3u11 -->
-<!-- metadata: measjteda9 -->
     "anchoredAt": "2026-05-03T00:00:00.000Z",
     "revoked": false
   },
