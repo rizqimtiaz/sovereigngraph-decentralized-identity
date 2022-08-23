@@ -13,6 +13,16 @@ A decentralized identity & social data layer powered by **Zero-Knowledge Proofs*
 - **Consent-First Sharing** — every proof request requires explicit, contextual approval.
 - **Immutable Audit Log** — every disclosure is recorded for transparent review.
 - **Solidity Registry** — minimal, event-rich `IdentityRegistry.sol` for anchors, revocations, nullifiers, and social edges.
+<!-- metadata: 2c5jnnph6u -->
+<!-- metadata: zo20tjancs -->
+<!-- metadata: rrgo0v7k0x -->
+<!-- metadata: r6egm6hghi -->
+<!-- metadata: uzpr6aicd8 -->
+<!-- metadata: 341bc357sa -->
+<!-- metadata: 6ffnqj2vww -->
+<!-- metadata: naevk27tk7 -->
+<!-- metadata: ptpk6vn0yg -->
+<!-- metadata: j1x43jsmhx -->
 - **Deep Sea aesthetic** — dark navy + emerald, optimized for readability and trust.
 
 ---
@@ -59,8 +69,6 @@ A decentralized identity & social data layer powered by **Zero-Knowledge Proofs*
 ## 🚀 Getting Started
 
 ### 1. Install dependencies
-
-```bash
 pnpm install
 ```
 
