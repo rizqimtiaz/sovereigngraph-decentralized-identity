@@ -1,12 +1,4 @@
 # SovereignGraph — Privacy-First Social Data Layer
-<!-- metadata: jlre63jg4t -->
-<!-- metadata: u7p4sog0m9 -->
-<!-- metadata: hymixawztm -->
-<!-- metadata: 94iuncpkmv -->
-<!-- metadata: pc0hxfa54t -->
-<!-- metadata: gleeas8wsj -->
-<!-- metadata: i3v3x86ake -->
-<!-- metadata: b95eqtx9m7 -->
 
 A decentralized identity & social data layer powered by **Zero-Knowledge Proofs**. Users own their credentials in a private vault, anchor immutable commitments on-chain, and disclose only verifiable answers — never the underlying data.
 
@@ -31,6 +23,9 @@ A decentralized identity & social data layer powered by **Zero-Knowledge Proofs*
 | -------------- | ---------------------------------------------------- |
 | Frontend       | Next.js 16 (App Router), React 19, TypeScript        |
 | Styling        | Tailwind CSS v4, shadcn/ui, framer-motion            |
+| State          | Zustand (with `persist` middleware)                  |
+| Cryptography   | Web Crypto SHA-256 (simulating Pedersen / Snarkjs)   |
+| Validation     | Zod                                                  |
 | Smart Contract | Solidity ^0.8.24 (`contracts/IdentityRegistry.sol`)  |
 
 ---
