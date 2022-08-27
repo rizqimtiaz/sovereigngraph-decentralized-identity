@@ -74,6 +74,8 @@ Open [http://localhost:3000](http://localhost:3000).
 
 ### 3. Demo the flow
 
+1. Click **Connect Identity** in the header.
+2. From the Vault, **Anchor a Credential** (e.g. an Age Verification with your DOB).
 3. Click **Simulate Verifier Request** and pick a scenario.
 4. Approve the request — only the boolean result is "shared".
 5. Inspect the **Consent & Access Log** for an immutable audit trail.
@@ -154,12 +156,6 @@ Defined in [`app/globals.css`](./app/globals.css) — the *Deep Sea* palette:
 | Muted         | `#94a3b8`  |
 | **Accent**    | `#10b981`  |
 
-<!-- metadata: o4w8do6050 -->
-<!-- metadata: oszd6v23bk -->
-<!-- metadata: d0523wa8m5 -->
-<!-- metadata: xx1ham8429 -->
-<!-- metadata: 8816o0isrn -->
-<!-- metadata: 23lrplzo47 -->
 ---
 
 ## 📦 Deploy
