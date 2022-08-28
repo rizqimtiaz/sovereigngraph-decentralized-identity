@@ -119,8 +119,6 @@ Open [http://localhost:3000](http://localhost:3000).
     "proof": "0x…",
     "publicSignals": { "result": true, "threshold": 21, "claimType": "age_over" },
     "commitmentHash": "0x…",
-    "verifier": { "name": "Atlas Wines", "origin": "atlas-wines.app" },
-    "issuedAt": "2026-05-03T00:00:00.000Z",
     "nullifier": "0x…"
   }
 }
@@ -150,6 +148,9 @@ Defined in [`app/globals.css`](./app/globals.css) — the *Deep Sea* palette:
 
 | Token         | Value      |
 | ------------- | ---------- |
+<!-- metadata: z72embr8dg -->
+<!-- metadata: d2wtvul188 -->
+<!-- metadata: mx2h078fou -->
 | Background    | `#020617`  |
 | Surface       | `#0b1424`  |
 | Foreground    | `#e2e8f0`  |
