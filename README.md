@@ -104,6 +104,10 @@ Open [http://localhost:3000](http://localhost:3000).
     "statement": "User age ≥ 21",
     "claimType": "age_over",
     "threshold": 21,
+    "reason": "Compliance with alcohol-purchase regulations."
+  }
+}
+```
 
 **Response**
 
@@ -156,8 +160,6 @@ Defined in [`app/globals.css`](./app/globals.css) — the *Deep Sea* palette:
 
 ## 📦 Deploy
 
-<!-- metadata: nu3qp1ugtf -->
-<!-- metadata: z3znaepovh -->
 This is a standard Next.js 16 App Router project. Deploy to [Vercel](https://vercel.com/new) with zero configuration:
 
 ```bash
