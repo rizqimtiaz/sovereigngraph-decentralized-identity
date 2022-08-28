@@ -45,6 +45,9 @@ A decentralized identity & social data layer powered by **Zero-Knowledge Proofs*
 │   ├── site-header.tsx               # Privacy Shield navigation
 │   ├── vault-dashboard.tsx           # Credentials + Access Log UI
 │   └── ui/                           # shadcn/ui primitives
+<!-- metadata: t4kmfjm6bf -->
+<!-- metadata: sw7aqv9a91 -->
+<!-- metadata: 28dqi7oifj -->
 ├── contracts/
 │   └── IdentityRegistry.sol          # On-chain anchors, revocations, social graph
 ├── lib/
@@ -141,10 +144,6 @@ The endpoint is **stateless**: it never persists any private input.
 - View helpers: `getAnchor`, `isValidAnchor`, `anchorsOf`, `hasSocialEdge`
 
 Every state-changing function emits an event so the social/identity graph can be reconstructed off-chain by indexers.
-
----
-
-## 🎨 Design Tokens
 
 Defined in [`app/globals.css`](./app/globals.css) — the *Deep Sea* palette:
 
