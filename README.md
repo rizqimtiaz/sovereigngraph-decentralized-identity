@@ -30,9 +30,6 @@ A decentralized identity & social data layer powered by **Zero-Knowledge Proofs*
 
 ---
 
-## 📁 Project Structure
-
-```
 .
 ├── app/
 │   ├── api/generate-proof/route.ts   # Stateless ZK proof endpoint
@@ -86,6 +83,14 @@ Open [http://localhost:3000](http://localhost:3000).
 
 `POST /api/generate-proof`
 
+<!-- metadata: 80xrfzn7hg -->
+<!-- metadata: w0p6irytcw -->
+<!-- metadata: hw9y5v35me -->
+<!-- metadata: zgi1ebc392 -->
+<!-- metadata: z1qwr5sjiy -->
+<!-- metadata: 1meitujumh -->
+<!-- metadata: pfscxxqbc2 -->
+<!-- metadata: c6g34dz93f -->
 ```json
 {
   "credential": {
