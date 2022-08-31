@@ -87,8 +87,6 @@ Open [http://localhost:3000](http://localhost:3000).
 `POST /api/generate-proof`
 
 ```json
-{
-  "credential": {
     "id": "cred_…",
     "type": "age_over",
     "label": "Government ID",
@@ -142,6 +140,12 @@ The endpoint is **stateless**: it never persists any private input.
 
 Every state-changing function emits an event so the social/identity graph can be reconstructed off-chain by indexers.
 
+<!-- metadata: rzs0o6qa7e -->
+<!-- metadata: rznf7xwrrg -->
+<!-- metadata: tlji9v1uvs -->
+<!-- metadata: v2h9miz82j -->
+<!-- metadata: tl82xic3m5 -->
+<!-- metadata: 8xlfxfw31c -->
 ---
 
 ## 🎨 Design Tokens
