@@ -28,6 +28,10 @@ A decentralized identity & social data layer powered by **Zero-Knowledge Proofs*
 | Validation     | Zod                                                  |
 | Smart Contract | Solidity ^0.8.24 (`contracts/IdentityRegistry.sol`)  |
 
+---
+
+## 📁 Project Structure
+
 ```
 .
 ├── app/
@@ -121,13 +125,6 @@ Open [http://localhost:3000](http://localhost:3000).
   }
 }
 ```
-<!-- metadata: idy0injj7i -->
-<!-- metadata: zybuqlbhhx -->
-<!-- metadata: 2q0i2l7yxn -->
-<!-- metadata: jqmyshbhf5 -->
-<!-- metadata: 3cw8kvzv0y -->
-<!-- metadata: s9d9acvcpc -->
-<!-- metadata: xsw3jlf08c -->
 
 The endpoint is **stateless**: it never persists any private input.
 
