@@ -1,3 +1,7 @@
+<!-- metadata: fl01poc4qf -->
+<!-- metadata: fywtlfjntd -->
+<!-- metadata: spwme1pkpi -->
+<!-- metadata: imdhysqsq8 -->
 # SovereignGraph — Privacy-First Social Data Layer
 
 A decentralized identity & social data layer powered by **Zero-Knowledge Proofs**. Users own their credentials in a private vault, anchor immutable commitments on-chain, and disclose only verifiable answers — never the underlying data.
@@ -122,7 +126,6 @@ Open [http://localhost:3000](http://localhost:3000).
     "verifier": { "name": "Atlas Wines", "origin": "atlas-wines.app" },
     "issuedAt": "2026-05-03T00:00:00.000Z",
     "nullifier": "0x…"
-  }
 }
 ```
 
