@@ -33,6 +33,10 @@ A decentralized identity & social data layer powered by **Zero-Knowledge Proofs*
 ## 📁 Project Structure
 
 ```
+.
+├── app/
+│   ├── api/generate-proof/route.ts   # Stateless ZK proof endpoint
+│   ├── vault/page.tsx                # Private user dashboard
 │   ├── globals.css                   # Deep Sea theme tokens
 │   ├── layout.tsx                    # Root layout + Privacy Shield header
 │   └── page.tsx                      # Landing page
@@ -82,7 +86,6 @@ Open [http://localhost:3000](http://localhost:3000).
 
 `POST /api/generate-proof`
 
-<!-- metadata: q6oc0kk73j -->
 ```json
 {
   "credential": {
