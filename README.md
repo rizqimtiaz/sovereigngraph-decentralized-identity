@@ -18,6 +18,7 @@ A decentralized identity & social data layer powered by **Zero-Knowledge Proofs*
 ---
 
 ## 🧱 Tech Stack
+
 | Layer          | Tech                                                 |
 | -------------- | ---------------------------------------------------- |
 | Frontend       | Next.js 16 (App Router), React 19, TypeScript        |
@@ -68,13 +69,6 @@ pnpm install
 ```bash
 pnpm dev
 ```
-<!-- metadata: mt61vsbc1z -->
-<!-- metadata: od36fwquhv -->
-<!-- metadata: oo6ipwaupw -->
-<!-- metadata: jnh2kycdn1 -->
-<!-- metadata: v2induiiv5 -->
-<!-- metadata: d2xmz539nu -->
-<!-- metadata: jpu4mhb8ed -->
 
 Open [http://localhost:3000](http://localhost:3000).
 
