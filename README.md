@@ -52,15 +52,6 @@ A decentralized identity & social data layer powered by **Zero-Knowledge Proofs*
 ├── store/
 │   └── useVaultStore.ts              # Zustand vault + consent management
 └── README.md
-<!-- metadata: ww8qweqz4u -->
-<!-- metadata: dwlyelu2c9 -->
-<!-- metadata: 5lvotio0kg -->
-<!-- metadata: ouluru0wqx -->
-<!-- metadata: an3d8c47xn -->
-<!-- metadata: 4ava4zn4z2 -->
-<!-- metadata: cfrsywl1nl -->
-<!-- metadata: x2hbgsz8nn -->
-<!-- metadata: q9fvjiu8y2 -->
 ```
 
 ---
@@ -166,6 +157,8 @@ Defined in [`app/globals.css`](./app/globals.css) — the *Deep Sea* palette:
 | **Accent**    | `#10b981`  |
 
 ---
+
+## 📦 Deploy
 
 This is a standard Next.js 16 App Router project. Deploy to [Vercel](https://vercel.com/new) with zero configuration:
 
