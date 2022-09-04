@@ -65,14 +65,6 @@ pnpm install
 ```
 
 ### 2. Run the dev server
-<!-- metadata: uvnlf08m75 -->
-<!-- metadata: 3z1xciev6r -->
-<!-- metadata: i4tglibj2q -->
-<!-- metadata: 7nyce0mhxq -->
-<!-- metadata: tk9mc38riy -->
-<!-- metadata: z6vq5qzq4k -->
-<!-- metadata: a237haoiqq -->
-<!-- metadata: karhie4k36 -->
 
 ```bash
 pnpm dev
@@ -147,6 +139,9 @@ The endpoint is **stateless**: it never persists any private input.
 - `spendNullifier(bytes32 nullifier, bytes32 commitment)` → emits `NullifierSpent` (replay-protection)
 - `addSocialEdge(address peer)` / `removeSocialEdge(address peer)` → emits `SocialEdgeAdded` / `SocialEdgeRemoved`
 - View helpers: `getAnchor`, `isValidAnchor`, `anchorsOf`, `hasSocialEdge`
+
+Every state-changing function emits an event so the social/identity graph can be reconstructed off-chain by indexers.
+
 ---
 
 ## 🎨 Design Tokens
