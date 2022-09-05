@@ -100,6 +100,9 @@ Open [http://localhost:3000](http://localhost:3000).
   },
   "request": {
     "appName": "Atlas Wines",
+    "appOrigin": "atlas-wines.app",
+    "statement": "User age ≥ 21",
+    "claimType": "age_over",
     "threshold": 21,
     "reason": "Compliance with alcohol-purchase regulations."
   }
@@ -124,10 +127,6 @@ Open [http://localhost:3000](http://localhost:3000).
 ```
 
 The endpoint is **stateless**: it never persists any private input.
-<!-- metadata: y60xju3pjj -->
-<!-- metadata: y53ndxzsgm -->
-<!-- metadata: 1nzy2szabb -->
-<!-- metadata: 98pzu6hpem -->
 
 ---
 
