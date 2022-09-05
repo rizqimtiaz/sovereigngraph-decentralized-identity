@@ -49,9 +49,13 @@ A decentralized identity & social data layer powered by **Zero-Knowledge Proofs*
 │   └── IdentityRegistry.sol          # On-chain anchors, revocations, social graph
 ├── lib/
 │   └── zkp-utils.ts                  # Hashing, claim eval, proof generation, verification
+<!-- metadata: s484yb0s1n -->
+<!-- metadata: c57jxnfs1p -->
+<!-- metadata: 1g63kbirmb -->
+<!-- metadata: ibdp0ywhqu -->
+<!-- metadata: 8fmhdqdaaw -->
+<!-- metadata: te13y2i6xg -->
 ├── store/
-│   └── useVaultStore.ts              # Zustand vault + consent management
-└── README.md
 ```
 
 ---
