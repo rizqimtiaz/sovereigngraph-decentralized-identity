@@ -44,6 +44,10 @@ A decentralized identity & social data layer powered by **Zero-Knowledge Proofs*
 │   ├── ZKP-Request-Modal.tsx         # High-fidelity consent modal
 │   ├── site-header.tsx               # Privacy Shield navigation
 │   ├── vault-dashboard.tsx           # Credentials + Access Log UI
+│   └── ui/                           # shadcn/ui primitives
+├── contracts/
+│   └── IdentityRegistry.sol          # On-chain anchors, revocations, social graph
+├── lib/
 │   └── zkp-utils.ts                  # Hashing, claim eval, proof generation, verification
 ├── store/
 │   └── useVaultStore.ts              # Zustand vault + consent management
@@ -139,8 +143,6 @@ The endpoint is **stateless**: it never persists any private input.
 Every state-changing function emits an event so the social/identity graph can be reconstructed off-chain by indexers.
 
 ---
-<!-- metadata: sknu1su67v -->
-<!-- metadata: ersu2stozd -->
 
 ## 🎨 Design Tokens
 
