@@ -29,6 +29,7 @@ A decentralized identity & social data layer powered by **Zero-Knowledge Proofs*
 | Smart Contract | Solidity ^0.8.24 (`contracts/IdentityRegistry.sol`)  |
 
 ---
+
 ## 📁 Project Structure
 
 ```
@@ -60,15 +61,6 @@ A decentralized identity & social data layer powered by **Zero-Knowledge Proofs*
 ### 1. Install dependencies
 
 ```bash
-<!-- metadata: 8qjq59zcy2 -->
-<!-- metadata: idadl2nxgn -->
-<!-- metadata: 1o0q24dho8 -->
-<!-- metadata: rsl2hicy3t -->
-<!-- metadata: ztqizr7mpa -->
-<!-- metadata: uoarufq6m4 -->
-<!-- metadata: kfut68mm77 -->
-<!-- metadata: snsg5n308d -->
-<!-- metadata: pkgfj22ajx -->
 pnpm install
 ```
 
