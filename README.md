@@ -67,7 +67,6 @@ pnpm install
 ### 2. Run the dev server
 
 ```bash
-<!-- metadata: nhdhzhxaxy -->
 pnpm dev
 ```
 
@@ -122,6 +121,7 @@ Open [http://localhost:3000](http://localhost:3000).
     "commitmentHash": "0x…",
     "verifier": { "name": "Atlas Wines", "origin": "atlas-wines.app" },
     "issuedAt": "2026-05-03T00:00:00.000Z",
+    "nullifier": "0x…"
   }
 }
 ```
