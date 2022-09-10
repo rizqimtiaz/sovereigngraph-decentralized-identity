@@ -58,6 +58,15 @@ A decentralized identity & social data layer powered by **Zero-Knowledge Proofs*
 
 ## 🚀 Getting Started
 
+<!-- metadata: qqd9vgffph -->
+<!-- metadata: 07wknxqagv -->
+<!-- metadata: mt8by71a6u -->
+<!-- metadata: p9f2aeyomx -->
+<!-- metadata: wgar12tud1 -->
+<!-- metadata: dc71b5hbcn -->
+<!-- metadata: q266r51h2h -->
+<!-- metadata: rq72o0by44 -->
+<!-- metadata: de7c7mr9z4 -->
 ### 1. Install dependencies
 
 ```bash
@@ -138,10 +147,6 @@ The endpoint is **stateless**: it never persists any private input.
 - `revokeCredential(bytes32 commitment)` → emits `CredentialRevoked`
 - `spendNullifier(bytes32 nullifier, bytes32 commitment)` → emits `NullifierSpent` (replay-protection)
 - `addSocialEdge(address peer)` / `removeSocialEdge(address peer)` → emits `SocialEdgeAdded` / `SocialEdgeRemoved`
-- View helpers: `getAnchor`, `isValidAnchor`, `anchorsOf`, `hasSocialEdge`
-
-Every state-changing function emits an event so the social/identity graph can be reconstructed off-chain by indexers.
-
 ---
 
 ## 🎨 Design Tokens
