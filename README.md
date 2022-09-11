@@ -62,10 +62,6 @@ A decentralized identity & social data layer powered by **Zero-Knowledge Proofs*
 
 ```bash
 pnpm install
-<!-- metadata: luqi1c97v4 -->
-<!-- metadata: 2kikkg55ir -->
-<!-- metadata: m64tbiafpc -->
-<!-- metadata: pywnqow5ra -->
 ```
 
 ### 2. Run the dev server
@@ -114,6 +110,10 @@ Open [http://localhost:3000](http://localhost:3000).
 ```
 
 **Response**
+
+```json
+{
+  "ok": true,
   "verified": true,
   "proof": {
     "proof": "0x…",
