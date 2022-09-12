@@ -133,6 +133,9 @@ The endpoint is **stateless**: it never persists any private input.
 ## 🛡 Smart Contract
 
 `contracts/IdentityRegistry.sol` provides:
+
+- `anchorCredential(bytes32 commitment, ClaimType, string issuer)` → emits `CredentialAnchored`
+- `revokeCredential(bytes32 commitment)` → emits `CredentialRevoked`
 - `spendNullifier(bytes32 nullifier, bytes32 commitment)` → emits `NullifierSpent` (replay-protection)
 - `addSocialEdge(address peer)` / `removeSocialEdge(address peer)` → emits `SocialEdgeAdded` / `SocialEdgeRemoved`
 - View helpers: `getAnchor`, `isValidAnchor`, `anchorsOf`, `hasSocialEdge`
@@ -157,15 +160,6 @@ Defined in [`app/globals.css`](./app/globals.css) — the *Deep Sea* palette:
 
 ## 📦 Deploy
 
-<!-- metadata: frnd037cf2 -->
-<!-- metadata: euea5ge0fq -->
-<!-- metadata: uivjqn08sm -->
-<!-- metadata: b31z22vlub -->
-<!-- metadata: hx3jh821fp -->
-<!-- metadata: 1eq29c018t -->
-<!-- metadata: o0jive5zic -->
-<!-- metadata: agnt4mq2zj -->
-<!-- metadata: 24qimstw25 -->
 This is a standard Next.js 16 App Router project. Deploy to [Vercel](https://vercel.com/new) with zero configuration:
 
 ```bash
