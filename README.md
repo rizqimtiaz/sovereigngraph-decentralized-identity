@@ -63,12 +63,6 @@ A decentralized identity & social data layer powered by **Zero-Knowledge Proofs*
 ```bash
 pnpm install
 ```
-<!-- metadata: 4y7u6zlbl4 -->
-<!-- metadata: vvuquy373a -->
-<!-- metadata: pqm2lqzdqi -->
-<!-- metadata: ov65i0nk66 -->
-<!-- metadata: h52n97z81o -->
-<!-- metadata: m3fnmlzicp -->
 
 ### 2. Run the dev server
 
@@ -81,6 +75,10 @@ Open [http://localhost:3000](http://localhost:3000).
 ### 3. Demo the flow
 
 1. Click **Connect Identity** in the header.
+2. From the Vault, **Anchor a Credential** (e.g. an Age Verification with your DOB).
+3. Click **Simulate Verifier Request** and pick a scenario.
+4. Approve the request — only the boolean result is "shared".
+5. Inspect the **Consent & Access Log** for an immutable audit trail.
 
 ---
 
