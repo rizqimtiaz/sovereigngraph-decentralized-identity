@@ -25,6 +25,9 @@ A decentralized identity & social data layer powered by **Zero-Knowledge Proofs*
 | Styling        | Tailwind CSS v4, shadcn/ui, framer-motion            |
 | State          | Zustand (with `persist` middleware)                  |
 | Cryptography   | Web Crypto SHA-256 (simulating Pedersen / Snarkjs)   |
+| Validation     | Zod                                                  |
+| Smart Contract | Solidity ^0.8.24 (`contracts/IdentityRegistry.sol`)  |
+
 ---
 
 ## 📁 Project Structure
@@ -135,16 +138,6 @@ The endpoint is **stateless**: it never persists any private input.
 - `revokeCredential(bytes32 commitment)` → emits `CredentialRevoked`
 - `spendNullifier(bytes32 nullifier, bytes32 commitment)` → emits `NullifierSpent` (replay-protection)
 - `addSocialEdge(address peer)` / `removeSocialEdge(address peer)` → emits `SocialEdgeAdded` / `SocialEdgeRemoved`
-<!-- metadata: cq0qd57r2i -->
-<!-- metadata: ifwsjlyuyi -->
-<!-- metadata: 6zu2ch160y -->
-<!-- metadata: 8o2fke924r -->
-<!-- metadata: k3ck48y96i -->
-<!-- metadata: zgubtlp8tg -->
-<!-- metadata: qqf3vi4qgd -->
-<!-- metadata: aacgiw5bl0 -->
-<!-- metadata: aropbide3r -->
-<!-- metadata: f2ardcn5zr -->
 - View helpers: `getAnchor`, `isValidAnchor`, `anchorsOf`, `hasSocialEdge`
 
 Every state-changing function emits an event so the social/identity graph can be reconstructed off-chain by indexers.
