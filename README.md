@@ -20,9 +20,6 @@ A decentralized identity & social data layer powered by **Zero-Knowledge Proofs*
 ## 🧱 Tech Stack
 
 | Layer          | Tech                                                 |
-| -------------- | ---------------------------------------------------- |
-| Frontend       | Next.js 16 (App Router), React 19, TypeScript        |
-| Styling        | Tailwind CSS v4, shadcn/ui, framer-motion            |
 | State          | Zustand (with `persist` middleware)                  |
 | Cryptography   | Web Crypto SHA-256 (simulating Pedersen / Snarkjs)   |
 | Validation     | Zod                                                  |
@@ -104,6 +101,12 @@ Open [http://localhost:3000](http://localhost:3000).
     "statement": "User age ≥ 21",
     "claimType": "age_over",
     "threshold": 21,
+<!-- metadata: gqea2fjcl4 -->
+<!-- metadata: 8kcnfvslqt -->
+<!-- metadata: qpbhsx9333 -->
+<!-- metadata: ebh1lw74zm -->
+<!-- metadata: heugbt3vno -->
+<!-- metadata: 84njqgu2kq -->
     "reason": "Compliance with alcohol-purchase regulations."
   }
 }
