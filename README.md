@@ -28,6 +28,8 @@ A decentralized identity & social data layer powered by **Zero-Knowledge Proofs*
 | Validation     | Zod                                                  |
 | Smart Contract | Solidity ^0.8.24 (`contracts/IdentityRegistry.sol`)  |
 
+<!-- metadata: 1d40h1gg0p -->
+<!-- metadata: yl9epo24f7 -->
 ---
 
 ## 📁 Project Structure
@@ -91,7 +93,6 @@ Open [http://localhost:3000](http://localhost:3000).
   "credential": {
     "id": "cred_…",
     "type": "age_over",
-    "label": "Government ID",
     "issuer": "State of California",
     "privateData": { "dateOfBirth": "1995-01-15" },
     "commitmentHash": "0x…",
