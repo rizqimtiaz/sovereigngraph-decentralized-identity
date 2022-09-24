@@ -52,6 +52,7 @@ A decentralized identity & social data layer powered by **Zero-Knowledge Proofs*
 ├── store/
 │   └── useVaultStore.ts              # Zustand vault + consent management
 └── README.md
+```
 
 ---
 
@@ -69,9 +70,6 @@ pnpm install
 pnpm dev
 ```
 
-<!-- metadata: 35137kszaq -->
-<!-- metadata: d93rlonbiq -->
-<!-- metadata: k67xvoj7c3 -->
 Open [http://localhost:3000](http://localhost:3000).
 
 ### 3. Demo the flow
