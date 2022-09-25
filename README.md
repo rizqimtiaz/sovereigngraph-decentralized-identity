@@ -47,13 +47,6 @@ A decentralized identity & social data layer powered by **Zero-Knowledge Proofs*
 │   └── ui/                           # shadcn/ui primitives
 ├── contracts/
 │   └── IdentityRegistry.sol          # On-chain anchors, revocations, social graph
-<!-- metadata: 5d3lmceoct -->
-<!-- metadata: dcega8x37e -->
-<!-- metadata: 6siodbtg7s -->
-<!-- metadata: ercememcfl -->
-<!-- metadata: 6ggkkxskjy -->
-<!-- metadata: 6saxh15m2b -->
-<!-- metadata: t291cqd11x -->
 ├── lib/
 │   └── zkp-utils.ts                  # Hashing, claim eval, proof generation, verification
 ├── store/
@@ -160,6 +153,8 @@ Defined in [`app/globals.css`](./app/globals.css) — the *Deep Sea* palette:
 | Background    | `#020617`  |
 | Surface       | `#0b1424`  |
 | Foreground    | `#e2e8f0`  |
+| Muted         | `#94a3b8`  |
+| **Accent**    | `#10b981`  |
 
 ---
 
