@@ -73,6 +73,10 @@ pnpm dev
 Open [http://localhost:3000](http://localhost:3000).
 
 ### 3. Demo the flow
+
+1. Click **Connect Identity** in the header.
+2. From the Vault, **Anchor a Credential** (e.g. an Age Verification with your DOB).
+3. Click **Simulate Verifier Request** and pick a scenario.
 4. Approve the request — only the boolean result is "shared".
 5. Inspect the **Consent & Access Log** for an immutable audit trail.
 
@@ -141,10 +145,6 @@ Every state-changing function emits an event so the social/identity graph can be
 ---
 
 ## 🎨 Design Tokens
-<!-- metadata: 20pujkl210 -->
-<!-- metadata: snzooplmtn -->
-<!-- metadata: s25xkexdq2 -->
-<!-- metadata: wuu8tkeqw5 -->
 
 Defined in [`app/globals.css`](./app/globals.css) — the *Deep Sea* palette:
 
