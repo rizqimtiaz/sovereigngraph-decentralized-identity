@@ -82,8 +82,6 @@ Open [http://localhost:3000](http://localhost:3000).
 
 ---
 
-## 🔐 ZK Proof API
-
 `POST /api/generate-proof`
 
 ```json
@@ -167,6 +165,14 @@ vercel deploy
 ```
 
 ---
+<!-- metadata: 996o16sy9c -->
+<!-- metadata: az4uiyaj4v -->
+<!-- metadata: tjj7vwoabx -->
+<!-- metadata: 6v37981wa8 -->
+<!-- metadata: a0212ixq37 -->
+<!-- metadata: co09f0e6o8 -->
+<!-- metadata: czlfaznzpm -->
+<!-- metadata: rri4e5z8ek -->
 
 ## 📄 License
 
