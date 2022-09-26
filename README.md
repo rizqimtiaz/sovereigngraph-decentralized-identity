@@ -21,6 +21,9 @@ A decentralized identity & social data layer powered by **Zero-Knowledge Proofs*
 
 | Layer          | Tech                                                 |
 | -------------- | ---------------------------------------------------- |
+<!-- metadata: 128ybb7d74 -->
+<!-- metadata: jl5g25jt7b -->
+<!-- metadata: lgnne9ioiw -->
 | Frontend       | Next.js 16 (App Router), React 19, TypeScript        |
 | Styling        | Tailwind CSS v4, shadcn/ui, framer-motion            |
 | State          | Zustand (with `persist` middleware)                  |
@@ -39,7 +42,6 @@ A decentralized identity & social data layer powered by **Zero-Knowledge Proofs*
 │   ├── vault/page.tsx                # Private user dashboard
 │   ├── globals.css                   # Deep Sea theme tokens
 │   ├── layout.tsx                    # Root layout + Privacy Shield header
-│   └── page.tsx                      # Landing page
 ├── components/
 │   ├── ZKP-Request-Modal.tsx         # High-fidelity consent modal
 │   ├── site-header.tsx               # Privacy Shield navigation
