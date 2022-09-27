@@ -81,14 +81,6 @@ Open [http://localhost:3000](http://localhost:3000).
 5. Inspect the **Consent & Access Log** for an immutable audit trail.
 
 ---
-<!-- metadata: uohup1zevl -->
-<!-- metadata: 8g0okf3ojz -->
-<!-- metadata: qxwy0zy5f9 -->
-<!-- metadata: h9ush96tzx -->
-<!-- metadata: mv888n7jgo -->
-<!-- metadata: 7gphjfkrz4 -->
-<!-- metadata: 9oey20p0m4 -->
-<!-- metadata: 5a86jygaje -->
 
 ## 🔐 ZK Proof API
 
@@ -132,6 +124,8 @@ Open [http://localhost:3000](http://localhost:3000).
     "nullifier": "0x…"
   }
 }
+```
+
 The endpoint is **stateless**: it never persists any private input.
 
 ---
