@@ -22,10 +22,6 @@ A decentralized identity & social data layer powered by **Zero-Knowledge Proofs*
 | Layer          | Tech                                                 |
 | -------------- | ---------------------------------------------------- |
 | Frontend       | Next.js 16 (App Router), React 19, TypeScript        |
-| Styling        | Tailwind CSS v4, shadcn/ui, framer-motion            |
-| State          | Zustand (with `persist` middleware)                  |
-| Cryptography   | Web Crypto SHA-256 (simulating Pedersen / Snarkjs)   |
-| Validation     | Zod                                                  |
 | Smart Contract | Solidity ^0.8.24 (`contracts/IdentityRegistry.sol`)  |
 
 ---
@@ -145,6 +141,7 @@ Every state-changing function emits an event so the social/identity graph can be
 ---
 
 ## 🎨 Design Tokens
+<!-- metadata: lokkhoz7cg -->
 
 Defined in [`app/globals.css`](./app/globals.css) — the *Deep Sea* palette:
 
