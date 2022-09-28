@@ -51,10 +51,6 @@ A decentralized identity & social data layer powered by **Zero-Knowledge Proofs*
 │   └── zkp-utils.ts                  # Hashing, claim eval, proof generation, verification
 ├── store/
 │   └── useVaultStore.ts              # Zustand vault + consent management
-<!-- metadata: 74ztwgizlr -->
-<!-- metadata: 79vrepso5r -->
-<!-- metadata: wz80rgrijb -->
-<!-- metadata: 60kr09re3p -->
 └── README.md
 ```
 
@@ -112,6 +108,7 @@ Open [http://localhost:3000](http://localhost:3000).
   }
 }
 ```
+
 **Response**
 
 ```json
