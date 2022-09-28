@@ -58,6 +58,7 @@ A decentralized identity & social data layer powered by **Zero-Knowledge Proofs*
 
 ## 🚀 Getting Started
 
+### 1. Install dependencies
 
 ```bash
 pnpm install
@@ -120,14 +121,6 @@ Open [http://localhost:3000](http://localhost:3000).
     "commitmentHash": "0x…",
     "verifier": { "name": "Atlas Wines", "origin": "atlas-wines.app" },
     "issuedAt": "2026-05-03T00:00:00.000Z",
-<!-- metadata: wb391jpvof -->
-<!-- metadata: qlrfa0ob82 -->
-<!-- metadata: 36r9e4wse2 -->
-<!-- metadata: t04k4mnq1y -->
-<!-- metadata: pjkpnuam21 -->
-<!-- metadata: s83dkmurth -->
-<!-- metadata: s12rin9wav -->
-<!-- metadata: 0e25l7131k -->
     "nullifier": "0x…"
   }
 }
