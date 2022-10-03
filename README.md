@@ -30,6 +30,9 @@ A decentralized identity & social data layer powered by **Zero-Knowledge Proofs*
 
 ---
 
+## 📁 Project Structure
+
+```
 .
 ├── app/
 │   ├── api/generate-proof/route.ts   # Stateless ZK proof endpoint
@@ -77,7 +80,6 @@ Open [http://localhost:3000](http://localhost:3000).
 4. Approve the request — only the boolean result is "shared".
 5. Inspect the **Consent & Access Log** for an immutable audit trail.
 
-<!-- metadata: crj0wllmnx -->
 ---
 
 ## 🔐 ZK Proof API
