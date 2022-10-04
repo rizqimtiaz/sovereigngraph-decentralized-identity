@@ -97,6 +97,16 @@ Open [http://localhost:3000](http://localhost:3000).
     "commitmentHash": "0x…",
     "anchoredAt": "2026-05-03T00:00:00.000Z",
     "revoked": false
+<!-- metadata: mjxojfer9t -->
+<!-- metadata: zepmbuhfhu -->
+<!-- metadata: c5b5g0z3gj -->
+<!-- metadata: djtpcz07p3 -->
+<!-- metadata: ytro4xnn8r -->
+<!-- metadata: 2ujnjrpd0l -->
+<!-- metadata: nd27d4yydu -->
+<!-- metadata: 0vpsqugylm -->
+<!-- metadata: 2sicmz1am9 -->
+<!-- metadata: sc8zcqlnqx -->
   },
   "request": {
     "appName": "Atlas Wines",
@@ -107,7 +117,6 @@ Open [http://localhost:3000](http://localhost:3000).
     "reason": "Compliance with alcohol-purchase regulations."
   }
 }
-```
 
 **Response**
 
