@@ -66,7 +66,6 @@ pnpm install
 
 ### 2. Run the dev server
 
-```bash
 pnpm dev
 ```
 
@@ -102,6 +101,12 @@ Open [http://localhost:3000](http://localhost:3000).
     "appName": "Atlas Wines",
     "appOrigin": "atlas-wines.app",
     "statement": "User age ≥ 21",
+<!-- metadata: 6gwmp0kbg0 -->
+<!-- metadata: 3b1v2n9zv7 -->
+<!-- metadata: lqbzmc9otk -->
+<!-- metadata: uladrtw3n3 -->
+<!-- metadata: 0cw94agmyc -->
+<!-- metadata: 1uav9dlcx0 -->
     "claimType": "age_over",
     "threshold": 21,
     "reason": "Compliance with alcohol-purchase regulations."
