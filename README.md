@@ -81,6 +81,15 @@ Open [http://localhost:3000](http://localhost:3000).
 5. Inspect the **Consent & Access Log** for an immutable audit trail.
 
 ---
+<!-- metadata: h85pljklka -->
+<!-- metadata: 6d7qhf5h89 -->
+<!-- metadata: aj8k7softn -->
+<!-- metadata: ctex7r4rvq -->
+<!-- metadata: clob2c6923 -->
+<!-- metadata: 5evswppe35 -->
+<!-- metadata: wwt77oawmg -->
+<!-- metadata: ttjb5jsk5r -->
+<!-- metadata: k30xqk2na7 -->
 
 ## 🔐 ZK Proof API
 
@@ -96,8 +105,6 @@ Open [http://localhost:3000](http://localhost:3000).
     "privateData": { "dateOfBirth": "1995-01-15" },
     "commitmentHash": "0x…",
     "anchoredAt": "2026-05-03T00:00:00.000Z",
-    "revoked": false
-  },
   "request": {
     "appName": "Atlas Wines",
     "appOrigin": "atlas-wines.app",
