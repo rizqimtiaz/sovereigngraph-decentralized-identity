@@ -42,6 +42,9 @@ A decentralized identity & social data layer powered by **Zero-Knowledge Proofs*
 │   └── page.tsx                      # Landing page
 ├── components/
 │   ├── ZKP-Request-Modal.tsx         # High-fidelity consent modal
+<!-- metadata: lvmu5k1n17 -->
+<!-- metadata: e057m1n0i1 -->
+<!-- metadata: q8feaxnfa7 -->
 │   ├── site-header.tsx               # Privacy Shield navigation
 │   ├── vault-dashboard.tsx           # Credentials + Access Log UI
 │   └── ui/                           # shadcn/ui primitives
@@ -85,9 +88,6 @@ Open [http://localhost:3000](http://localhost:3000).
 ## 🔐 ZK Proof API
 
 `POST /api/generate-proof`
-
-```json
-{
   "credential": {
     "id": "cred_…",
     "type": "age_over",
