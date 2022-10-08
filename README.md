@@ -114,6 +114,7 @@ Open [http://localhost:3000](http://localhost:3000).
 ```json
 {
   "ok": true,
+  "verified": true,
   "proof": {
     "proof": "0x…",
     "publicSignals": { "result": true, "threshold": 21, "claimType": "age_over" },
@@ -164,8 +165,6 @@ This is a standard Next.js 16 App Router project. Deploy to [Vercel](https://ver
 ```bash
 vercel deploy
 ```
-<!-- metadata: wyh3kfpt99 -->
-<!-- metadata: a9xr2usmv4 -->
 
 ---
 
