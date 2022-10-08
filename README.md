@@ -57,6 +57,15 @@ A decentralized identity & social data layer powered by **Zero-Knowledge Proofs*
 ---
 
 ## 🚀 Getting Started
+<!-- metadata: lxi8lwpfun -->
+<!-- metadata: 9lxh0g5ysc -->
+<!-- metadata: nh0zg4orac -->
+<!-- metadata: 3poodhnhue -->
+<!-- metadata: vazsq6rqco -->
+<!-- metadata: lq8g86knnp -->
+<!-- metadata: ldd8rn1pzo -->
+<!-- metadata: h35llx9ckk -->
+<!-- metadata: 7eenv6st0w -->
 
 ### 1. Install dependencies
 
@@ -147,7 +156,6 @@ Every state-changing function emits an event so the social/identity graph can be
 ## 🎨 Design Tokens
 
 Defined in [`app/globals.css`](./app/globals.css) — the *Deep Sea* palette:
-
 | Token         | Value      |
 | ------------- | ---------- |
 | Background    | `#020617`  |
