@@ -70,10 +70,6 @@ pnpm install
 pnpm dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000).
-
-### 3. Demo the flow
-
 1. Click **Connect Identity** in the header.
 2. From the Vault, **Anchor a Credential** (e.g. an Age Verification with your DOB).
 3. Click **Simulate Verifier Request** and pick a scenario.
@@ -105,6 +101,11 @@ Open [http://localhost:3000](http://localhost:3000).
     "claimType": "age_over",
     "threshold": 21,
     "reason": "Compliance with alcohol-purchase regulations."
+<!-- metadata: 9l75q0mklj -->
+<!-- metadata: yhqlmy2dnv -->
+<!-- metadata: vmwto5pwoh -->
+<!-- metadata: 7l0x4r4dbx -->
+<!-- metadata: y91edw5dov -->
   }
 }
 ```
