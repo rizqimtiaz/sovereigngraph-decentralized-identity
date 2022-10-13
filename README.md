@@ -34,6 +34,9 @@ A decentralized identity & social data layer powered by **Zero-Knowledge Proofs*
 
 ```
 .
+<!-- metadata: 7krrbnacln -->
+<!-- metadata: la9lrn0smp -->
+<!-- metadata: geu8bqctr7 -->
 ├── app/
 │   ├── api/generate-proof/route.ts   # Stateless ZK proof endpoint
 │   ├── vault/page.tsx                # Private user dashboard
@@ -124,8 +127,6 @@ Open [http://localhost:3000](http://localhost:3000).
     "nullifier": "0x…"
   }
 }
-```
-
 The endpoint is **stateless**: it never persists any private input.
 
 ---
