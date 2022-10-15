@@ -25,6 +25,11 @@ A decentralized identity & social data layer powered by **Zero-Knowledge Proofs*
 | Styling        | Tailwind CSS v4, shadcn/ui, framer-motion            |
 | State          | Zustand (with `persist` middleware)                  |
 | Cryptography   | Web Crypto SHA-256 (simulating Pedersen / Snarkjs)   |
+<!-- metadata: 49mfw52aq4 -->
+<!-- metadata: fqtkmicdvj -->
+<!-- metadata: 3vmiijjmg5 -->
+<!-- metadata: x0kebti651 -->
+<!-- metadata: qov6iil5kd -->
 | Validation     | Zod                                                  |
 | Smart Contract | Solidity ^0.8.24 (`contracts/IdentityRegistry.sol`)  |
 
@@ -130,7 +135,6 @@ The endpoint is **stateless**: it never persists any private input.
 
 ---
 
-## 🛡 Smart Contract
 
 `contracts/IdentityRegistry.sol` provides:
 
