@@ -47,9 +47,6 @@ A decentralized identity & social data layer powered by **Zero-Knowledge Proofs*
 │   └── ui/                           # shadcn/ui primitives
 ├── contracts/
 │   └── IdentityRegistry.sol          # On-chain anchors, revocations, social graph
-<!-- metadata: 0ptqjy732x -->
-<!-- metadata: 4h79muehyr -->
-<!-- metadata: gwki6dex5u -->
 ├── lib/
 │   └── zkp-utils.ts                  # Hashing, claim eval, proof generation, verification
 ├── store/
@@ -168,6 +165,8 @@ This is a standard Next.js 16 App Router project. Deploy to [Vercel](https://ver
 ```bash
 vercel deploy
 ```
+
+---
 
 ## 📄 License
 
