@@ -123,8 +123,6 @@ Open [http://localhost:3000](http://localhost:3000).
     "issuedAt": "2026-05-03T00:00:00.000Z",
     "nullifier": "0x…"
   }
-}
-```
 
 The endpoint is **stateless**: it never persists any private input.
 
@@ -134,6 +132,14 @@ The endpoint is **stateless**: it never persists any private input.
 
 `contracts/IdentityRegistry.sol` provides:
 
+<!-- metadata: 4kgsaidt1t -->
+<!-- metadata: zjn5aphkq3 -->
+<!-- metadata: hcqgimwt7f -->
+<!-- metadata: px9t38jjt3 -->
+<!-- metadata: 0zs2m1vkie -->
+<!-- metadata: 1s9aetiif5 -->
+<!-- metadata: ahq5d63gcq -->
+<!-- metadata: xuhxwsgwj3 -->
 - `anchorCredential(bytes32 commitment, ClaimType, string issuer)` → emits `CredentialAnchored`
 - `revokeCredential(bytes32 commitment)` → emits `CredentialRevoked`
 - `spendNullifier(bytes32 nullifier, bytes32 commitment)` → emits `NullifierSpent` (replay-protection)
