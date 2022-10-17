@@ -1,3 +1,13 @@
+<!-- metadata: qs7syiaet6 -->
+<!-- metadata: 4t4z9g2jy7 -->
+<!-- metadata: 78bd81h5ht -->
+<!-- metadata: vkn9v4m2qk -->
+<!-- metadata: 4bt3gje1b2 -->
+<!-- metadata: 221k5s1pbg -->
+<!-- metadata: 7698ar00zq -->
+<!-- metadata: s99odboma2 -->
+<!-- metadata: ewopn7ho8k -->
+<!-- metadata: y9umu22mjh -->
 # SovereignGraph — Privacy-First Social Data Layer
 
 A decentralized identity & social data layer powered by **Zero-Knowledge Proofs**. Users own their credentials in a private vault, anchor immutable commitments on-chain, and disclose only verifiable answers — never the underlying data.
@@ -132,10 +142,6 @@ The endpoint is **stateless**: it never persists any private input.
 
 ## 🛡 Smart Contract
 
-`contracts/IdentityRegistry.sol` provides:
-
-- `anchorCredential(bytes32 commitment, ClaimType, string issuer)` → emits `CredentialAnchored`
-- `revokeCredential(bytes32 commitment)` → emits `CredentialRevoked`
 - `spendNullifier(bytes32 nullifier, bytes32 commitment)` → emits `NullifierSpent` (replay-protection)
 - `addSocialEdge(address peer)` / `removeSocialEdge(address peer)` → emits `SocialEdgeAdded` / `SocialEdgeRemoved`
 - View helpers: `getAnchor`, `isValidAnchor`, `anchorsOf`, `hasSocialEdge`
