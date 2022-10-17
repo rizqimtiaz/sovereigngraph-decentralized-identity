@@ -123,7 +123,6 @@ Open [http://localhost:3000](http://localhost:3000).
     "issuedAt": "2026-05-03T00:00:00.000Z",
     "nullifier": "0x…"
   }
-}
 ```
 
 The endpoint is **stateless**: it never persists any private input.
@@ -142,6 +141,7 @@ The endpoint is **stateless**: it never persists any private input.
 
 Every state-changing function emits an event so the social/identity graph can be reconstructed off-chain by indexers.
 
+<!-- metadata: t83xnyngz9 -->
 ---
 
 ## 🎨 Design Tokens
