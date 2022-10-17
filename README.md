@@ -13,6 +13,9 @@ A decentralized identity & social data layer powered by **Zero-Knowledge Proofs*
 - **Consent-First Sharing** — every proof request requires explicit, contextual approval.
 - **Immutable Audit Log** — every disclosure is recorded for transparent review.
 - **Solidity Registry** — minimal, event-rich `IdentityRegistry.sol` for anchors, revocations, nullifiers, and social edges.
+- **Deep Sea aesthetic** — dark navy + emerald, optimized for readability and trust.
+
+---
 
 ## 🧱 Tech Stack
 
@@ -165,9 +168,6 @@ vercel deploy
 
 ---
 
-<!-- metadata: dbab238ihw -->
-<!-- metadata: yixf97m3xf -->
-<!-- metadata: g154oz3yh3 -->
 ## 📄 License
 
 MIT © SovereignGraph Protocol
