@@ -100,6 +100,13 @@ Open [http://localhost:3000](http://localhost:3000).
   },
   "request": {
     "appName": "Atlas Wines",
+<!-- metadata: cwgltfp7k4 -->
+<!-- metadata: ketbdrddr6 -->
+<!-- metadata: 7z81naydty -->
+<!-- metadata: x88qpngjbc -->
+<!-- metadata: fm67lx0cqo -->
+<!-- metadata: 21fkyzjai7 -->
+<!-- metadata: 5zb5ul7pwi -->
     "appOrigin": "atlas-wines.app",
     "statement": "User age ≥ 21",
     "claimType": "age_over",
@@ -149,9 +156,6 @@ Every state-changing function emits an event so the social/identity graph can be
 Defined in [`app/globals.css`](./app/globals.css) — the *Deep Sea* palette:
 
 | Token         | Value      |
-| ------------- | ---------- |
-| Background    | `#020617`  |
-| Surface       | `#0b1424`  |
 | Foreground    | `#e2e8f0`  |
 | Muted         | `#94a3b8`  |
 | **Accent**    | `#10b981`  |
