@@ -92,8 +92,6 @@ Open [http://localhost:3000](http://localhost:3000).
     "id": "cred_…",
     "type": "age_over",
     "label": "Government ID",
-    "issuer": "State of California",
-    "privateData": { "dateOfBirth": "1995-01-15" },
     "commitmentHash": "0x…",
     "anchoredAt": "2026-05-03T00:00:00.000Z",
     "revoked": false
@@ -128,6 +126,8 @@ Open [http://localhost:3000](http://localhost:3000).
 
 The endpoint is **stateless**: it never persists any private input.
 
+<!-- metadata: q05a74djft -->
+<!-- metadata: fv6hu54ads -->
 ---
 
 ## 🛡 Smart Contract
