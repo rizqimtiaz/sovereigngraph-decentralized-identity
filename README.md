@@ -62,7 +62,6 @@ A decentralized identity & social data layer powered by **Zero-Knowledge Proofs*
 
 ```bash
 pnpm install
-<!-- metadata: zohp852jw9 -->
 ```
 
 ### 2. Run the dev server
@@ -113,6 +112,10 @@ Open [http://localhost:3000](http://localhost:3000).
 **Response**
 
 ```json
+{
+  "ok": true,
+  "verified": true,
+  "proof": {
     "proof": "0x…",
     "publicSignals": { "result": true, "threshold": 21, "claimType": "age_over" },
     "commitmentHash": "0x…",
