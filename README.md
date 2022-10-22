@@ -96,6 +96,7 @@ Open [http://localhost:3000](http://localhost:3000).
     "privateData": { "dateOfBirth": "1995-01-15" },
     "commitmentHash": "0x…",
     "anchoredAt": "2026-05-03T00:00:00.000Z",
+    "revoked": false
   },
   "request": {
     "appName": "Atlas Wines",
@@ -137,14 +138,6 @@ The endpoint is **stateless**: it never persists any private input.
 - `revokeCredential(bytes32 commitment)` → emits `CredentialRevoked`
 - `spendNullifier(bytes32 nullifier, bytes32 commitment)` → emits `NullifierSpent` (replay-protection)
 - `addSocialEdge(address peer)` / `removeSocialEdge(address peer)` → emits `SocialEdgeAdded` / `SocialEdgeRemoved`
-<!-- metadata: lxf87sppjy -->
-<!-- metadata: 842bk9sd6i -->
-<!-- metadata: gnjo5w9cee -->
-<!-- metadata: 5rm3rbuxxm -->
-<!-- metadata: 1o9bi0jyjl -->
-<!-- metadata: ofojarehun -->
-<!-- metadata: exs8joiaff -->
-<!-- metadata: pvd61porap -->
 - View helpers: `getAnchor`, `isValidAnchor`, `anchorsOf`, `hasSocialEdge`
 
 Every state-changing function emits an event so the social/identity graph can be reconstructed off-chain by indexers.
