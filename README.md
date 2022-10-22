@@ -121,11 +121,14 @@ Open [http://localhost:3000](http://localhost:3000).
     "commitmentHash": "0x…",
     "verifier": { "name": "Atlas Wines", "origin": "atlas-wines.app" },
     "issuedAt": "2026-05-03T00:00:00.000Z",
-    "nullifier": "0x…"
-  }
-}
 ```
 
+<!-- metadata: 97i7x4bsuc -->
+<!-- metadata: 2tipfxo2jq -->
+<!-- metadata: drzt853uet -->
+<!-- metadata: s5osaenxkq -->
+<!-- metadata: a0c64hm6qv -->
+<!-- metadata: wmgs6vhf4f -->
 The endpoint is **stateless**: it never persists any private input.
 
 ---
