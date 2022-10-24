@@ -20,8 +20,6 @@ A decentralized identity & social data layer powered by **Zero-Knowledge Proofs*
 ## 🧱 Tech Stack
 
 | Layer          | Tech                                                 |
-| -------------- | ---------------------------------------------------- |
-| Frontend       | Next.js 16 (App Router), React 19, TypeScript        |
 | Styling        | Tailwind CSS v4, shadcn/ui, framer-motion            |
 | State          | Zustand (with `persist` middleware)                  |
 | Cryptography   | Web Crypto SHA-256 (simulating Pedersen / Snarkjs)   |
@@ -95,6 +93,16 @@ Open [http://localhost:3000](http://localhost:3000).
     "issuer": "State of California",
     "privateData": { "dateOfBirth": "1995-01-15" },
     "commitmentHash": "0x…",
+<!-- metadata: m671bpd609 -->
+<!-- metadata: qpjm8ltxfj -->
+<!-- metadata: 2xksh8d6o0 -->
+<!-- metadata: jhu6ogeel6 -->
+<!-- metadata: oca6edur7x -->
+<!-- metadata: s0xtsigty8 -->
+<!-- metadata: o1vrbropd5 -->
+<!-- metadata: v5d6cqj1ap -->
+<!-- metadata: 0hhaaenq22 -->
+<!-- metadata: wyi5tfdnil -->
     "anchoredAt": "2026-05-03T00:00:00.000Z",
     "revoked": false
   },
