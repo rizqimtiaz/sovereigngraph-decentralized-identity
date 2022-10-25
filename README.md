@@ -144,14 +144,6 @@ Every state-changing function emits an event so the social/identity graph can be
 
 ---
 
-<!-- metadata: vo4ueenxrm -->
-<!-- metadata: avabozzln3 -->
-<!-- metadata: wykltotovo -->
-<!-- metadata: vev5yatdsp -->
-<!-- metadata: eyg7e5xl5m -->
-<!-- metadata: zh3a2gc4jk -->
-<!-- metadata: a5qttvuduf -->
-<!-- metadata: fv9t82883e -->
 ## 🎨 Design Tokens
 
 Defined in [`app/globals.css`](./app/globals.css) — the *Deep Sea* palette:
@@ -162,6 +154,8 @@ Defined in [`app/globals.css`](./app/globals.css) — the *Deep Sea* palette:
 | Surface       | `#0b1424`  |
 | Foreground    | `#e2e8f0`  |
 | Muted         | `#94a3b8`  |
+| **Accent**    | `#10b981`  |
+
 ---
 
 ## 📦 Deploy
