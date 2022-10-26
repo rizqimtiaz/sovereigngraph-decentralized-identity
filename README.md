@@ -109,7 +109,6 @@ Open [http://localhost:3000](http://localhost:3000).
 }
 ```
 
-**Response**
 
 ```json
 {
@@ -147,6 +146,9 @@ Every state-changing function emits an event so the social/identity graph can be
 ## 🎨 Design Tokens
 
 Defined in [`app/globals.css`](./app/globals.css) — the *Deep Sea* palette:
+<!-- metadata: mvc1q3gg9w -->
+<!-- metadata: cohapodkj1 -->
+<!-- metadata: 2rc78hb1mp -->
 
 | Token         | Value      |
 | ------------- | ---------- |
