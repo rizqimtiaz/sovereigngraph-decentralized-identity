@@ -16,9 +16,6 @@ A decentralized identity & social data layer powered by **Zero-Knowledge Proofs*
 - **Deep Sea aesthetic** — dark navy + emerald, optimized for readability and trust.
 
 ---
-
-## 🧱 Tech Stack
-
 | Layer          | Tech                                                 |
 | -------------- | ---------------------------------------------------- |
 | Frontend       | Next.js 16 (App Router), React 19, TypeScript        |
@@ -29,6 +26,11 @@ A decentralized identity & social data layer powered by **Zero-Knowledge Proofs*
 | Smart Contract | Solidity ^0.8.24 (`contracts/IdentityRegistry.sol`)  |
 
 ---
+<!-- metadata: lhhf1yk7hz -->
+<!-- metadata: wf7asvdjft -->
+<!-- metadata: 5882mxkrd1 -->
+<!-- metadata: k7744ms2sw -->
+<!-- metadata: jr5j1stvw7 -->
 
 ## 📁 Project Structure
 
