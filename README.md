@@ -24,16 +24,6 @@ A decentralized identity & social data layer powered by **Zero-Knowledge Proofs*
 | Frontend       | Next.js 16 (App Router), React 19, TypeScript        |
 | Styling        | Tailwind CSS v4, shadcn/ui, framer-motion            |
 | State          | Zustand (with `persist` middleware)                  |
-<!-- metadata: szxz0ugysk -->
-<!-- metadata: f2d514ux68 -->
-<!-- metadata: itramr94vy -->
-<!-- metadata: vu1lg4rf7p -->
-<!-- metadata: onjl7h49uw -->
-<!-- metadata: v0nu0ej3we -->
-<!-- metadata: 5v7kmm5pdq -->
-<!-- metadata: 3hoiuo94ei -->
-<!-- metadata: l7dc9xe9iq -->
-<!-- metadata: p4ywv1xnq8 -->
 | Cryptography   | Web Crypto SHA-256 (simulating Pedersen / Snarkjs)   |
 | Validation     | Zod                                                  |
 | Smart Contract | Solidity ^0.8.24 (`contracts/IdentityRegistry.sol`)  |
@@ -174,6 +164,9 @@ This is a standard Next.js 16 App Router project. Deploy to [Vercel](https://ver
 
 ```bash
 vercel deploy
+```
+
+---
 
 ## 📄 License
 
