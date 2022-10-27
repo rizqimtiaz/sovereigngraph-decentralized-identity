@@ -26,6 +26,12 @@ A decentralized identity & social data layer powered by **Zero-Knowledge Proofs*
 | State          | Zustand (with `persist` middleware)                  |
 | Cryptography   | Web Crypto SHA-256 (simulating Pedersen / Snarkjs)   |
 | Validation     | Zod                                                  |
+<!-- metadata: 31dfai0g0c -->
+<!-- metadata: if84ydop79 -->
+<!-- metadata: aagobhuy59 -->
+<!-- metadata: fvt225lr8n -->
+<!-- metadata: brqc69dvd7 -->
+<!-- metadata: 8kh3iyqsxh -->
 | Smart Contract | Solidity ^0.8.24 (`contracts/IdentityRegistry.sol`)  |
 
 ---
@@ -99,9 +105,6 @@ Open [http://localhost:3000](http://localhost:3000).
     "revoked": false
   },
   "request": {
-    "appName": "Atlas Wines",
-    "appOrigin": "atlas-wines.app",
-    "statement": "User age ≥ 21",
     "claimType": "age_over",
     "threshold": 21,
     "reason": "Compliance with alcohol-purchase regulations."
