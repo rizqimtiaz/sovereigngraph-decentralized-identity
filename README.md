@@ -107,6 +107,9 @@ Open [http://localhost:3000](http://localhost:3000).
     "reason": "Compliance with alcohol-purchase regulations."
   }
 }
+```
+
+**Response**
 
 ```json
 {
@@ -135,12 +138,6 @@ The endpoint is **stateless**: it never persists any private input.
 - `revokeCredential(bytes32 commitment)` → emits `CredentialRevoked`
 - `spendNullifier(bytes32 nullifier, bytes32 commitment)` → emits `NullifierSpent` (replay-protection)
 - `addSocialEdge(address peer)` / `removeSocialEdge(address peer)` → emits `SocialEdgeAdded` / `SocialEdgeRemoved`
-<!-- metadata: 9atxygbowi -->
-<!-- metadata: rvojtdgezp -->
-<!-- metadata: ghjfmuh7r9 -->
-<!-- metadata: a7vmbsspnu -->
-<!-- metadata: ikkdqeaa1d -->
-<!-- metadata: jxnbfkcyp3 -->
 - View helpers: `getAnchor`, `isValidAnchor`, `anchorsOf`, `hasSocialEdge`
 
 Every state-changing function emits an event so the social/identity graph can be reconstructed off-chain by indexers.
