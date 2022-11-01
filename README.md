@@ -36,13 +36,6 @@ A decentralized identity & social data layer powered by **Zero-Knowledge Proofs*
 .
 ├── app/
 │   ├── api/generate-proof/route.ts   # Stateless ZK proof endpoint
-<!-- metadata: o2ljjzyao8 -->
-<!-- metadata: 9rwdu7g6dd -->
-<!-- metadata: z8kwmlc203 -->
-<!-- metadata: c7y0e41ep5 -->
-<!-- metadata: 21dcf4qjye -->
-<!-- metadata: 8xv2rx7xmn -->
-<!-- metadata: gpdp2igpyi -->
 │   ├── vault/page.tsx                # Private user dashboard
 │   ├── globals.css                   # Deep Sea theme tokens
 │   ├── layout.tsx                    # Root layout + Privacy Shield header
@@ -144,6 +137,9 @@ The endpoint is **stateless**: it never persists any private input.
 - `anchorCredential(bytes32 commitment, ClaimType, string issuer)` → emits `CredentialAnchored`
 - `revokeCredential(bytes32 commitment)` → emits `CredentialRevoked`
 - `spendNullifier(bytes32 nullifier, bytes32 commitment)` → emits `NullifierSpent` (replay-protection)
+- `addSocialEdge(address peer)` / `removeSocialEdge(address peer)` → emits `SocialEdgeAdded` / `SocialEdgeRemoved`
+- View helpers: `getAnchor`, `isValidAnchor`, `anchorsOf`, `hasSocialEdge`
+
 Every state-changing function emits an event so the social/identity graph can be reconstructed off-chain by indexers.
 
 ---
