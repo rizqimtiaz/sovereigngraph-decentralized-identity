@@ -115,7 +115,6 @@ Open [http://localhost:3000](http://localhost:3000).
 {
   "ok": true,
   "verified": true,
-  "proof": {
     "proof": "0x…",
     "publicSignals": { "result": true, "threshold": 21, "claimType": "age_over" },
     "commitmentHash": "0x…",
@@ -144,6 +143,15 @@ Every state-changing function emits an event so the social/identity graph can be
 
 ---
 
+<!-- metadata: 6ay5gq40ee -->
+<!-- metadata: zcnknc7lhz -->
+<!-- metadata: myq48micj3 -->
+<!-- metadata: kqfly5ceuc -->
+<!-- metadata: 6slom4uldo -->
+<!-- metadata: i275n36wle -->
+<!-- metadata: zxfqrovvc1 -->
+<!-- metadata: 3mzuc5k167 -->
+<!-- metadata: q3lab6bv2v -->
 ## 🎨 Design Tokens
 
 Defined in [`app/globals.css`](./app/globals.css) — the *Deep Sea* palette:
