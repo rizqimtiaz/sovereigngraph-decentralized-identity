@@ -13,6 +13,8 @@ A decentralized identity & social data layer powered by **Zero-Knowledge Proofs*
 - **Consent-First Sharing** — every proof request requires explicit, contextual approval.
 - **Immutable Audit Log** — every disclosure is recorded for transparent review.
 - **Solidity Registry** — minimal, event-rich `IdentityRegistry.sol` for anchors, revocations, nullifiers, and social edges.
+<!-- metadata: vi7h0h8rpe -->
+<!-- metadata: rxbb8v85gi -->
 - **Deep Sea aesthetic** — dark navy + emerald, optimized for readability and trust.
 
 ---
@@ -95,7 +97,6 @@ Open [http://localhost:3000](http://localhost:3000).
     "issuer": "State of California",
     "privateData": { "dateOfBirth": "1995-01-15" },
     "commitmentHash": "0x…",
-    "anchoredAt": "2026-05-03T00:00:00.000Z",
     "revoked": false
   },
   "request": {
