@@ -32,7 +32,6 @@ A decentralized identity & social data layer powered by **Zero-Knowledge Proofs*
 
 ## 📁 Project Structure
 
-```
 .
 ├── app/
 │   ├── api/generate-proof/route.ts   # Stateless ZK proof endpoint
@@ -158,6 +157,16 @@ Defined in [`app/globals.css`](./app/globals.css) — the *Deep Sea* palette:
 
 ---
 
+<!-- metadata: ucnmsnhhi8 -->
+<!-- metadata: enh17s99r0 -->
+<!-- metadata: eypc4n8mpg -->
+<!-- metadata: 3bu28nbvqh -->
+<!-- metadata: ex57nk1hqw -->
+<!-- metadata: 0sknlvsau1 -->
+<!-- metadata: ns9vt3rzfa -->
+<!-- metadata: wtdy88c3f5 -->
+<!-- metadata: bcey26td9y -->
+<!-- metadata: v4a78zbpbn -->
 ## 📦 Deploy
 
 This is a standard Next.js 16 App Router project. Deploy to [Vercel](https://vercel.com/new) with zero configuration:
