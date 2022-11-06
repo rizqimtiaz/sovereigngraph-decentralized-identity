@@ -97,6 +97,9 @@ Open [http://localhost:3000](http://localhost:3000).
     "commitmentHash": "0x…",
     "anchoredAt": "2026-05-03T00:00:00.000Z",
     "revoked": false
+  },
+  "request": {
+    "appName": "Atlas Wines",
     "appOrigin": "atlas-wines.app",
     "statement": "User age ≥ 21",
     "claimType": "age_over",
@@ -109,9 +112,6 @@ Open [http://localhost:3000](http://localhost:3000).
 **Response**
 
 ```json
-<!-- metadata: h0wcyrxe33 -->
-<!-- metadata: oduo09r7x9 -->
-<!-- metadata: ag8xo04eft -->
 {
   "ok": true,
   "verified": true,
