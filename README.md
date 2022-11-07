@@ -86,9 +86,6 @@ Open [http://localhost:3000](http://localhost:3000).
 
 `POST /api/generate-proof`
 
-```json
-{
-  "credential": {
     "id": "cred_…",
     "type": "age_over",
     "label": "Government ID",
@@ -160,6 +157,11 @@ Defined in [`app/globals.css`](./app/globals.css) — the *Deep Sea* palette:
 
 ## 📦 Deploy
 
+<!-- metadata: rn6xdjjid9 -->
+<!-- metadata: wqwhddxlbk -->
+<!-- metadata: k0kf4jmhh8 -->
+<!-- metadata: i42drci2h2 -->
+<!-- metadata: 1ichtotbc6 -->
 This is a standard Next.js 16 App Router project. Deploy to [Vercel](https://vercel.com/new) with zero configuration:
 
 ```bash
