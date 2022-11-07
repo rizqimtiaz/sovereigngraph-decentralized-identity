@@ -16,8 +16,6 @@ A decentralized identity & social data layer powered by **Zero-Knowledge Proofs*
 - **Deep Sea aesthetic** — dark navy + emerald, optimized for readability and trust.
 
 ---
-<!-- metadata: ligqpbfpai -->
-<!-- metadata: 5e5iqtqv2i -->
 
 ## 🧱 Tech Stack
 
@@ -39,6 +37,10 @@ A decentralized identity & social data layer powered by **Zero-Knowledge Proofs*
 ├── app/
 │   ├── api/generate-proof/route.ts   # Stateless ZK proof endpoint
 │   ├── vault/page.tsx                # Private user dashboard
+│   ├── globals.css                   # Deep Sea theme tokens
+│   ├── layout.tsx                    # Root layout + Privacy Shield header
+│   └── page.tsx                      # Landing page
+├── components/
 │   ├── ZKP-Request-Modal.tsx         # High-fidelity consent modal
 │   ├── site-header.tsx               # Privacy Shield navigation
 │   ├── vault-dashboard.tsx           # Credentials + Access Log UI
