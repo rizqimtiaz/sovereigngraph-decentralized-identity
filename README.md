@@ -64,6 +64,8 @@ A decentralized identity & social data layer powered by **Zero-Knowledge Proofs*
 pnpm install
 ```
 
+### 2. Run the dev server
+
 ```bash
 pnpm dev
 ```
@@ -106,14 +108,6 @@ Open [http://localhost:3000](http://localhost:3000).
   }
 }
 ```
-<!-- metadata: 215eudrahx -->
-<!-- metadata: w1kf10cei5 -->
-<!-- metadata: 332l202jh3 -->
-<!-- metadata: ekkqbybgzx -->
-<!-- metadata: kgo9tsmezu -->
-<!-- metadata: 6w579t1obm -->
-<!-- metadata: rhivxcm5q0 -->
-<!-- metadata: 68tdiwnrrl -->
 
 **Response**
 
