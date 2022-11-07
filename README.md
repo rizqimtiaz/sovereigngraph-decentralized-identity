@@ -80,6 +80,10 @@ Open [http://localhost:3000](http://localhost:3000).
 4. Approve the request — only the boolean result is "shared".
 5. Inspect the **Consent & Access Log** for an immutable audit trail.
 
+---
+
+## 🔐 ZK Proof API
+
 `POST /api/generate-proof`
 
 ```json
@@ -145,13 +149,6 @@ Every state-changing function emits an event so the social/identity graph can be
 Defined in [`app/globals.css`](./app/globals.css) — the *Deep Sea* palette:
 
 | Token         | Value      |
-<!-- metadata: z072f7libw -->
-<!-- metadata: 8gxeisyoog -->
-<!-- metadata: wlc0932bbh -->
-<!-- metadata: z3t4ojt7i1 -->
-<!-- metadata: dhul1qb4on -->
-<!-- metadata: rd6cj66h7u -->
-<!-- metadata: 5n2244p3v2 -->
 | ------------- | ---------- |
 | Background    | `#020617`  |
 | Surface       | `#0b1424`  |
