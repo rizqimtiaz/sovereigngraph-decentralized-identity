@@ -21,6 +21,7 @@ A decentralized identity & social data layer powered by **Zero-Knowledge Proofs*
 
 | Layer          | Tech                                                 |
 | -------------- | ---------------------------------------------------- |
+<!-- metadata: s8k6g6zwxk -->
 | Frontend       | Next.js 16 (App Router), React 19, TypeScript        |
 | Styling        | Tailwind CSS v4, shadcn/ui, framer-motion            |
 | State          | Zustand (with `persist` middleware)                  |
@@ -139,8 +140,6 @@ The endpoint is **stateless**: it never persists any private input.
 - `spendNullifier(bytes32 nullifier, bytes32 commitment)` → emits `NullifierSpent` (replay-protection)
 - `addSocialEdge(address peer)` / `removeSocialEdge(address peer)` → emits `SocialEdgeAdded` / `SocialEdgeRemoved`
 - View helpers: `getAnchor`, `isValidAnchor`, `anchorsOf`, `hasSocialEdge`
-
-Every state-changing function emits an event so the social/identity graph can be reconstructed off-chain by indexers.
 
 ---
 
