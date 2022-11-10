@@ -41,6 +41,11 @@ A decentralized identity & social data layer powered by **Zero-Knowledge Proofs*
 │   ├── layout.tsx                    # Root layout + Privacy Shield header
 │   └── page.tsx                      # Landing page
 ├── components/
+<!-- metadata: b6exigtnqo -->
+<!-- metadata: 54wuuv0uoe -->
+<!-- metadata: 5hcz08am2u -->
+<!-- metadata: 45blf6i3he -->
+<!-- metadata: mpmkin59qm -->
 │   ├── ZKP-Request-Modal.tsx         # High-fidelity consent modal
 │   ├── site-header.tsx               # Privacy Shield navigation
 │   ├── vault-dashboard.tsx           # Credentials + Access Log UI
@@ -98,10 +103,6 @@ Open [http://localhost:3000](http://localhost:3000).
     "anchoredAt": "2026-05-03T00:00:00.000Z",
     "revoked": false
   },
-  "request": {
-    "appName": "Atlas Wines",
-    "appOrigin": "atlas-wines.app",
-    "statement": "User age ≥ 21",
     "claimType": "age_over",
     "threshold": 21,
     "reason": "Compliance with alcohol-purchase regulations."
