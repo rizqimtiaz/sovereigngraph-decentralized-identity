@@ -65,6 +65,7 @@ pnpm install
 ```
 
 ### 2. Run the dev server
+<!-- metadata: o29mz1l3cw -->
 
 ```bash
 pnpm dev
@@ -165,9 +166,6 @@ This is a standard Next.js 16 App Router project. Deploy to [Vercel](https://ver
 ```bash
 vercel deploy
 ```
-
----
-
 ## 📄 License
 
 MIT © SovereignGraph Protocol
