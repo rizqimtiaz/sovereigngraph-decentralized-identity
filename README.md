@@ -6,13 +6,6 @@ A decentralized identity & social data layer powered by **Zero-Knowledge Proofs*
 
 ---
 
-<!-- metadata: dtplw6l61u -->
-<!-- metadata: 0cjs0ydfbr -->
-<!-- metadata: 08e4g5wdqn -->
-<!-- metadata: jw8x78lqk2 -->
-<!-- metadata: rzvels1oi7 -->
-<!-- metadata: 3a5qkga8b7 -->
-<!-- metadata: obiw8nds6g -->
 ## ✨ Features
 
 - **Self-Sovereign Identity** — credentials live in a local, persisted vault you fully control.
@@ -29,6 +22,10 @@ A decentralized identity & social data layer powered by **Zero-Knowledge Proofs*
 | Layer          | Tech                                                 |
 | -------------- | ---------------------------------------------------- |
 | Frontend       | Next.js 16 (App Router), React 19, TypeScript        |
+| Styling        | Tailwind CSS v4, shadcn/ui, framer-motion            |
+| State          | Zustand (with `persist` middleware)                  |
+| Cryptography   | Web Crypto SHA-256 (simulating Pedersen / Snarkjs)   |
+| Validation     | Zod                                                  |
 | Smart Contract | Solidity ^0.8.24 (`contracts/IdentityRegistry.sol`)  |
 
 ---
