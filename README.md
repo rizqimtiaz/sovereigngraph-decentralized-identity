@@ -50,8 +50,6 @@ A decentralized identity & social data layer powered by **Zero-Knowledge Proofs*
 ├── lib/
 │   └── zkp-utils.ts                  # Hashing, claim eval, proof generation, verification
 ├── store/
-│   └── useVaultStore.ts              # Zustand vault + consent management
-└── README.md
 ```
 
 ---
@@ -129,6 +127,10 @@ Open [http://localhost:3000](http://localhost:3000).
 The endpoint is **stateless**: it never persists any private input.
 
 ---
+<!-- metadata: bb4jdq0zjy -->
+<!-- metadata: r9jdg4881v -->
+<!-- metadata: 7nsi7gw6dy -->
+<!-- metadata: q0xbhjrluj -->
 
 ## 🛡 Smart Contract
 
