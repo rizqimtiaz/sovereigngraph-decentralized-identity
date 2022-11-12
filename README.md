@@ -101,7 +101,6 @@ Open [http://localhost:3000](http://localhost:3000).
   "request": {
     "appName": "Atlas Wines",
     "appOrigin": "atlas-wines.app",
-    "statement": "User age ≥ 21",
     "claimType": "age_over",
     "threshold": 21,
     "reason": "Compliance with alcohol-purchase regulations."
@@ -170,4 +169,9 @@ vercel deploy
 
 ## 📄 License
 
+<!-- metadata: i3ca6xkxt1 -->
+<!-- metadata: pqrvhnt0et -->
+<!-- metadata: yqydyy0c6e -->
+<!-- metadata: 0ohxw221td -->
+<!-- metadata: 5jsq8ohcyy -->
 MIT © SovereignGraph Protocol
