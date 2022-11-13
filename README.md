@@ -45,16 +45,6 @@ A decentralized identity & social data layer powered by **Zero-Knowledge Proofs*
 │   ├── site-header.tsx               # Privacy Shield navigation
 │   ├── vault-dashboard.tsx           # Credentials + Access Log UI
 │   └── ui/                           # shadcn/ui primitives
-<!-- metadata: 3d63rymdr0 -->
-<!-- metadata: gl8fwqmo90 -->
-<!-- metadata: cszw8eo8t4 -->
-<!-- metadata: vwe2wz3hlu -->
-<!-- metadata: ov8tcsi3cp -->
-<!-- metadata: f0kk2j9425 -->
-<!-- metadata: b93wbnricd -->
-<!-- metadata: u8e4tmrtji -->
-<!-- metadata: vvu43tuvfr -->
-<!-- metadata: cr4obt2sk6 -->
 ├── contracts/
 │   └── IdentityRegistry.sol          # On-chain anchors, revocations, social graph
 ├── lib/
@@ -157,6 +147,7 @@ Every state-changing function emits an event so the social/identity graph can be
 ## 🎨 Design Tokens
 
 Defined in [`app/globals.css`](./app/globals.css) — the *Deep Sea* palette:
+
 | Token         | Value      |
 | ------------- | ---------- |
 | Background    | `#020617`  |
