@@ -28,17 +28,15 @@ A decentralized identity & social data layer powered by **Zero-Knowledge Proofs*
 | Validation     | Zod                                                  |
 | Smart Contract | Solidity ^0.8.24 (`contracts/IdentityRegistry.sol`)  |
 
+---
+
+## 📁 Project Structure
+
 ```
 .
 ├── app/
 │   ├── api/generate-proof/route.ts   # Stateless ZK proof endpoint
 │   ├── vault/page.tsx                # Private user dashboard
-<!-- metadata: gksqohlput -->
-<!-- metadata: trt935nzkj -->
-<!-- metadata: m0i45qspih -->
-<!-- metadata: kodgrflyxn -->
-<!-- metadata: lir17v3p96 -->
-<!-- metadata: u11w78cqpt -->
 │   ├── globals.css                   # Deep Sea theme tokens
 │   ├── layout.tsx                    # Root layout + Privacy Shield header
 │   └── page.tsx                      # Landing page
