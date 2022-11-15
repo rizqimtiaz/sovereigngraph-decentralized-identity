@@ -19,10 +19,6 @@ A decentralized identity & social data layer powered by **Zero-Knowledge Proofs*
 
 ## 🧱 Tech Stack
 
-| Layer          | Tech                                                 |
-| -------------- | ---------------------------------------------------- |
-| Frontend       | Next.js 16 (App Router), React 19, TypeScript        |
-| Styling        | Tailwind CSS v4, shadcn/ui, framer-motion            |
 | State          | Zustand (with `persist` middleware)                  |
 | Cryptography   | Web Crypto SHA-256 (simulating Pedersen / Snarkjs)   |
 | Validation     | Zod                                                  |
@@ -132,6 +128,10 @@ The endpoint is **stateless**: it never persists any private input.
 
 ## 🛡 Smart Contract
 
+<!-- metadata: 9rshqq1m5y -->
+<!-- metadata: 8y3ydzl6v7 -->
+<!-- metadata: 4672ts7g11 -->
+<!-- metadata: 6yhd7rnpnh -->
 `contracts/IdentityRegistry.sol` provides:
 
 - `anchorCredential(bytes32 commitment, ClaimType, string issuer)` → emits `CredentialAnchored`
