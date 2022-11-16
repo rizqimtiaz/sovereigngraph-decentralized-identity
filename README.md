@@ -53,7 +53,6 @@ A decentralized identity & social data layer powered by **Zero-Knowledge Proofs*
 │   └── useVaultStore.ts              # Zustand vault + consent management
 └── README.md
 ```
-<!-- metadata: 0ur483hs4p -->
 
 ---
 
@@ -74,6 +73,7 @@ pnpm dev
 Open [http://localhost:3000](http://localhost:3000).
 
 ### 3. Demo the flow
+
 1. Click **Connect Identity** in the header.
 2. From the Vault, **Anchor a Credential** (e.g. an Age Verification with your DOB).
 3. Click **Simulate Verifier Request** and pick a scenario.
