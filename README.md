@@ -33,10 +33,6 @@ A decentralized identity & social data layer powered by **Zero-Knowledge Proofs*
 ## 📁 Project Structure
 
 ```
-.
-├── app/
-│   ├── api/generate-proof/route.ts   # Stateless ZK proof endpoint
-│   ├── vault/page.tsx                # Private user dashboard
 │   ├── globals.css                   # Deep Sea theme tokens
 │   ├── layout.tsx                    # Root layout + Privacy Shield header
 │   └── page.tsx                      # Landing page
@@ -112,6 +108,16 @@ Open [http://localhost:3000](http://localhost:3000).
 **Response**
 
 ```json
+<!-- metadata: tcfw7nus3d -->
+<!-- metadata: 786ku94cfr -->
+<!-- metadata: 7m8nkk0x9p -->
+<!-- metadata: tn4r6k3mo3 -->
+<!-- metadata: gwz55d084s -->
+<!-- metadata: 1pqnuyxxo5 -->
+<!-- metadata: ro2kd6886a -->
+<!-- metadata: eo20ffzht2 -->
+<!-- metadata: lneiabq3vv -->
+<!-- metadata: auhrp56cmh -->
 {
   "ok": true,
   "verified": true,
