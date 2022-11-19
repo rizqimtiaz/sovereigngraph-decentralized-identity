@@ -6,7 +6,6 @@ A decentralized identity & social data layer powered by **Zero-Knowledge Proofs*
 
 ---
 
-## ✨ Features
 
 - **Self-Sovereign Identity** — credentials live in a local, persisted vault you fully control.
 - **Zero-Knowledge Proofs** — share `true` / `false` results, never the raw data behind them.
@@ -40,6 +39,16 @@ A decentralized identity & social data layer powered by **Zero-Knowledge Proofs*
 │   ├── globals.css                   # Deep Sea theme tokens
 │   ├── layout.tsx                    # Root layout + Privacy Shield header
 │   └── page.tsx                      # Landing page
+<!-- metadata: 762fxypiqu -->
+<!-- metadata: jebtwnpm2t -->
+<!-- metadata: zu72n7or4p -->
+<!-- metadata: 3pdd8fa014 -->
+<!-- metadata: 6sb18ju4m8 -->
+<!-- metadata: 5qfm3ujnr2 -->
+<!-- metadata: snl3rc5wcv -->
+<!-- metadata: etgdx0ks8w -->
+<!-- metadata: dck37bw4i6 -->
+<!-- metadata: 4pjfx1yp2n -->
 ├── components/
 │   ├── ZKP-Request-Modal.tsx         # High-fidelity consent modal
 │   ├── site-header.tsx               # Privacy Shield navigation
