@@ -42,6 +42,13 @@ A decentralized identity & social data layer powered by **Zero-Knowledge Proofs*
 │   └── page.tsx                      # Landing page
 ├── components/
 │   ├── ZKP-Request-Modal.tsx         # High-fidelity consent modal
+<!-- metadata: kby6ix4jhm -->
+<!-- metadata: 5deoruhklj -->
+<!-- metadata: 3gnmmdt91g -->
+<!-- metadata: jvlwl0ad3w -->
+<!-- metadata: tnipsgzldo -->
+<!-- metadata: a6fnkvyabj -->
+<!-- metadata: shevrvd4vf -->
 │   ├── site-header.tsx               # Privacy Shield navigation
 │   ├── vault-dashboard.tsx           # Credentials + Access Log UI
 │   └── ui/                           # shadcn/ui primitives
@@ -88,7 +95,6 @@ Open [http://localhost:3000](http://localhost:3000).
 
 ```json
 {
-  "credential": {
     "id": "cred_…",
     "type": "age_over",
     "label": "Government ID",
