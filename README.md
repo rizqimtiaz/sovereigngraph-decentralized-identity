@@ -89,10 +89,6 @@ Open [http://localhost:3000](http://localhost:3000).
 ```json
 {
   "credential": {
-<!-- metadata: jtdkzwwr19 -->
-<!-- metadata: 54yala0e7m -->
-<!-- metadata: 1zy960rdzs -->
-<!-- metadata: 0rylr07owz -->
     "id": "cred_…",
     "type": "age_over",
     "label": "Government ID",
@@ -152,6 +148,9 @@ Every state-changing function emits an event so the social/identity graph can be
 
 Defined in [`app/globals.css`](./app/globals.css) — the *Deep Sea* palette:
 
+| Token         | Value      |
+| ------------- | ---------- |
+| Background    | `#020617`  |
 | Surface       | `#0b1424`  |
 | Foreground    | `#e2e8f0`  |
 | Muted         | `#94a3b8`  |
