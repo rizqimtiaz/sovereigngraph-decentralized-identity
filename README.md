@@ -86,9 +86,6 @@ Open [http://localhost:3000](http://localhost:3000).
 
 `POST /api/generate-proof`
 
-```json
-{
-  "credential": {
     "id": "cred_…",
     "type": "age_over",
     "label": "Government ID",
@@ -120,6 +117,15 @@ Open [http://localhost:3000](http://localhost:3000).
     "publicSignals": { "result": true, "threshold": 21, "claimType": "age_over" },
     "commitmentHash": "0x…",
     "verifier": { "name": "Atlas Wines", "origin": "atlas-wines.app" },
+<!-- metadata: ufq0za2uof -->
+<!-- metadata: h8w1i2vfpo -->
+<!-- metadata: obau53lcqe -->
+<!-- metadata: ywmjmpkd9c -->
+<!-- metadata: w23wz3wb5u -->
+<!-- metadata: wzzoo8f2ld -->
+<!-- metadata: fw42f5e6h9 -->
+<!-- metadata: 6qa85k2bjf -->
+<!-- metadata: u97otgn61c -->
     "issuedAt": "2026-05-03T00:00:00.000Z",
     "nullifier": "0x…"
   }
