@@ -94,10 +94,6 @@ Open [http://localhost:3000](http://localhost:3000).
     "label": "Government ID",
     "issuer": "State of California",
     "privateData": { "dateOfBirth": "1995-01-15" },
-    "commitmentHash": "0x…",
-    "anchoredAt": "2026-05-03T00:00:00.000Z",
-    "revoked": false
-  },
   "request": {
     "appName": "Atlas Wines",
     "appOrigin": "atlas-wines.app",
@@ -137,6 +133,16 @@ The endpoint is **stateless**: it never persists any private input.
 - `anchorCredential(bytes32 commitment, ClaimType, string issuer)` → emits `CredentialAnchored`
 - `revokeCredential(bytes32 commitment)` → emits `CredentialRevoked`
 - `spendNullifier(bytes32 nullifier, bytes32 commitment)` → emits `NullifierSpent` (replay-protection)
+<!-- metadata: m6e68k45sc -->
+<!-- metadata: 2fdttp2ovx -->
+<!-- metadata: 42dyujq631 -->
+<!-- metadata: bwyqygjgdn -->
+<!-- metadata: jl1uh9ah0l -->
+<!-- metadata: n1c5gqno0s -->
+<!-- metadata: hjr6qmam9t -->
+<!-- metadata: hfntn02ao9 -->
+<!-- metadata: 3hppuumzv4 -->
+<!-- metadata: hm6kw6kspu -->
 - `addSocialEdge(address peer)` / `removeSocialEdge(address peer)` → emits `SocialEdgeAdded` / `SocialEdgeRemoved`
 - View helpers: `getAnchor`, `isValidAnchor`, `anchorsOf`, `hasSocialEdge`
 
