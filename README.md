@@ -19,13 +19,6 @@ A decentralized identity & social data layer powered by **Zero-Knowledge Proofs*
 
 ## 🧱 Tech Stack
 
-<!-- metadata: 08rpx7cgjh -->
-<!-- metadata: 7cvwzgf4xd -->
-<!-- metadata: yykxnajp7j -->
-<!-- metadata: dysqsy3628 -->
-<!-- metadata: m1s2t0ygwq -->
-<!-- metadata: qtubu28xze -->
-<!-- metadata: 7mx7xson1j -->
 | Layer          | Tech                                                 |
 | -------------- | ---------------------------------------------------- |
 | Frontend       | Next.js 16 (App Router), React 19, TypeScript        |
@@ -152,6 +145,8 @@ Every state-changing function emits an event so the social/identity graph can be
 ---
 
 ## 🎨 Design Tokens
+
+Defined in [`app/globals.css`](./app/globals.css) — the *Deep Sea* palette:
 
 | Token         | Value      |
 | ------------- | ---------- |
