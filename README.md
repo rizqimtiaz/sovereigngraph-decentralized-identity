@@ -121,8 +121,6 @@ Open [http://localhost:3000](http://localhost:3000).
     "commitmentHash": "0x…",
     "verifier": { "name": "Atlas Wines", "origin": "atlas-wines.app" },
     "issuedAt": "2026-05-03T00:00:00.000Z",
-<!-- metadata: c43wpn43n0 -->
-<!-- metadata: vau1y2wc3o -->
     "nullifier": "0x…"
   }
 }
@@ -142,6 +140,7 @@ The endpoint is **stateless**: it never persists any private input.
 - `addSocialEdge(address peer)` / `removeSocialEdge(address peer)` → emits `SocialEdgeAdded` / `SocialEdgeRemoved`
 - View helpers: `getAnchor`, `isValidAnchor`, `anchorsOf`, `hasSocialEdge`
 
+Every state-changing function emits an event so the social/identity graph can be reconstructed off-chain by indexers.
 
 ---
 
