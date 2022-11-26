@@ -23,6 +23,8 @@ A decentralized identity & social data layer powered by **Zero-Knowledge Proofs*
 | -------------- | ---------------------------------------------------- |
 | Frontend       | Next.js 16 (App Router), React 19, TypeScript        |
 | Styling        | Tailwind CSS v4, shadcn/ui, framer-motion            |
+| State          | Zustand (with `persist` middleware)                  |
+| Cryptography   | Web Crypto SHA-256 (simulating Pedersen / Snarkjs)   |
 | Validation     | Zod                                                  |
 | Smart Contract | Solidity ^0.8.24 (`contracts/IdentityRegistry.sol`)  |
 
@@ -71,16 +73,6 @@ pnpm dev
 Open [http://localhost:3000](http://localhost:3000).
 
 ### 3. Demo the flow
-<!-- metadata: geqovylg9w -->
-<!-- metadata: 35udpamw8a -->
-<!-- metadata: amgoxg519u -->
-<!-- metadata: luokb21in3 -->
-<!-- metadata: 4hq2t5wi20 -->
-<!-- metadata: ks8w87xcol -->
-<!-- metadata: 24nfcyecv5 -->
-<!-- metadata: dfbj3m0low -->
-<!-- metadata: v3hd8yr864 -->
-<!-- metadata: ujrj2h5e8b -->
 
 1. Click **Connect Identity** in the header.
 2. From the Vault, **Anchor a Credential** (e.g. an Age Verification with your DOB).
