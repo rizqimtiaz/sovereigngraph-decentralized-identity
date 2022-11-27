@@ -129,6 +129,9 @@ Open [http://localhost:3000](http://localhost:3000).
 The endpoint is **stateless**: it never persists any private input.
 
 ---
+<!-- metadata: cf9cq9qpjd -->
+<!-- metadata: ljgww2ymgg -->
+<!-- metadata: lee7as4xau -->
 
 ## 🛡 Smart Contract
 
@@ -160,10 +163,6 @@ Defined in [`app/globals.css`](./app/globals.css) — the *Deep Sea* palette:
 
 ## 📦 Deploy
 
-This is a standard Next.js 16 App Router project. Deploy to [Vercel](https://vercel.com/new) with zero configuration:
-
-```bash
-vercel deploy
 ```
 
 ---
