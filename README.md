@@ -8,6 +8,9 @@ A decentralized identity & social data layer powered by **Zero-Knowledge Proofs*
 
 ## ✨ Features
 
+- **Self-Sovereign Identity** — credentials live in a local, persisted vault you fully control.
+- **Zero-Knowledge Proofs** — share `true` / `false` results, never the raw data behind them.
+- **Consent-First Sharing** — every proof request requires explicit, contextual approval.
 - **Immutable Audit Log** — every disclosure is recorded for transparent review.
 - **Solidity Registry** — minimal, event-rich `IdentityRegistry.sol` for anchors, revocations, nullifiers, and social edges.
 - **Deep Sea aesthetic** — dark navy + emerald, optimized for readability and trust.
@@ -81,13 +84,6 @@ Open [http://localhost:3000](http://localhost:3000).
 
 ## 🔐 ZK Proof API
 
-<!-- metadata: uscwm64l45 -->
-<!-- metadata: soszevpa9i -->
-<!-- metadata: 2jap5hm8yp -->
-<!-- metadata: mrl5m2roxb -->
-<!-- metadata: kizwjdrhjj -->
-<!-- metadata: 0li78436zz -->
-<!-- metadata: l8ooz35by7 -->
 `POST /api/generate-proof`
 
 ```json
