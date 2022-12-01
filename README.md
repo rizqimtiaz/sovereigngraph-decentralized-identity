@@ -7,6 +7,9 @@ A decentralized identity & social data layer powered by **Zero-Knowledge Proofs*
 ---
 
 ## ✨ Features
+
+- **Self-Sovereign Identity** — credentials live in a local, persisted vault you fully control.
+- **Zero-Knowledge Proofs** — share `true` / `false` results, never the raw data behind them.
 - **Consent-First Sharing** — every proof request requires explicit, contextual approval.
 - **Immutable Audit Log** — every disclosure is recorded for transparent review.
 - **Solidity Registry** — minimal, event-rich `IdentityRegistry.sol` for anchors, revocations, nullifiers, and social edges.
@@ -77,15 +80,6 @@ Open [http://localhost:3000](http://localhost:3000).
 4. Approve the request — only the boolean result is "shared".
 5. Inspect the **Consent & Access Log** for an immutable audit trail.
 
-<!-- metadata: hfmgz9efnm -->
-<!-- metadata: jsv0lkf650 -->
-<!-- metadata: ci68nn00mf -->
-<!-- metadata: ecyrfn05ks -->
-<!-- metadata: i1q25x4ipi -->
-<!-- metadata: a8fym32e5c -->
-<!-- metadata: s70rut5m5s -->
-<!-- metadata: kr31xvufd7 -->
-<!-- metadata: 139kiuzdaf -->
 ---
 
 ## 🔐 ZK Proof API
