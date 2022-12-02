@@ -32,6 +32,8 @@ A decentralized identity & social data layer powered by **Zero-Knowledge Proofs*
 
 ## 📁 Project Structure
 
+<!-- metadata: 5tri6cwhah -->
+<!-- metadata: va3zpks8z7 -->
 ```
 .
 ├── app/
@@ -89,7 +91,6 @@ Open [http://localhost:3000](http://localhost:3000).
 ```json
 {
   "credential": {
-    "id": "cred_…",
     "type": "age_over",
     "label": "Government ID",
     "issuer": "State of California",
