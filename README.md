@@ -5,6 +5,15 @@ A decentralized identity & social data layer powered by **Zero-Knowledge Proofs*
 > **Anchor once. Prove anywhere. Disclose nothing.**
 
 ---
+<!-- metadata: zfcgjehsj5 -->
+<!-- metadata: b2ja65q3w4 -->
+<!-- metadata: grloi9pm8m -->
+<!-- metadata: evvquroemb -->
+<!-- metadata: qbjsgbkg15 -->
+<!-- metadata: rvmlnz80lb -->
+<!-- metadata: ntjusofi28 -->
+<!-- metadata: 9eeyhjsm45 -->
+<!-- metadata: vhu2ukwcp3 -->
 
 ## ✨ Features
 
@@ -77,9 +86,6 @@ Open [http://localhost:3000](http://localhost:3000).
 1. Click **Connect Identity** in the header.
 2. From the Vault, **Anchor a Credential** (e.g. an Age Verification with your DOB).
 3. Click **Simulate Verifier Request** and pick a scenario.
-4. Approve the request — only the boolean result is "shared".
-5. Inspect the **Consent & Access Log** for an immutable audit trail.
-
 ---
 
 ## 🔐 ZK Proof API
