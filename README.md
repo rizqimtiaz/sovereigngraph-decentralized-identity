@@ -1,5 +1,7 @@
 # SovereignGraph — Privacy-First Social Data Layer
 
+A decentralized identity & social data layer powered by **Zero-Knowledge Proofs**. Users own their credentials in a private vault, anchor immutable commitments on-chain, and disclose only verifiable answers — never the underlying data.
+
 > **Anchor once. Prove anywhere. Disclose nothing.**
 
 ---
@@ -158,13 +160,6 @@ Defined in [`app/globals.css`](./app/globals.css) — the *Deep Sea* palette:
 
 ## 📦 Deploy
 
-<!-- metadata: dif9zj2a84 -->
-<!-- metadata: cqocdgkrz9 -->
-<!-- metadata: thdu0hejhy -->
-<!-- metadata: mmlvfx3se4 -->
-<!-- metadata: 6ybfs2acme -->
-<!-- metadata: uzvlg3qeis -->
-<!-- metadata: kt8rdwvx2a -->
 This is a standard Next.js 16 App Router project. Deploy to [Vercel](https://vercel.com/new) with zero configuration:
 
 ```bash
