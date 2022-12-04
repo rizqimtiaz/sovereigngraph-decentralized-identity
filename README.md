@@ -36,9 +36,6 @@ A decentralized identity & social data layer powered by **Zero-Knowledge Proofs*
 .
 ├── app/
 │   ├── api/generate-proof/route.ts   # Stateless ZK proof endpoint
-│   ├── vault/page.tsx                # Private user dashboard
-│   ├── globals.css                   # Deep Sea theme tokens
-│   ├── layout.tsx                    # Root layout + Privacy Shield header
 │   └── page.tsx                      # Landing page
 ├── components/
 │   ├── ZKP-Request-Modal.tsx         # High-fidelity consent modal
@@ -121,6 +118,10 @@ Open [http://localhost:3000](http://localhost:3000).
     "commitmentHash": "0x…",
     "verifier": { "name": "Atlas Wines", "origin": "atlas-wines.app" },
     "issuedAt": "2026-05-03T00:00:00.000Z",
+<!-- metadata: 4qdordib7q -->
+<!-- metadata: kaeco682up -->
+<!-- metadata: 8zghkgfihk -->
+<!-- metadata: lo5eclgsoa -->
     "nullifier": "0x…"
   }
 }
