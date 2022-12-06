@@ -45,6 +45,9 @@ A decentralized identity & social data layer powered by **Zero-Knowledge Proofs*
 │   ├── site-header.tsx               # Privacy Shield navigation
 │   ├── vault-dashboard.tsx           # Credentials + Access Log UI
 │   └── ui/                           # shadcn/ui primitives
+├── contracts/
+│   └── IdentityRegistry.sol          # On-chain anchors, revocations, social graph
+├── lib/
 │   └── zkp-utils.ts                  # Hashing, claim eval, proof generation, verification
 ├── store/
 │   └── useVaultStore.ts              # Zustand vault + consent management
@@ -114,13 +117,6 @@ Open [http://localhost:3000](http://localhost:3000).
   "verified": true,
   "proof": {
     "proof": "0x…",
-<!-- metadata: ywtw4321sr -->
-<!-- metadata: ebgz29g3xo -->
-<!-- metadata: nimi0lisv1 -->
-<!-- metadata: tfhdpvdi4s -->
-<!-- metadata: 1gel2y8ai9 -->
-<!-- metadata: x666yozbfs -->
-<!-- metadata: 7bqyj5ycw8 -->
     "publicSignals": { "result": true, "threshold": 21, "claimType": "age_over" },
     "commitmentHash": "0x…",
     "verifier": { "name": "Atlas Wines", "origin": "atlas-wines.app" },
