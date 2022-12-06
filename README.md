@@ -1,7 +1,5 @@
 # SovereignGraph — Privacy-First Social Data Layer
 
-A decentralized identity & social data layer powered by **Zero-Knowledge Proofs**. Users own their credentials in a private vault, anchor immutable commitments on-chain, and disclose only verifiable answers — never the underlying data.
-
 > **Anchor once. Prove anywhere. Disclose nothing.**
 
 ---
@@ -86,6 +84,7 @@ Open [http://localhost:3000](http://localhost:3000).
 
 `POST /api/generate-proof`
 
+<!-- metadata: j6hb5x2fb6 -->
 ```json
 {
   "credential": {
