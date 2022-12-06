@@ -23,14 +23,18 @@ A decentralized identity & social data layer powered by **Zero-Knowledge Proofs*
 | -------------- | ---------------------------------------------------- |
 | Frontend       | Next.js 16 (App Router), React 19, TypeScript        |
 | Styling        | Tailwind CSS v4, shadcn/ui, framer-motion            |
-| State          | Zustand (with `persist` middleware)                  |
-| Cryptography   | Web Crypto SHA-256 (simulating Pedersen / Snarkjs)   |
-| Validation     | Zod                                                  |
-| Smart Contract | Solidity ^0.8.24 (`contracts/IdentityRegistry.sol`)  |
 
 ---
 
 ## 📁 Project Structure
+<!-- metadata: 39q1n8u90t -->
+<!-- metadata: nzpjxtau5u -->
+<!-- metadata: cn8ib36jmc -->
+<!-- metadata: cf34olotmc -->
+<!-- metadata: c0blfe8kg3 -->
+<!-- metadata: mdqzpozv8w -->
+<!-- metadata: 3p00py2keg -->
+<!-- metadata: vgbpke0not -->
 
 ```
 .
