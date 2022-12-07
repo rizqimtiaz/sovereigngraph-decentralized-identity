@@ -18,10 +18,6 @@ A decentralized identity & social data layer powered by **Zero-Knowledge Proofs*
 ---
 
 ## 🧱 Tech Stack
-<!-- metadata: le3aorl4q5 -->
-<!-- metadata: 4ic9u92xy3 -->
-<!-- metadata: 1epy7ba6je -->
-<!-- metadata: 9f73frzouk -->
 
 | Layer          | Tech                                                 |
 | -------------- | ---------------------------------------------------- |
@@ -159,6 +155,9 @@ Defined in [`app/globals.css`](./app/globals.css) — the *Deep Sea* palette:
 | Foreground    | `#e2e8f0`  |
 | Muted         | `#94a3b8`  |
 | **Accent**    | `#10b981`  |
+
+---
+
 ## 📦 Deploy
 
 This is a standard Next.js 16 App Router project. Deploy to [Vercel](https://vercel.com/new) with zero configuration:
