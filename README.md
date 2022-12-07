@@ -90,6 +90,9 @@ Open [http://localhost:3000](http://localhost:3000).
 {
   "credential": {
     "id": "cred_…",
+<!-- metadata: 5cf0946x96 -->
+<!-- metadata: c2lxl3w2pj -->
+<!-- metadata: j9nebn7md9 -->
     "type": "age_over",
     "label": "Government ID",
     "issuer": "State of California",
@@ -113,8 +116,6 @@ Open [http://localhost:3000](http://localhost:3000).
 
 ```json
 {
-  "ok": true,
-  "verified": true,
   "proof": {
     "proof": "0x…",
     "publicSignals": { "result": true, "threshold": 21, "claimType": "age_over" },
