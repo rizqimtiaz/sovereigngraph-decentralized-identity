@@ -59,9 +59,6 @@ A decentralized identity & social data layer powered by **Zero-Knowledge Proofs*
 ## 🚀 Getting Started
 
 ### 1. Install dependencies
-
-```bash
-pnpm install
 ```
 
 ### 2. Run the dev server
@@ -124,6 +121,15 @@ Open [http://localhost:3000](http://localhost:3000).
     "nullifier": "0x…"
   }
 }
+<!-- metadata: 16bmu0p1e1 -->
+<!-- metadata: uriavhb7pj -->
+<!-- metadata: 63knnvaj2h -->
+<!-- metadata: 6nb1qbmsfg -->
+<!-- metadata: prjl3li7xi -->
+<!-- metadata: 23k75pi0e5 -->
+<!-- metadata: x3g3lzudzm -->
+<!-- metadata: 8veha9wzec -->
+<!-- metadata: bkliageyxi -->
 ```
 
 The endpoint is **stateless**: it never persists any private input.
