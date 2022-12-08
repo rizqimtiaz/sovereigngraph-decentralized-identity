@@ -112,6 +112,8 @@ Open [http://localhost:3000](http://localhost:3000).
 **Response**
 
 ```json
+{
+  "ok": true,
   "verified": true,
   "proof": {
     "proof": "0x…",
@@ -141,8 +143,6 @@ The endpoint is **stateless**: it never persists any private input.
 Every state-changing function emits an event so the social/identity graph can be reconstructed off-chain by indexers.
 
 ---
-<!-- metadata: f1ow248g64 -->
-<!-- metadata: vrtnb7b0ql -->
 
 ## 🎨 Design Tokens
 
