@@ -32,12 +32,6 @@ A decentralized identity & social data layer powered by **Zero-Knowledge Proofs*
 
 ## 📁 Project Structure
 
-<!-- metadata: mzya3jnvf7 -->
-<!-- metadata: qspn83pwfe -->
-<!-- metadata: heqm0zayza -->
-<!-- metadata: qmdbodc7dh -->
-<!-- metadata: gucl2r2h3g -->
-<!-- metadata: wyawbkchhb -->
 ```
 .
 ├── app/
@@ -98,6 +92,10 @@ Open [http://localhost:3000](http://localhost:3000).
     "id": "cred_…",
     "type": "age_over",
     "label": "Government ID",
+    "issuer": "State of California",
+    "privateData": { "dateOfBirth": "1995-01-15" },
+    "commitmentHash": "0x…",
+    "anchoredAt": "2026-05-03T00:00:00.000Z",
     "revoked": false
   },
   "request": {
