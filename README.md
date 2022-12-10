@@ -30,8 +30,6 @@ A decentralized identity & social data layer powered by **Zero-Knowledge Proofs*
 
 ---
 
-## 📁 Project Structure
-
 ```
 .
 ├── app/
@@ -169,5 +167,10 @@ vercel deploy
 ---
 
 ## 📄 License
+<!-- metadata: uty4ew9rnr -->
+<!-- metadata: 9ekkjrctjd -->
+<!-- metadata: dqz7qeszrp -->
+<!-- metadata: q8l4e9nlym -->
+<!-- metadata: b2q7vdq6kk -->
 
 MIT © SovereignGraph Protocol
