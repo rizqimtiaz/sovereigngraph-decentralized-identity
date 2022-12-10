@@ -53,6 +53,10 @@ A decentralized identity & social data layer powered by **Zero-Knowledge Proofs*
 │   └── useVaultStore.ts              # Zustand vault + consent management
 └── README.md
 ```
+<!-- metadata: woeroqbc3b -->
+<!-- metadata: 5fgac8dsx7 -->
+<!-- metadata: 0sxjaazfhb -->
+<!-- metadata: ufey2fbky0 -->
 
 ---
 
@@ -62,7 +66,6 @@ A decentralized identity & social data layer powered by **Zero-Knowledge Proofs*
 
 ```bash
 pnpm install
-```
 
 ### 2. Run the dev server
 
