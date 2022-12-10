@@ -53,6 +53,16 @@ A decentralized identity & social data layer powered by **Zero-Knowledge Proofs*
 │   └── useVaultStore.ts              # Zustand vault + consent management
 └── README.md
 ```
+<!-- metadata: rgzjmrp3hz -->
+<!-- metadata: 9lrxzeyvtx -->
+<!-- metadata: 62i44wor4t -->
+<!-- metadata: ckbz7lqtwy -->
+<!-- metadata: zdksvdrx2k -->
+<!-- metadata: c0ksvj4zy6 -->
+<!-- metadata: 274a0jx4jt -->
+<!-- metadata: ud3g44ypb1 -->
+<!-- metadata: iotaz2w5jn -->
+<!-- metadata: xvlss4aelf -->
 
 ---
 
@@ -144,7 +154,6 @@ Every state-changing function emits an event so the social/identity graph can be
 
 ---
 
-## 🎨 Design Tokens
 
 Defined in [`app/globals.css`](./app/globals.css) — the *Deep Sea* palette:
 
