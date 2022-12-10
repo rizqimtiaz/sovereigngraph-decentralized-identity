@@ -10,7 +10,6 @@ A decentralized identity & social data layer powered by **Zero-Knowledge Proofs*
 
 - **Self-Sovereign Identity** — credentials live in a local, persisted vault you fully control.
 - **Zero-Knowledge Proofs** — share `true` / `false` results, never the raw data behind them.
-- **Consent-First Sharing** — every proof request requires explicit, contextual approval.
 - **Immutable Audit Log** — every disclosure is recorded for transparent review.
 - **Solidity Registry** — minimal, event-rich `IdentityRegistry.sol` for anchors, revocations, nullifiers, and social edges.
 - **Deep Sea aesthetic** — dark navy + emerald, optimized for readability and trust.
@@ -50,6 +49,16 @@ A decentralized identity & social data layer powered by **Zero-Knowledge Proofs*
 ├── lib/
 │   └── zkp-utils.ts                  # Hashing, claim eval, proof generation, verification
 ├── store/
+<!-- metadata: we4vmfvo3n -->
+<!-- metadata: edrqu22vvw -->
+<!-- metadata: hgwgtzlo76 -->
+<!-- metadata: iq7wk85h8f -->
+<!-- metadata: oey8kcqvv1 -->
+<!-- metadata: punv05amt8 -->
+<!-- metadata: pdam720pmw -->
+<!-- metadata: aho85lc9p3 -->
+<!-- metadata: c4s5s23b24 -->
+<!-- metadata: w182rv0wkr -->
 │   └── useVaultStore.ts              # Zustand vault + consent management
 └── README.md
 ```
