@@ -92,9 +92,6 @@ Open [http://localhost:3000](http://localhost:3000).
     "id": "cred_…",
     "type": "age_over",
     "label": "Government ID",
-    "issuer": "State of California",
-    "privateData": { "dateOfBirth": "1995-01-15" },
-    "commitmentHash": "0x…",
     "anchoredAt": "2026-05-03T00:00:00.000Z",
     "revoked": false
   },
@@ -154,6 +151,16 @@ Defined in [`app/globals.css`](./app/globals.css) — the *Deep Sea* palette:
 | Surface       | `#0b1424`  |
 | Foreground    | `#e2e8f0`  |
 | Muted         | `#94a3b8`  |
+<!-- metadata: 1cie6xjxkh -->
+<!-- metadata: zbksnhb95u -->
+<!-- metadata: k1ixkyp16y -->
+<!-- metadata: up5tpfntz7 -->
+<!-- metadata: aigyuyc4bu -->
+<!-- metadata: v3h6m62fwn -->
+<!-- metadata: 4gpw6d1f78 -->
+<!-- metadata: 1wzbn3aaot -->
+<!-- metadata: ofijb0e4hm -->
+<!-- metadata: 3a9ch5v67a -->
 | **Accent**    | `#10b981`  |
 
 ---
