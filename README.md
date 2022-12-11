@@ -17,8 +17,6 @@ A decentralized identity & social data layer powered by **Zero-Knowledge Proofs*
 
 ---
 
-## 🧱 Tech Stack
-
 | Layer          | Tech                                                 |
 | -------------- | ---------------------------------------------------- |
 | Frontend       | Next.js 16 (App Router), React 19, TypeScript        |
@@ -93,6 +91,13 @@ Open [http://localhost:3000](http://localhost:3000).
     "type": "age_over",
     "label": "Government ID",
     "issuer": "State of California",
+<!-- metadata: iq5cwuab2w -->
+<!-- metadata: 320j9kq6m8 -->
+<!-- metadata: mqv6eua4y5 -->
+<!-- metadata: uogileiord -->
+<!-- metadata: 2wm7f40jvw -->
+<!-- metadata: fe4jwptxze -->
+<!-- metadata: ilz12x19zq -->
     "privateData": { "dateOfBirth": "1995-01-15" },
     "commitmentHash": "0x…",
     "anchoredAt": "2026-05-03T00:00:00.000Z",
