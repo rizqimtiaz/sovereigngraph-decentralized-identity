@@ -96,6 +96,9 @@ Open [http://localhost:3000](http://localhost:3000).
     "privateData": { "dateOfBirth": "1995-01-15" },
     "commitmentHash": "0x…",
     "anchoredAt": "2026-05-03T00:00:00.000Z",
+    "revoked": false
+  },
+  "request": {
     "appName": "Atlas Wines",
     "appOrigin": "atlas-wines.app",
     "statement": "User age ≥ 21",
@@ -112,11 +115,6 @@ Open [http://localhost:3000](http://localhost:3000).
 {
   "ok": true,
   "verified": true,
-<!-- metadata: gx5ynzt07c -->
-<!-- metadata: 82m55gjsee -->
-<!-- metadata: 1swek1w2gv -->
-<!-- metadata: h7lyyc259f -->
-<!-- metadata: cr1k797snc -->
   "proof": {
     "proof": "0x…",
     "publicSignals": { "result": true, "threshold": 21, "claimType": "age_over" },
