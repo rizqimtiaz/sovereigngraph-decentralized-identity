@@ -89,11 +89,6 @@ Open [http://localhost:3000](http://localhost:3000).
 ```json
 {
   "credential": {
-<!-- metadata: fvtvgz44vo -->
-<!-- metadata: opvr7vo1zx -->
-<!-- metadata: jhip1tp9tt -->
-<!-- metadata: ml0re2q6p2 -->
-<!-- metadata: y8wxgrrazy -->
     "id": "cred_…",
     "type": "age_over",
     "label": "Government ID",
@@ -114,6 +109,10 @@ Open [http://localhost:3000](http://localhost:3000).
 }
 ```
 
+**Response**
+
+```json
+{
   "ok": true,
   "verified": true,
   "proof": {
