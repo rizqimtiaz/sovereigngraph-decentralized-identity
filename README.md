@@ -7,12 +7,6 @@ A decentralized identity & social data layer powered by **Zero-Knowledge Proofs*
 ---
 
 ## ✨ Features
-<!-- metadata: missijxtt4 -->
-<!-- metadata: bsxhr183dm -->
-<!-- metadata: 9wr4lesejx -->
-<!-- metadata: hz4gdzcdn3 -->
-<!-- metadata: ojyjpn3a73 -->
-<!-- metadata: 4q2yp60w6o -->
 
 - **Self-Sovereign Identity** — credentials live in a local, persisted vault you fully control.
 - **Zero-Knowledge Proofs** — share `true` / `false` results, never the raw data behind them.
@@ -40,6 +34,10 @@ A decentralized identity & social data layer powered by **Zero-Knowledge Proofs*
 
 ```
 .
+├── app/
+│   ├── api/generate-proof/route.ts   # Stateless ZK proof endpoint
+│   ├── vault/page.tsx                # Private user dashboard
+│   ├── globals.css                   # Deep Sea theme tokens
 │   ├── layout.tsx                    # Root layout + Privacy Shield header
 │   └── page.tsx                      # Landing page
 ├── components/
