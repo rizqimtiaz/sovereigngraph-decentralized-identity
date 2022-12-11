@@ -76,6 +76,12 @@ Open [http://localhost:3000](http://localhost:3000).
 
 1. Click **Connect Identity** in the header.
 2. From the Vault, **Anchor a Credential** (e.g. an Age Verification with your DOB).
+<!-- metadata: 7ylhws1n2w -->
+<!-- metadata: kk3lyg3f94 -->
+<!-- metadata: qlf0utji8f -->
+<!-- metadata: kwoq0tyikf -->
+<!-- metadata: m1k5v35ghy -->
+<!-- metadata: ezo977e1mn -->
 3. Click **Simulate Verifier Request** and pick a scenario.
 4. Approve the request — only the boolean result is "shared".
 5. Inspect the **Consent & Access Log** for an immutable audit trail.
@@ -125,10 +131,6 @@ Open [http://localhost:3000](http://localhost:3000).
   }
 }
 ```
-
-The endpoint is **stateless**: it never persists any private input.
-
----
 
 ## 🛡 Smart Contract
 
