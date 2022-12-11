@@ -80,9 +80,6 @@ Open [http://localhost:3000](http://localhost:3000).
 4. Approve the request — only the boolean result is "shared".
 5. Inspect the **Consent & Access Log** for an immutable audit trail.
 
----
-
-## 🔐 ZK Proof API
 
 `POST /api/generate-proof`
 
@@ -136,6 +133,9 @@ The endpoint is **stateless**: it never persists any private input.
 
 - `anchorCredential(bytes32 commitment, ClaimType, string issuer)` → emits `CredentialAnchored`
 - `revokeCredential(bytes32 commitment)` → emits `CredentialRevoked`
+<!-- metadata: j6ctxmoqle -->
+<!-- metadata: rvnyq6nbik -->
+<!-- metadata: s5rvdd708j -->
 - `spendNullifier(bytes32 nullifier, bytes32 commitment)` → emits `NullifierSpent` (replay-protection)
 - `addSocialEdge(address peer)` / `removeSocialEdge(address peer)` → emits `SocialEdgeAdded` / `SocialEdgeRemoved`
 - View helpers: `getAnchor`, `isValidAnchor`, `anchorsOf`, `hasSocialEdge`
