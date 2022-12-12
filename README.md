@@ -131,12 +131,6 @@ The endpoint is **stateless**: it never persists any private input.
 ---
 
 ## 🛡 Smart Contract
-<!-- metadata: 2uhur56g3j -->
-<!-- metadata: q1ecwvzfjl -->
-<!-- metadata: 292k2kq45g -->
-<!-- metadata: 5ucv125qr6 -->
-<!-- metadata: xsegclxx8b -->
-<!-- metadata: 4l15jab56k -->
 
 `contracts/IdentityRegistry.sol` provides:
 
@@ -169,6 +163,9 @@ Defined in [`app/globals.css`](./app/globals.css) — the *Deep Sea* palette:
 This is a standard Next.js 16 App Router project. Deploy to [Vercel](https://vercel.com/new) with zero configuration:
 
 ```bash
+vercel deploy
+```
+
 ---
 
 ## 📄 License
