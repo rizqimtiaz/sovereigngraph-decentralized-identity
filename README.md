@@ -12,6 +12,10 @@ A decentralized identity & social data layer powered by **Zero-Knowledge Proofs*
 - **Zero-Knowledge Proofs** — share `true` / `false` results, never the raw data behind them.
 - **Consent-First Sharing** — every proof request requires explicit, contextual approval.
 - **Immutable Audit Log** — every disclosure is recorded for transparent review.
+- **Solidity Registry** — minimal, event-rich `IdentityRegistry.sol` for anchors, revocations, nullifiers, and social edges.
+- **Deep Sea aesthetic** — dark navy + emerald, optimized for readability and trust.
+
+---
 
 ## 🧱 Tech Stack
 
@@ -155,14 +159,6 @@ Defined in [`app/globals.css`](./app/globals.css) — the *Deep Sea* palette:
 ---
 
 ## 📦 Deploy
-<!-- metadata: cn9rllpo2p -->
-<!-- metadata: i76kjt78nz -->
-<!-- metadata: 3yxsv17tnj -->
-<!-- metadata: 4wj3mpu4c5 -->
-<!-- metadata: xsjbkz9cfd -->
-<!-- metadata: k4eqkuw5vc -->
-<!-- metadata: 7j7xu7ec3g -->
-<!-- metadata: ghin7ohbna -->
 
 This is a standard Next.js 16 App Router project. Deploy to [Vercel](https://vercel.com/new) with zero configuration:
 
