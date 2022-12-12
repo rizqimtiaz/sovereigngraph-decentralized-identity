@@ -45,6 +45,12 @@ A decentralized identity & social data layer powered by **Zero-Knowledge Proofs*
 │   ├── site-header.tsx               # Privacy Shield navigation
 │   ├── vault-dashboard.tsx           # Credentials + Access Log UI
 │   └── ui/                           # shadcn/ui primitives
+<!-- metadata: zhoseci4de -->
+<!-- metadata: zpeuns3kki -->
+<!-- metadata: pmnqb096w5 -->
+<!-- metadata: 427mn2w5b9 -->
+<!-- metadata: my29un7epo -->
+<!-- metadata: lpn9bxcp2z -->
 ├── contracts/
 │   └── IdentityRegistry.sol          # On-chain anchors, revocations, social graph
 ├── lib/
@@ -93,10 +99,6 @@ Open [http://localhost:3000](http://localhost:3000).
     "type": "age_over",
     "label": "Government ID",
     "issuer": "State of California",
-    "privateData": { "dateOfBirth": "1995-01-15" },
-    "commitmentHash": "0x…",
-    "anchoredAt": "2026-05-03T00:00:00.000Z",
-    "revoked": false
   },
   "request": {
     "appName": "Atlas Wines",
