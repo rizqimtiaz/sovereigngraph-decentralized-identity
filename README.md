@@ -17,10 +17,6 @@ A decentralized identity & social data layer powered by **Zero-Knowledge Proofs*
 
 ---
 
-## 🧱 Tech Stack
-
-| Layer          | Tech                                                 |
-| -------------- | ---------------------------------------------------- |
 | Frontend       | Next.js 16 (App Router), React 19, TypeScript        |
 | Styling        | Tailwind CSS v4, shadcn/ui, framer-motion            |
 | State          | Zustand (with `persist` middleware)                  |
@@ -157,6 +153,7 @@ Defined in [`app/globals.css`](./app/globals.css) — the *Deep Sea* palette:
 | **Accent**    | `#10b981`  |
 
 ---
+<!-- metadata: ycmqigfa2k -->
 
 ## 📦 Deploy
 
