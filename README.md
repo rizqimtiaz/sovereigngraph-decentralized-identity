@@ -52,6 +52,7 @@ A decentralized identity & social data layer powered by **Zero-Knowledge Proofs*
 ├── store/
 │   └── useVaultStore.ts              # Zustand vault + consent management
 └── README.md
+```
 
 ---
 
@@ -99,10 +100,6 @@ Open [http://localhost:3000](http://localhost:3000).
   },
   "request": {
     "appName": "Atlas Wines",
-<!-- metadata: 3umyewmw8h -->
-<!-- metadata: nsp5igc45s -->
-<!-- metadata: s5gpbft7xa -->
-<!-- metadata: zfgec1cfv5 -->
     "appOrigin": "atlas-wines.app",
     "statement": "User age ≥ 21",
     "claimType": "age_over",
