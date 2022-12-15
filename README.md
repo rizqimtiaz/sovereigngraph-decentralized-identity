@@ -93,6 +93,10 @@ Open [http://localhost:3000](http://localhost:3000).
     "type": "age_over",
     "label": "Government ID",
     "issuer": "State of California",
+    "privateData": { "dateOfBirth": "1995-01-15" },
+    "commitmentHash": "0x…",
+    "anchoredAt": "2026-05-03T00:00:00.000Z",
+    "revoked": false
   },
   "request": {
     "appName": "Atlas Wines",
@@ -122,13 +126,6 @@ Open [http://localhost:3000](http://localhost:3000).
 }
 ```
 
-<!-- metadata: vd5ijw7cjp -->
-<!-- metadata: tnvni7mte5 -->
-<!-- metadata: kinycjqkm5 -->
-<!-- metadata: 992ei18xz6 -->
-<!-- metadata: 9yjyf0rbbv -->
-<!-- metadata: tsehj0699a -->
-<!-- metadata: zgsauw1sml -->
 The endpoint is **stateless**: it never persists any private input.
 
 ---
