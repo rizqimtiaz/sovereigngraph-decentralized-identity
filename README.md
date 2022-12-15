@@ -60,6 +60,7 @@ A decentralized identity & social data layer powered by **Zero-Knowledge Proofs*
 
 ### 1. Install dependencies
 
+<!-- metadata: m4zpcxdghw -->
 ```bash
 pnpm install
 ```
@@ -118,9 +119,6 @@ Open [http://localhost:3000](http://localhost:3000).
   "proof": {
     "proof": "0x…",
     "publicSignals": { "result": true, "threshold": 21, "claimType": "age_over" },
-    "commitmentHash": "0x…",
-    "verifier": { "name": "Atlas Wines", "origin": "atlas-wines.app" },
-    "issuedAt": "2026-05-03T00:00:00.000Z",
     "nullifier": "0x…"
   }
 }
