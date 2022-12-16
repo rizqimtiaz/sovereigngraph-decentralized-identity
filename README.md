@@ -42,7 +42,6 @@ A decentralized identity & social data layer powered by **Zero-Knowledge Proofs*
 │   └── page.tsx                      # Landing page
 ├── components/
 │   ├── ZKP-Request-Modal.tsx         # High-fidelity consent modal
-<!-- metadata: y212wsjmcd -->
 │   ├── site-header.tsx               # Privacy Shield navigation
 │   ├── vault-dashboard.tsx           # Credentials + Access Log UI
 │   └── ui/                           # shadcn/ui primitives
@@ -128,6 +127,8 @@ Open [http://localhost:3000](http://localhost:3000).
 ```
 
 The endpoint is **stateless**: it never persists any private input.
+
+---
 
 ## 🛡 Smart Contract
 
