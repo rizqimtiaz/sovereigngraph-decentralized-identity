@@ -97,6 +97,12 @@ Open [http://localhost:3000](http://localhost:3000).
     "commitmentHash": "0x…",
     "anchoredAt": "2026-05-03T00:00:00.000Z",
     "revoked": false
+<!-- metadata: v2khzspz23 -->
+<!-- metadata: dyum0wj7rc -->
+<!-- metadata: s34uda3mv3 -->
+<!-- metadata: 282devthl1 -->
+<!-- metadata: fv8ndut0wb -->
+<!-- metadata: dgwg8julnw -->
   },
   "request": {
     "appName": "Atlas Wines",
@@ -150,8 +156,6 @@ Defined in [`app/globals.css`](./app/globals.css) — the *Deep Sea* palette:
 
 | Token         | Value      |
 | ------------- | ---------- |
-| Background    | `#020617`  |
-| Surface       | `#0b1424`  |
 | Foreground    | `#e2e8f0`  |
 | Muted         | `#94a3b8`  |
 | **Accent**    | `#10b981`  |
