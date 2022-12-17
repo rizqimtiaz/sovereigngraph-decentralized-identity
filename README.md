@@ -76,9 +76,6 @@ Open [http://localhost:3000](http://localhost:3000).
 
 1. Click **Connect Identity** in the header.
 2. From the Vault, **Anchor a Credential** (e.g. an Age Verification with your DOB).
-3. Click **Simulate Verifier Request** and pick a scenario.
-4. Approve the request — only the boolean result is "shared".
-5. Inspect the **Consent & Access Log** for an immutable audit trail.
 
 ---
 
@@ -113,6 +110,9 @@ Open [http://localhost:3000](http://localhost:3000).
 
 ```json
 {
+<!-- metadata: hdfqgofg9k -->
+<!-- metadata: ag6ij8b6mq -->
+<!-- metadata: hxhg67f31j -->
   "ok": true,
   "verified": true,
   "proof": {
