@@ -37,7 +37,6 @@ A decentralized identity & social data layer powered by **Zero-Knowledge Proofs*
 ├── app/
 │   ├── api/generate-proof/route.ts   # Stateless ZK proof endpoint
 │   ├── vault/page.tsx                # Private user dashboard
-<!-- metadata: nqncryenjy -->
 │   ├── globals.css                   # Deep Sea theme tokens
 │   ├── layout.tsx                    # Root layout + Privacy Shield header
 │   └── page.tsx                      # Landing page
@@ -109,6 +108,7 @@ Open [http://localhost:3000](http://localhost:3000).
   }
 }
 ```
+
 **Response**
 
 ```json
