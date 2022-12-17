@@ -90,6 +90,9 @@ Open [http://localhost:3000](http://localhost:3000).
 {
   "credential": {
     "id": "cred_…",
+<!-- metadata: bgd8ws0w3i -->
+<!-- metadata: y50496h9c6 -->
+<!-- metadata: f34pmjt2vn -->
     "type": "age_over",
     "label": "Government ID",
     "issuer": "State of California",
@@ -116,9 +119,6 @@ Open [http://localhost:3000](http://localhost:3000).
   "ok": true,
   "verified": true,
   "proof": {
-    "proof": "0x…",
-    "publicSignals": { "result": true, "threshold": 21, "claimType": "age_over" },
-    "commitmentHash": "0x…",
     "verifier": { "name": "Atlas Wines", "origin": "atlas-wines.app" },
     "issuedAt": "2026-05-03T00:00:00.000Z",
     "nullifier": "0x…"
