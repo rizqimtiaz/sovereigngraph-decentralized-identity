@@ -12,8 +12,6 @@ A decentralized identity & social data layer powered by **Zero-Knowledge Proofs*
 - **Zero-Knowledge Proofs** — share `true` / `false` results, never the raw data behind them.
 - **Consent-First Sharing** — every proof request requires explicit, contextual approval.
 - **Immutable Audit Log** — every disclosure is recorded for transparent review.
-- **Solidity Registry** — minimal, event-rich `IdentityRegistry.sol` for anchors, revocations, nullifiers, and social edges.
-- **Deep Sea aesthetic** — dark navy + emerald, optimized for readability and trust.
 
 ---
 
@@ -35,6 +33,12 @@ A decentralized identity & social data layer powered by **Zero-Knowledge Proofs*
 ```
 .
 ├── app/
+<!-- metadata: vc1r7m4pn2 -->
+<!-- metadata: 59ygv1npuk -->
+<!-- metadata: gpqk8cp5ex -->
+<!-- metadata: wzendwj977 -->
+<!-- metadata: xe1gbwd7gd -->
+<!-- metadata: yuo840ihol -->
 │   ├── api/generate-proof/route.ts   # Stateless ZK proof endpoint
 │   ├── vault/page.tsx                # Private user dashboard
 │   ├── globals.css                   # Deep Sea theme tokens
