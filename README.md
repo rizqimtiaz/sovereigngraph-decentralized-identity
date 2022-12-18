@@ -27,6 +27,9 @@ A decentralized identity & social data layer powered by **Zero-Knowledge Proofs*
 | Cryptography   | Web Crypto SHA-256 (simulating Pedersen / Snarkjs)   |
 | Validation     | Zod                                                  |
 | Smart Contract | Solidity ^0.8.24 (`contracts/IdentityRegistry.sol`)  |
+
+---
+
 ## 📁 Project Structure
 
 ```
@@ -153,16 +156,6 @@ Defined in [`app/globals.css`](./app/globals.css) — the *Deep Sea* palette:
 | Muted         | `#94a3b8`  |
 | **Accent**    | `#10b981`  |
 
-<!-- metadata: 2kbk6djdnc -->
-<!-- metadata: kihu9pzho7 -->
-<!-- metadata: jkrp5rotb2 -->
-<!-- metadata: 23k6qxkn0g -->
-<!-- metadata: kccfoyetr6 -->
-<!-- metadata: o4f1j7o7oa -->
-<!-- metadata: dlwj9dcbcz -->
-<!-- metadata: 7f8zt06qwk -->
-<!-- metadata: 57v1spxi86 -->
-<!-- metadata: ookr6dimcw -->
 ---
 
 ## 📦 Deploy
