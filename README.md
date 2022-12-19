@@ -94,6 +94,7 @@ Open [http://localhost:3000](http://localhost:3000).
     "label": "Government ID",
     "issuer": "State of California",
     "privateData": { "dateOfBirth": "1995-01-15" },
+    "commitmentHash": "0x…",
     "anchoredAt": "2026-05-03T00:00:00.000Z",
     "revoked": false
   },
@@ -155,7 +156,6 @@ Defined in [`app/globals.css`](./app/globals.css) — the *Deep Sea* palette:
 | Muted         | `#94a3b8`  |
 | **Accent**    | `#10b981`  |
 
-<!-- metadata: f0365es65s -->
 ---
 
 ## 📦 Deploy
