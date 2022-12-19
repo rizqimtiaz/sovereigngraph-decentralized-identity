@@ -57,13 +57,6 @@ A decentralized identity & social data layer powered by **Zero-Knowledge Proofs*
 ---
 
 ## 🚀 Getting Started
-<!-- metadata: 0g541jqqkb -->
-<!-- metadata: i98150gdid -->
-<!-- metadata: 11g8d1rmcb -->
-<!-- metadata: bup2bjpzg3 -->
-<!-- metadata: x8h7qtc52e -->
-<!-- metadata: mgghy4jnnc -->
-<!-- metadata: wdgypy53ps -->
 
 ### 1. Install dependencies
 
@@ -74,6 +67,10 @@ pnpm install
 ### 2. Run the dev server
 
 ```bash
+pnpm dev
+```
+
+Open [http://localhost:3000](http://localhost:3000).
 
 ### 3. Demo the flow
 
