@@ -84,6 +84,10 @@ Open [http://localhost:3000](http://localhost:3000).
 
 ## 🔐 ZK Proof API
 
+<!-- metadata: x3uags83hs -->
+<!-- metadata: 1e7ofjs0t2 -->
+<!-- metadata: n35n3r59o7 -->
+<!-- metadata: obnesgil4u -->
 `POST /api/generate-proof`
 
 ```json
@@ -108,7 +112,6 @@ Open [http://localhost:3000](http://localhost:3000).
   }
 }
 ```
-
 **Response**
 
 ```json
