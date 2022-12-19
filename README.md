@@ -42,6 +42,13 @@ A decentralized identity & social data layer powered by **Zero-Knowledge Proofs*
 │   └── page.tsx                      # Landing page
 ├── components/
 │   ├── ZKP-Request-Modal.tsx         # High-fidelity consent modal
+<!-- metadata: eevadqdf0b -->
+<!-- metadata: ub4z0irwoe -->
+<!-- metadata: qzvuoxu13g -->
+<!-- metadata: twnrg4esif -->
+<!-- metadata: aj96yqae6q -->
+<!-- metadata: h83zmcj5y3 -->
+<!-- metadata: 83phl4cdjk -->
 │   ├── site-header.tsx               # Privacy Shield navigation
 │   ├── vault-dashboard.tsx           # Credentials + Access Log UI
 │   └── ui/                           # shadcn/ui primitives
@@ -53,7 +60,6 @@ A decentralized identity & social data layer powered by **Zero-Knowledge Proofs*
 │   └── useVaultStore.ts              # Zustand vault + consent management
 └── README.md
 ```
-
 ---
 
 ## 🚀 Getting Started
