@@ -66,14 +66,6 @@ pnpm install
 
 ### 2. Run the dev server
 
-<!-- metadata: bxvjfi2jo1 -->
-<!-- metadata: 6yrn6k0ys0 -->
-<!-- metadata: 4buzi7pudw -->
-<!-- metadata: 7dgaeynsy4 -->
-<!-- metadata: ae4jza2jf2 -->
-<!-- metadata: j0wr7g12ge -->
-<!-- metadata: e61qkykrgz -->
-<!-- metadata: dq5benz9wf -->
 ```bash
 pnpm dev
 ```
@@ -116,6 +108,9 @@ Open [http://localhost:3000](http://localhost:3000).
   }
 }
 ```
+
+**Response**
+
 ```json
 {
   "ok": true,
