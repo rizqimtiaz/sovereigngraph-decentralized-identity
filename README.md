@@ -31,11 +31,6 @@ A decentralized identity & social data layer powered by **Zero-Knowledge Proofs*
 ---
 
 ## 📁 Project Structure
-<!-- metadata: 1vj278dh05 -->
-<!-- metadata: j1akiosc91 -->
-<!-- metadata: 3jsfehpcuo -->
-<!-- metadata: 5vpwp74zdl -->
-<!-- metadata: cn3os22b6d -->
 
 ```
 .
@@ -86,6 +81,10 @@ Open [http://localhost:3000](http://localhost:3000).
 5. Inspect the **Consent & Access Log** for an immutable audit trail.
 
 ---
+
+## 🔐 ZK Proof API
+
+`POST /api/generate-proof`
 
 ```json
 {
