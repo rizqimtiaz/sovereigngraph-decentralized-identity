@@ -68,11 +68,12 @@ pnpm install
 
 ```bash
 pnpm dev
+```
+
+Open [http://localhost:3000](http://localhost:3000).
 
 ### 3. Demo the flow
 
-<!-- metadata: a1esqdafop -->
-<!-- metadata: rza4ygybso -->
 1. Click **Connect Identity** in the header.
 2. From the Vault, **Anchor a Credential** (e.g. an Age Verification with your DOB).
 3. Click **Simulate Verifier Request** and pick a scenario.
