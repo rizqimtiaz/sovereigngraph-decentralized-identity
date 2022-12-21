@@ -49,8 +49,6 @@ A decentralized identity & social data layer powered by **Zero-Knowledge Proofs*
 │   └── IdentityRegistry.sol          # On-chain anchors, revocations, social graph
 ├── lib/
 │   └── zkp-utils.ts                  # Hashing, claim eval, proof generation, verification
-<!-- metadata: mfktw7dje0 -->
-<!-- metadata: to34r6iyaf -->
 ├── store/
 │   └── useVaultStore.ts              # Zustand vault + consent management
 └── README.md
@@ -130,6 +128,7 @@ Open [http://localhost:3000](http://localhost:3000).
 
 The endpoint is **stateless**: it never persists any private input.
 
+---
 
 ## 🛡 Smart Contract
 
