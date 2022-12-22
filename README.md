@@ -83,10 +83,13 @@ Open [http://localhost:3000](http://localhost:3000).
 ---
 
 ## 🔐 ZK Proof API
-
 `POST /api/generate-proof`
 
 ```json
+<!-- metadata: lsrh85ey08 -->
+<!-- metadata: koid6wwdrw -->
+<!-- metadata: t0qe4cqkdj -->
+<!-- metadata: 7ggokb4h95 -->
 {
   "credential": {
     "id": "cred_…",
