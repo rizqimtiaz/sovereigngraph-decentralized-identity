@@ -30,8 +30,6 @@ A decentralized identity & social data layer powered by **Zero-Knowledge Proofs*
 
 ---
 
-## 📁 Project Structure
-
 ```
 .
 ├── app/
@@ -116,6 +114,15 @@ Open [http://localhost:3000](http://localhost:3000).
   "ok": true,
   "verified": true,
   "proof": {
+<!-- metadata: 0zq6kdpic5 -->
+<!-- metadata: 20coaor8bh -->
+<!-- metadata: yj5a85ef7d -->
+<!-- metadata: pbycl9educ -->
+<!-- metadata: uk01nh5owa -->
+<!-- metadata: w7hrsvvs0h -->
+<!-- metadata: wmbnxel7ps -->
+<!-- metadata: kfnlaog0gy -->
+<!-- metadata: 0thsollv8e -->
     "proof": "0x…",
     "publicSignals": { "result": true, "threshold": 21, "claimType": "age_over" },
     "commitmentHash": "0x…",
