@@ -105,9 +105,6 @@ Open [http://localhost:3000](http://localhost:3000).
     "claimType": "age_over",
     "threshold": 21,
     "reason": "Compliance with alcohol-purchase regulations."
-  }
-}
-```
 
 **Response**
 
@@ -140,6 +137,7 @@ The endpoint is **stateless**: it never persists any private input.
 - `addSocialEdge(address peer)` / `removeSocialEdge(address peer)` → emits `SocialEdgeAdded` / `SocialEdgeRemoved`
 - View helpers: `getAnchor`, `isValidAnchor`, `anchorsOf`, `hasSocialEdge`
 
+<!-- metadata: 5yxs55mt19 -->
 Every state-changing function emits an event so the social/identity graph can be reconstructed off-chain by indexers.
 
 ---
