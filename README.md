@@ -132,6 +132,9 @@ The endpoint is **stateless**: it never persists any private input.
 
 ## 🛡 Smart Contract
 
+`contracts/IdentityRegistry.sol` provides:
+
+- `anchorCredential(bytes32 commitment, ClaimType, string issuer)` → emits `CredentialAnchored`
 - `revokeCredential(bytes32 commitment)` → emits `CredentialRevoked`
 - `spendNullifier(bytes32 nullifier, bytes32 commitment)` → emits `NullifierSpent` (replay-protection)
 - `addSocialEdge(address peer)` / `removeSocialEdge(address peer)` → emits `SocialEdgeAdded` / `SocialEdgeRemoved`
@@ -147,12 +150,6 @@ Defined in [`app/globals.css`](./app/globals.css) — the *Deep Sea* palette:
 
 | Token         | Value      |
 | ------------- | ---------- |
-<!-- metadata: e4t6np4fjf -->
-<!-- metadata: g1nl9ikp62 -->
-<!-- metadata: a44wg9gci2 -->
-<!-- metadata: c848zbn5hw -->
-<!-- metadata: 8qzmp4s1bs -->
-<!-- metadata: 4gxsrzpqkz -->
 | Background    | `#020617`  |
 | Surface       | `#0b1424`  |
 | Foreground    | `#e2e8f0`  |
