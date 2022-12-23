@@ -30,9 +30,6 @@ A decentralized identity & social data layer powered by **Zero-Knowledge Proofs*
 
 ---
 
-## 📁 Project Structure
-
-```
 .
 ├── app/
 │   ├── api/generate-proof/route.ts   # Stateless ZK proof endpoint
@@ -93,6 +90,14 @@ Open [http://localhost:3000](http://localhost:3000).
     "type": "age_over",
     "label": "Government ID",
     "issuer": "State of California",
+<!-- metadata: 7etfktraes -->
+<!-- metadata: nl589ap73l -->
+<!-- metadata: 5xrhqc8x9d -->
+<!-- metadata: wkqyslgvq4 -->
+<!-- metadata: qmfz6e0hlr -->
+<!-- metadata: 3mwi990h5z -->
+<!-- metadata: 0wrxuouu9d -->
+<!-- metadata: 7tnyhe4k41 -->
     "privateData": { "dateOfBirth": "1995-01-15" },
     "commitmentHash": "0x…",
     "anchoredAt": "2026-05-03T00:00:00.000Z",
