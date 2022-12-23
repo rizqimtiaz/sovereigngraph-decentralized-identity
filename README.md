@@ -39,6 +39,7 @@ A decentralized identity & social data layer powered by **Zero-Knowledge Proofs*
 │   ├── vault/page.tsx                # Private user dashboard
 │   ├── globals.css                   # Deep Sea theme tokens
 │   ├── layout.tsx                    # Root layout + Privacy Shield header
+│   └── page.tsx                      # Landing page
 ├── components/
 │   ├── ZKP-Request-Modal.tsx         # High-fidelity consent modal
 │   ├── site-header.tsx               # Privacy Shield navigation
@@ -134,12 +135,6 @@ The endpoint is **stateless**: it never persists any private input.
 `contracts/IdentityRegistry.sol` provides:
 
 - `anchorCredential(bytes32 commitment, ClaimType, string issuer)` → emits `CredentialAnchored`
-<!-- metadata: gha89wgmuy -->
-<!-- metadata: z8f8wrw0b2 -->
-<!-- metadata: s4pz3c58pe -->
-<!-- metadata: lgvtaz1ye5 -->
-<!-- metadata: 110ojrnd9y -->
-<!-- metadata: dw6o3og1e5 -->
 - `revokeCredential(bytes32 commitment)` → emits `CredentialRevoked`
 - `spendNullifier(bytes32 nullifier, bytes32 commitment)` → emits `NullifierSpent` (replay-protection)
 - `addSocialEdge(address peer)` / `removeSocialEdge(address peer)` → emits `SocialEdgeAdded` / `SocialEdgeRemoved`
