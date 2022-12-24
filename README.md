@@ -98,15 +98,6 @@ Open [http://localhost:3000](http://localhost:3000).
     "anchoredAt": "2026-05-03T00:00:00.000Z",
     "revoked": false
   },
-<!-- metadata: g83ri4xbru -->
-<!-- metadata: qtwqcebopz -->
-<!-- metadata: ijbto0o4a3 -->
-<!-- metadata: 1hcd49edpa -->
-<!-- metadata: 19vcvl93d7 -->
-<!-- metadata: uqidpiyu3s -->
-<!-- metadata: 3t7n4zmxgm -->
-<!-- metadata: gvdm9r773u -->
-<!-- metadata: l8z9v22c2q -->
   "request": {
     "appName": "Atlas Wines",
     "appOrigin": "atlas-wines.app",
@@ -172,6 +163,9 @@ Defined in [`app/globals.css`](./app/globals.css) — the *Deep Sea* palette:
 This is a standard Next.js 16 App Router project. Deploy to [Vercel](https://vercel.com/new) with zero configuration:
 
 ```bash
+vercel deploy
+```
+
 ---
 
 ## 📄 License
