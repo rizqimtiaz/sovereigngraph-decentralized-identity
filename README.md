@@ -65,10 +65,6 @@ pnpm install
 ```
 
 ### 2. Run the dev server
-<!-- metadata: 9mqgumkxaz -->
-<!-- metadata: fpc8rnb0yj -->
-<!-- metadata: 3ecn8hohh8 -->
-<!-- metadata: mahmfg4s68 -->
 
 ```bash
 pnpm dev
@@ -110,6 +106,8 @@ Open [http://localhost:3000](http://localhost:3000).
     "threshold": 21,
     "reason": "Compliance with alcohol-purchase regulations."
   }
+}
+```
 
 **Response**
 
