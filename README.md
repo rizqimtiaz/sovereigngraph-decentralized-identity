@@ -124,6 +124,9 @@ Open [http://localhost:3000](http://localhost:3000).
     "nullifier": "0x…"
   }
 }
+```
+
+The endpoint is **stateless**: it never persists any private input.
 
 ---
 
@@ -135,10 +138,6 @@ Open [http://localhost:3000](http://localhost:3000).
 - `revokeCredential(bytes32 commitment)` → emits `CredentialRevoked`
 - `spendNullifier(bytes32 nullifier, bytes32 commitment)` → emits `NullifierSpent` (replay-protection)
 - `addSocialEdge(address peer)` / `removeSocialEdge(address peer)` → emits `SocialEdgeAdded` / `SocialEdgeRemoved`
-<!-- metadata: olqo0sqnjw -->
-<!-- metadata: c8dcmhgx4n -->
-<!-- metadata: f13zgbwu7i -->
-<!-- metadata: dn2ls7qx16 -->
 - View helpers: `getAnchor`, `isValidAnchor`, `anchorsOf`, `hasSocialEdge`
 
 Every state-changing function emits an event so the social/identity graph can be reconstructed off-chain by indexers.
