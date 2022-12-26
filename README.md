@@ -31,14 +31,6 @@ A decentralized identity & social data layer powered by **Zero-Knowledge Proofs*
 ---
 
 ## 📁 Project Structure
-<!-- metadata: ddn0b5jc5t -->
-<!-- metadata: 14rwcb8nca -->
-<!-- metadata: cuh9jpebjx -->
-<!-- metadata: qd4q1g6au1 -->
-<!-- metadata: ifx8880pwf -->
-<!-- metadata: y9cqxz658m -->
-<!-- metadata: yfyty15ayy -->
-<!-- metadata: vq9y9l7569 -->
 
 ```
 .
@@ -70,6 +62,8 @@ A decentralized identity & social data layer powered by **Zero-Knowledge Proofs*
 
 ```bash
 pnpm install
+```
+
 ### 2. Run the dev server
 
 ```bash
