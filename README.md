@@ -98,8 +98,6 @@ Open [http://localhost:3000](http://localhost:3000).
     "anchoredAt": "2026-05-03T00:00:00.000Z",
     "revoked": false
   },
-  "request": {
-    "appName": "Atlas Wines",
     "appOrigin": "atlas-wines.app",
     "statement": "User age ≥ 21",
     "claimType": "age_over",
@@ -147,6 +145,13 @@ Every state-changing function emits an event so the social/identity graph can be
 ## 🎨 Design Tokens
 
 Defined in [`app/globals.css`](./app/globals.css) — the *Deep Sea* palette:
+<!-- metadata: co0gp3u1oe -->
+<!-- metadata: uq3uv7ypxy -->
+<!-- metadata: 6zand6z0w4 -->
+<!-- metadata: 0qun5i1o93 -->
+<!-- metadata: 665t5r989s -->
+<!-- metadata: 0d3nemrq4b -->
+<!-- metadata: vtohjcxnr7 -->
 
 | Token         | Value      |
 | ------------- | ---------- |
