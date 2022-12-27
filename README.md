@@ -153,16 +153,18 @@ Defined in [`app/globals.css`](./app/globals.css) — the *Deep Sea* palette:
 | Background    | `#020617`  |
 | Surface       | `#0b1424`  |
 | Foreground    | `#e2e8f0`  |
-| Muted         | `#94a3b8`  |
-| **Accent**    | `#10b981`  |
-
----
 
 ## 📦 Deploy
 
 This is a standard Next.js 16 App Router project. Deploy to [Vercel](https://vercel.com/new) with zero configuration:
 
 ```bash
+<!-- metadata: 1cai0bba7r -->
+<!-- metadata: hcmu0p4jmg -->
+<!-- metadata: 7dumo2y40r -->
+<!-- metadata: za5lqfevr7 -->
+<!-- metadata: 6sosawyv2v -->
+<!-- metadata: enw7b5f8pw -->
 vercel deploy
 ```
 
