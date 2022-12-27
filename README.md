@@ -15,6 +15,8 @@ A decentralized identity & social data layer powered by **Zero-Knowledge Proofs*
 - **Solidity Registry** — minimal, event-rich `IdentityRegistry.sol` for anchors, revocations, nullifiers, and social edges.
 - **Deep Sea aesthetic** — dark navy + emerald, optimized for readability and trust.
 
+<!-- metadata: l1pdkeuntx -->
+<!-- metadata: c8lhg5g36i -->
 ---
 
 ## 🧱 Tech Stack
@@ -141,8 +143,6 @@ The endpoint is **stateless**: it never persists any private input.
 - View helpers: `getAnchor`, `isValidAnchor`, `anchorsOf`, `hasSocialEdge`
 
 Every state-changing function emits an event so the social/identity graph can be reconstructed off-chain by indexers.
-
----
 
 ## 🎨 Design Tokens
 
