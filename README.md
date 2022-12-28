@@ -63,6 +63,14 @@ A decentralized identity & social data layer powered by **Zero-Knowledge Proofs*
 ```bash
 pnpm install
 ```
+<!-- metadata: 3ucq1ltuza -->
+<!-- metadata: nqh5zrzdfo -->
+<!-- metadata: smgbt5tdyy -->
+<!-- metadata: 8sl4iduree -->
+<!-- metadata: rhqki4903m -->
+<!-- metadata: 0l5mng48v7 -->
+<!-- metadata: 4rzpf1wsm9 -->
+<!-- metadata: csybz0z5e3 -->
 
 ### 2. Run the dev server
 
@@ -79,7 +87,6 @@ Open [http://localhost:3000](http://localhost:3000).
 3. Click **Simulate Verifier Request** and pick a scenario.
 4. Approve the request — only the boolean result is "shared".
 5. Inspect the **Consent & Access Log** for an immutable audit trail.
-
 ---
 
 ## 🔐 ZK Proof API
