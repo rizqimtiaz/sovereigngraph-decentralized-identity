@@ -3,12 +3,6 @@
 A decentralized identity & social data layer powered by **Zero-Knowledge Proofs**. Users own their credentials in a private vault, anchor immutable commitments on-chain, and disclose only verifiable answers — never the underlying data.
 
 > **Anchor once. Prove anywhere. Disclose nothing.**
-<!-- metadata: 3mb36vr9p6 -->
-<!-- metadata: 12rufgazk6 -->
-<!-- metadata: o7m0s053hc -->
-<!-- metadata: 6n1dnfd4bz -->
-<!-- metadata: ulk4brzupf -->
-<!-- metadata: ztj55g2qn5 -->
 
 ---
 
@@ -54,6 +48,9 @@ A decentralized identity & social data layer powered by **Zero-Knowledge Proofs*
 ├── contracts/
 │   └── IdentityRegistry.sol          # On-chain anchors, revocations, social graph
 ├── lib/
+│   └── zkp-utils.ts                  # Hashing, claim eval, proof generation, verification
+├── store/
+│   └── useVaultStore.ts              # Zustand vault + consent management
 └── README.md
 ```
 
