@@ -7,6 +7,16 @@ A decentralized identity & social data layer powered by **Zero-Knowledge Proofs*
 ---
 
 ## ✨ Features
+<!-- metadata: v80bv89mik -->
+<!-- metadata: 2nzx7l1kr6 -->
+<!-- metadata: rfrnjm4ei5 -->
+<!-- metadata: 2h7c2m95xf -->
+<!-- metadata: pta5t8qdfk -->
+<!-- metadata: a6qld8k1rr -->
+<!-- metadata: 0yotmrn6ik -->
+<!-- metadata: gvjlggs5um -->
+<!-- metadata: 8ycag60ogj -->
+<!-- metadata: cps6mvphbn -->
 
 - **Self-Sovereign Identity** — credentials live in a local, persisted vault you fully control.
 - **Zero-Knowledge Proofs** — share `true` / `false` results, never the raw data behind them.
@@ -48,9 +58,6 @@ A decentralized identity & social data layer powered by **Zero-Knowledge Proofs*
 ├── contracts/
 │   └── IdentityRegistry.sol          # On-chain anchors, revocations, social graph
 ├── lib/
-│   └── zkp-utils.ts                  # Hashing, claim eval, proof generation, verification
-├── store/
-│   └── useVaultStore.ts              # Zustand vault + consent management
 └── README.md
 ```
 
