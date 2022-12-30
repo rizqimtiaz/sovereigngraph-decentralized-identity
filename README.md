@@ -89,21 +89,13 @@ Open [http://localhost:3000](http://localhost:3000).
 ```json
 {
   "credential": {
+    "id": "cred_…",
+    "type": "age_over",
     "label": "Government ID",
     "issuer": "State of California",
     "privateData": { "dateOfBirth": "1995-01-15" },
     "commitmentHash": "0x…",
     "anchoredAt": "2026-05-03T00:00:00.000Z",
-<!-- metadata: r439hjwp4r -->
-<!-- metadata: a4wzy01ph1 -->
-<!-- metadata: ea8kr112c6 -->
-<!-- metadata: ozfj25ijxi -->
-<!-- metadata: tq414r4hos -->
-<!-- metadata: edmrszo1dw -->
-<!-- metadata: wmma2qly73 -->
-<!-- metadata: 8gitidfwt3 -->
-<!-- metadata: tx7wzoggq7 -->
-<!-- metadata: dyth9ea336 -->
     "revoked": false
   },
   "request": {
